@@ -2,56 +2,70 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(new MaterialApp(
-    title: '我的应用',
-    home: new MyScaffold(),
+    title: 'flutter',
+    home: new ContainerDemo(),
   ));
 }
 
-class MyAppBar extends StatelessWidget {
-  MyAppBar({this.title});
-
-  final Widget title;
-
+class ContainerDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new Container(
-      height: 80.0,
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
-      decoration: new BoxDecoration(color: Colors.blue[800]),
-      child: new Row(
-        children: <Widget>[
-          new IconButton(
-            icon: new Icon(Icons.menu),
-            tooltip: '导航菜单',
-            onPressed: null,
-          ),
-          new Expanded(
-            child: title,
-          ),
-          new IconButton(
-            icon: new Icon(Icons.search),
-            tooltip: '搜索',
-            onPressed: null,
-          ),
-        ],
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('文本控件'),
       ),
-    );
-  }
-}
-
-class MyScaffold extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Material(
-      child: new Column(
+      body: new Column(
         children: <Widget>[
-          new MyAppBar(
-            title: new Text('实例标题',
-                style: Theme.of(context).primaryTextTheme.title),
+          new Text(
+            '红色+黑色删除线+25号',
+            style: new TextStyle(
+              color: const Color(0xffff0000),
+              decoration: TextDecoration.lineThrough,
+              decorationColor: const Color(0xff000000),
+              fontSize: 25.0,
+            ),
           ),
-          new Expanded(
-            child: new Center(
-              child: new Text('你好，世界！'),
+          new Text(
+            '橙色+下划线+24号',
+            style: new TextStyle(
+                color: const Color(0xffff9900),
+                decoration: TextDecoration.underline,
+                fontSize: 24.0),
+          ),
+          new Text(
+            '虚线上划线+23号+斜体',
+            style: new TextStyle(
+              decoration: TextDecoration.overline,
+              decorationStyle: TextDecorationStyle.dashed,
+              fontSize: 23.0,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          new Text(
+            'serif字体+24号',
+            style: TextStyle(fontFamily: 'serif', fontSize: 24.0),
+          ),
+          new Text(
+            'monospace字体+24号+加粗',
+            style: new TextStyle(
+              fontFamily: 'monospace',
+              fontSize: 24.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          new Text(
+            '天蓝色+25号+2行跨度',
+            style: new TextStyle(
+              color: const Color(0xff4a86e8),
+              fontSize: 25.0,
+              height: 2.0,
+            ),
+          ),
+          new Text(
+            '24号+2个字母间隔',
+            style: new TextStyle(
+              fontSize: 24.0,
+              letterSpacing: 2.0,
             ),
           ),
         ],
