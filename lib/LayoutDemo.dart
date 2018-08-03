@@ -302,6 +302,7 @@ class OpacityLayoutDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      backgroundColor: Colors.amber,
       appBar: new AppBar(
         title: new Text('Opacity'),
       ),
