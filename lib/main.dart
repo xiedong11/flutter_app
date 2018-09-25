@@ -2,39 +2,34 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(new MaterialApp(
-    title: 'GestureDetector',
-    home: new MyButton(),
+    title: "dsf",
+    home: new MyApp(),
   ));
 }
 
-/**
- * 手势监听
- */
-class MyButton extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new GestureDetector(
-      onTap: () {
-        print("Button is click。。。。");
-      },
-      onDoubleTap: () {
-        print("Button is double click。。。。");
-      },
-      onLongPress: () {
-        print("Button is long press。。。。");
-      },
-      child: new Container(
-        height: 36.0,
-        padding: const EdgeInsets.all(80.0),
-        margin: const EdgeInsets.symmetric(vertical: 8.0),
-        decoration: new BoxDecoration(
-          borderRadius: new BorderRadius.circular(10.0),
-          color: Colors.lightBlue,
-        ),
-        child: new Center(
-          child: new Text('点击监听'),
-        ),
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text("list"),
       ),
+      body: new ListView(
+        children: <Widget>[
+          new ListTile(
+            leading: new Icon(Icons.accessible),
+            title: new Text("ds"),
+          ),
+          new ListTile(
+            leading: new Icon(Icons.accessible),
+            title: new Text("ds"),
+          ),
+          new ListTile(
+            leading: new Icon(Icons.accessible),
+            title: new Text("ds"),
+          ),
+        ],
+      )
     );
   }
 }
