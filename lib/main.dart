@@ -5,7 +5,8 @@ void main() {
     new MaterialApp(
       title: 'd',
       home: new MyApp(),
-      theme: new ThemeData(primaryColor: Colors.red,accentColor: Colors.redAccent),
+      theme: new ThemeData(
+          primaryColor: Colors.red, accentColor: Colors.redAccent),
     ),
   );
 }
@@ -18,10 +19,15 @@ class MyApp extends StatelessWidget {
 //        leading: new IconButton(
 //            icon: new Icon(Icons.ac_unit), tooltip: "dfsaf", onPressed: null),
         title: new Text("title"),
-        actions: <Widget>[
-          new IconButton(
-              icon: new Icon(Icons.title), tooltip: "fsdafsa", onPressed: null)
-        ],
+//        actions: <Widget>[
+//          new IconButton(
+//              icon: new Icon(Icons.title), tooltip: "fsdafsa", onPressed: null),
+//          new IconButton(
+//              icon: new Icon(Icons.title), tooltip: "fsdafsa", onPressed: null)
+//        ],
+      ),
+      endDrawer: new Drawer(
+        child: new Center(child: new Text("我是菜单")),
       ),
       drawer: new Drawer(
         child: new Center(
