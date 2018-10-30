@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 //              'http://pic.baike.soso.com/p/20130828/20130828161137-1346445960.jpg',
 //              scale: 3.0,
 //            ),
-          child: new Image.asset('images/aaa.png',width: 300.0,height: 300.0,), //引入本地资源图片记得在yaml中导入资源，且注意空格对齐方式
+            child: new Image.asset('images/aaa.png'), //引入本地资源图片记得在yaml中导入资源，且注意空格对齐方式
           )
         ],
       ),
