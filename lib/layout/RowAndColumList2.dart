@@ -46,9 +46,9 @@ class MyListItem extends StatelessWidget {
             ),
             new Expanded(
                 child: new Text(
-              title,
-              textAlign: TextAlign.right,
-            ))
+                  title,
+                  textAlign: TextAlign.right,
+                ))
           ],
         ));
   }
