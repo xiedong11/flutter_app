@@ -6,7 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/layout/IndexStackLayout.dart" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Scaffold/AppBar.dart" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Scaffold/FloatingActionButton.dart" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Scaffold/Scaffold.dart" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
     </list>
@@ -26,18 +28,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexStackLayout.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/layout/IndexStackLayout.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+            <state relative-caret-position="469">
+              <caret line="32" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,8 +89,11 @@
         <option value="$PROJECT_DIR$/lib/layout/RowAndColumList2.dart" />
         <option value="$PROJECT_DIR$/lib/layout/TableDemo.dart" />
         <option value="$PROJECT_DIR$/lib/layout/StackLayoutDemo.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/layout/IndexStackLayout.dart" />
+        <option value="$PROJECT_DIR$/lib/Scaffold/AppBar.dart" />
+        <option value="$PROJECT_DIR$/lib/Scaffold/Scaffold.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/Scaffold/FloatingActionButton.dart" />
       </list>
     </option>
   </component>
@@ -151,7 +146,7 @@
               <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="Scaffold" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541215955454</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="提交IndexStack布局">
+      <created>1541216232429</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1541216232429</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -513,24 +515,14 @@
     <MESSAGE value="添加Row实现列表数据" />
     <MESSAGE value="添加Table布局" />
     <MESSAGE value="添加StackLayout布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加StackLayout布局" />
+    <MESSAGE value="提交IndexStack布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交IndexStack布局" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/navigation/NavigationIconView.java" />
     <entry file="file://C:/fluttersdk/flutter/packages/flutter/lib/src/widgets/framework.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -855,10 +847,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Scaffold/Scaffold.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Scaffold/AppBar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Scaffold/FloatingActionButton.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="72" />
+        <state relative-caret-position="469">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
