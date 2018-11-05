@@ -18,21 +18,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyApp> {
-  int _currentIndex = 0;
-  List<IconData> _icons = [
-    Icons.cloud_download,
-    Icons.android,
-    Icons.ac_unit,
-    Icons.dashboard,
-    Icons.dehaze
-  ];
+  int _count = 0;
 
-  void _setCurretnIndex() {
+  void _incrementCounter() {
     setState(() {
-      _currentIndex++;
-      if (_currentIndex >= 5) {
-        _currentIndex = 0;
-      }
+      _count++;
     });
   }
 
@@ -40,22 +30,17 @@ class _MyHomePageState extends State<MyApp> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text(widget.title),
+        title: new Text(
+          widget.title,
+          style: new TextStyle(fontSize: 10.0 + _count),
+        ),
       ),
       body: new Center(
 //        child: new Text('$_count')),  字符串也可以使用占位符的方式
-        child: IndexedStack(
-          index: 0,
-          children: <Widget>[
-            new Icon(
-              _icons[_currentIndex],
-              size: 40.0 * _currentIndex,
-            ),
-          ],
-        ),
+        child: new Text(_count.toString()),
       ),
       floatingActionButton: new FloatingActionButton(
-        onPressed: _setCurretnIndex,
+        onPressed: _incrementCounter,
         child: new Icon(Icons.add),
       ),
     );

@@ -19,18 +19,11 @@ class MyApp extends StatefulWidget {
 
 class _MyHomePageState extends State<MyApp> {
   int _currentIndex = 0;
-  List<IconData> _icons = [
-    Icons.cloud_download,
-    Icons.android,
-    Icons.ac_unit,
-    Icons.dashboard,
-    Icons.dehaze
-  ];
 
   void _setCurretnIndex() {
     setState(() {
       _currentIndex++;
-      if (_currentIndex >= 5) {
+      if (_currentIndex >= 3) {
         _currentIndex = 0;
       }
     });
@@ -45,12 +38,28 @@ class _MyHomePageState extends State<MyApp> {
       body: new Center(
 //        child: new Text('$_count')),  字符串也可以使用占位符的方式
         child: IndexedStack(
-          index: 0,
+          index: _currentIndex,
           children: <Widget>[
             new Icon(
-              _icons[_currentIndex],
-              size: 40.0 * _currentIndex,
+              Icons.cloud_download,
+              size: 100.0,
+              color: Colors.blue,
             ),
+            new Icon(
+              Icons.error_outline,
+              size: 100.0,
+              color: Colors.red,
+            ),
+            new Icon(
+              Icons.check_circle,
+              size: 100.0,
+              color: Colors.green,
+            ),
+            new Icon(
+              Icons.help,
+              size: 100.0,
+              color: Colors.yellowAccent,
+            )
           ],
         ),
       ),
