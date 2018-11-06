@@ -10,12 +10,12 @@ class MyApp extends StatefulWidget {
 }
 
 class MyAppState extends State<MyApp> {
-  var _isChecked = true;
+  bool _isChecked = false;
 
-  void onCheckChange(bool isChecked) {
+  void _onSwitchStateChanged(bool value) {
     setState(() {
-      _isChecked = isChecked;
-      print(_isChecked.toString()+'----');
+      _isChecked = value;
+      print(_isChecked.toString() + '-------------------');
     });
   }
 
@@ -26,18 +26,21 @@ class MyAppState extends State<MyApp> {
         title: new Text("选择控件"),
       ),
       body: new Center(
-        child: new Column(
-          children: <Widget>[new Checkbox(value: _isChecked, onChanged: onCheckChange,activeColor: Colors.red,),
-          ],
-
-        ),
+        child: new Switch(value: false, onChanged: _onSwitchStateChanged),
       ),
     );
   }
 }
-//const Checkbox({
+
+//
+//const Switch({
 //Key key,
-//@required this.value,//当前值，是否选中
-//@required this.onChanged,//选中变更监听
-//this.activeColor,//选中时的颜色
+//@required this.value,
+//@required this.onChanged,
+//this.activeColor,
+//this.activeTrackColor,
+//this.inactiveThumbColor,
+//this.inactiveTrackColor,
+//this.activeThumbImage,
+//this.inactiveThumbImage
 //})
