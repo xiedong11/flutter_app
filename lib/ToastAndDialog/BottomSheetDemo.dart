@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(new MaterialApp(home: new MyApp()));
 }
-//showModalBottomSheet与BottomSheet的区别是 BottomSheet充满屏幕，ModalBottomSheet半屏
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         child: new Builder(builder: (BuildContext context) {
           return new RaisedButton(
             onPressed: () {
-              showModalBottomSheet(
+              showBottomSheet(
                   context: context,
                   builder: (BuildContext context) {
                     return new Container(
