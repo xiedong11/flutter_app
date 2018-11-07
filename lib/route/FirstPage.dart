@@ -11,7 +11,7 @@ void main() {
     routes: <String, WidgetBuilder>{
       '/SecondPage': (BuildContext context) => new SecondPage(),
       '/SecondPageWithParams': (BuildContext context) =>
-          new SecondPageWithParams("带参数", "我是从上一个页传递过来的参数"),
+      new SecondPageWithParams("带参数", "我是从上一个页传递过来的参数"),
     },
   ));
 }
@@ -55,8 +55,8 @@ class MyApp extends StatelessWidget {
                   //带回第二个页返回的数据值
                   Navigator.push<String>(context,
                       new MaterialPageRoute(builder: (BuildContext context) {
-                    return new SecondPageWithResult();
-                  })).then((String result) {
+                        return new SecondPageWithResult();
+                      })).then((String result) {
                     showDialog(
                         context: context,
                         builder: (BuildContext context) {
@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
                 onPressed: () {
                   Navigator.of(context).push(new PageRouteBuilder(pageBuilder:
                       (BuildContext context, Animation<double> animation,
-                          Animation<double> secondaryAnimation) {
+                      Animation<double> secondaryAnimation) {
                     return new SecondPageWithParams2("动态传参");
                   }));
                 },
