@@ -8,17 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/MainActivity.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" afterPath="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/platform.dart" afterPath="$PROJECT_DIR$/lib/platform/platform.dart" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -33,21 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="108" column="76" lean-forward="false" selection-start-line="108" selection-start-column="76" selection-end-line="108" selection-end-column="76" />
+            <state relative-caret-position="443">
+              <caret line="30" column="54" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="30" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PullToRefreshDemo.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basic.dart" pinned="false" current-in-tab="false">
+        <entry file="file://C:/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="4025" column="8" lean-forward="false" selection-start-line="4025" selection-start-column="8" selection-end-line="4025" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PullToRefreshDemo.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state relative-caret-position="451">
+              <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -116,18 +118,8 @@
       <file leaf-file-name="LayoutDemo.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/layout/LayoutDemo.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2487">
-              <caret line="198" column="21" lean-forward="false" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container1.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/container/Container1.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="633">
+              <caret line="198" column="17" lean-forward="false" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -214,8 +206,8 @@
         <option value="$PROJECT_DIR$/lib/ToastAndDialog/CicularProgressIndicatorDemo.dart" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" />
       </list>
     </option>
   </component>
@@ -710,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542102594680</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="添加下拉刷新、上拉加载更多方法逻辑处理">
+      <created>1542853431635</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1542853431635</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -763,7 +762,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改主题" />
     <MESSAGE value="添加抽屉菜单" />
     <MESSAGE value="添加text" />
     <MESSAGE value="添加image访问方式" />
@@ -788,7 +786,8 @@
     <MESSAGE value="添加网络请求demo" />
     <MESSAGE value="flutter与native平台交互" />
     <MESSAGE value="添加TabBar、Tab、TabView代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加TabBar、Tab、TabView代码" />
+    <MESSAGE value="添加下拉刷新、上拉加载更多方法逻辑处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加下拉刷新、上拉加载更多方法逻辑处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -972,13 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="1351" column="6" lean-forward="false" selection-start-line="1351" selection-start-column="6" selection-end-line="1351" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ToastAndDialog/LinearProgressIndicatorDemo.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -997,6 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,6 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,26 +1142,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/layout/LayoutDemo.dart">
+    <entry file="file://C:/fluttersdk/flutter/packages/flutter/lib/src/widgets/basic.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2487">
-          <caret line="198" column="21" lean-forward="false" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="4025" column="8" lean-forward="false" selection-start-line="4025" selection-start-column="8" selection-end-line="4025" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart">
+    <entry file="file://$PROJECT_DIR$/lib/layout/LayoutDemo.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="633">
+          <caret line="198" column="17" lean-forward="false" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="108" column="76" lean-forward="false" selection-start-line="108" selection-start-column="76" selection-end-line="108" selection-end-column="76" />
+        <state relative-caret-position="443">
+          <caret line="30" column="54" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="30" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
           <folding />
         </state>
       </provider>

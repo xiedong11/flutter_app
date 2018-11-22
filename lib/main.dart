@@ -5,80 +5,12 @@ void main() {
   runApp(new MaterialApp(home: new PullToRefreshDemo()));
 }
 
-class PullToRefreshDemo extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => new MyState();
-}
-
-class MyState extends State {
-  List<int> items = List.generate(16, (i) => i); //快速生成List
-  ScrollController _scrollController = new ScrollController();
-  List<int> list = List.generate(12, (i) => i);
-
-  Future<Null> _onRefreshDate() async {
-    await Future.delayed(Duration(seconds: 3), () {
-      print("--------------refresh--");
-      setState(() {
-        items.clear();
-        items = List.generate(13, (i) => i);
-        return null;
-      });
-    });
-  }
-
-  @override
-  void initState() {
-    super.initState();
-    _scrollController.addListener(() {
-      if (_scrollController.position.pixels ==
-          _scrollController.position.maxScrollExtent) {
-        print("--------------------loadMore");
-        setState(() {
-          _loadMoreData();
-        });
-      }
-    });
-  }
-
-  _loadMoreData() async {
-    await Future.delayed(
-        Duration(
-          seconds: 3,
-        ), () {
-      items.addAll(list);
-    });
-  }
-
+class PullToRefreshDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-        appBar: new AppBar(
-          title: new Text("下拉刷新"),
-        ),
-        body: new RefreshIndicator(
-            color: Colors.redAccent,
-            backgroundColor: Colors.lightBlueAccent,
-            child: new ListView.builder(
-              itemCount: items.length + 1,
-              itemBuilder: (context, index) {
-                if (index == items.length) {
-                  //滑动到底部时装载加载更多loading视图
-                  return new ItemLoading();
-                } else {
-                  return new GestureDetector(
-                    onTap: () {
-                      Scaffold.of(context).showSnackBar(
-                          new SnackBar(content: new Text("点击了条目$index")));
-                    },
-                    child: ListTile(
-                      title: new Text("条目$index"),
-                    ),
-                  );
-                }
-              },
-              controller: _scrollController,
-            ),
-            onRefresh: _onRefreshDate));
+    return Scaffold(
+      body: ItemLoading(),
+    );
   }
 }
 
@@ -92,11 +24,12 @@ class ItemLoading extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(18.0),
         child: new Align(
-          alignment: new FractionalOffset(0.0, 0.5),
+          alignment: new FractionalOffset(0.5, 0.5),
           child: new Row(
             children: <Widget>[
-              new CircularProgressIndicator(),
-              new Text("加载中...")
+              new Expanded(child: Center(child: new CircularProgressIndicator(),)),
+              new Expanded(child: new Text("加载中...")),
+
             ],
           ),
         ),
@@ -106,4 +39,4 @@ class ItemLoading extends StatelessWidget {
   }
 }
 
-http://flutter.link/2018/05/11/Flutter%E5%8A%A8%E7%94%BB%E3%80%901%E3%80%91/
+//http://flutter.link/2018/05/11/Flutter%E5%8A%A8%E7%94%BB%E3%80%901%E3%80%91/
