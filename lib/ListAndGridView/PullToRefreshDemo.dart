@@ -105,5 +105,3 @@ class ItemLoading extends StatelessWidget {
     );
   }
 }
-
-http://flutter.link/2018/05/11/Flutter%E5%8A%A8%E7%94%BB%E3%80%901%E3%80%91/
