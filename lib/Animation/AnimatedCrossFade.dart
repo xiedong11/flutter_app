@@ -15,12 +15,12 @@ class MyAnimatedCrossFade extends StatefulWidget {
 }
 
 class MyState extends State {
-
   bool _first = true;
 
   _changeOpacity() {
     setState(() => _first = _first == false ? true : false);
   }
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -30,14 +30,20 @@ class MyState extends State {
       body: new Center(
         child: new Column(
           children: <Widget>[
-            new AnimatedCrossFade(firstChild: new Text("哈哈哈哈哈哈"),
-                secondChild: new Icon(Icons.forward,size: 100.0,),
-                crossFadeState: _first ? CrossFadeState.showFirst : CrossFadeState.showSecond,
+            new AnimatedCrossFade(
+                firstChild: new Text("哈哈哈哈哈哈"),
+                secondChild: new Icon(
+                  Icons.forward,
+                  size: 100.0,
+                ),
+                crossFadeState: _first
+                    ? CrossFadeState.showFirst
+                    : CrossFadeState.showSecond,
                 duration: Duration(seconds: 2)),
             new SizedBox(height: 30.0),
             new RaisedButton(
-              onPressed:_changeOpacity,
-              child: new Text("改变透明度"),
+              onPressed: _changeOpacity,
+              child: new Text("过渡动画"),
             )
           ],
         ),
