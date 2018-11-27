@@ -94,8 +94,12 @@ class ItemLoading extends StatelessWidget {
         child: new Align(
           alignment: new FractionalOffset(0.0, 0.5),
           child: new Row(
+            crossAxisAlignment: CrossAxisAlignment.center, //排列方式
             children: <Widget>[
-              new Expanded(child: Center(child: new CircularProgressIndicator(),)),
+              new Expanded(
+                  child: Center(
+                child: new CircularProgressIndicator(),
+              )),
               new Expanded(child: new Text("加载中...")),
             ],
           ),

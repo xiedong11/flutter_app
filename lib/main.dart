@@ -8,33 +8,26 @@ void main() {
 class PullToRefreshDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    TextEditingController _editingController1 = new TextEditingController();
+    TextEditingController _editingController2 = new TextEditingController();
     return Scaffold(
-      body: ItemLoading(),
-    );
-  }
-}
-
-/**
- * ListView加载更多底部视图
- */
-class ItemLoading extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Container(
-      child: Padding(
-        padding: const EdgeInsets.all(18.0),
-        child: new Align(
-          alignment: new FractionalOffset(0.5, 0.5),
-          child: new Row(
-            children: <Widget>[
-              new Expanded(child: Center(child: new CircularProgressIndicator(),)),
-              new Expanded(child: new Text("加载中...")),
-
-            ],
-          ),
-        ),
+      appBar: new AppBar(
+        title: new Text("文本输入"),
       ),
-      color: Colors.white70,
+      body: new Center(
+          child: new Column(
+        children: <Widget>[
+          new Text("简单文本输入框", style: new TextStyle(fontSize: 20.0)),
+          new TextField(
+            keyboardType: TextInputType.text, //指定输入方式为文本输入
+            controller: _editingController1,
+          ),
+          new TextField(
+            keyboardType: TextInputType.number, //指定唤起软键盘时默认显示数字键盘
+            controller: _editingController2,
+          ),
+        ],
+      )),
     );
   }
 }
