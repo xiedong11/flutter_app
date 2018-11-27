@@ -9,59 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/GridList.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/GridList.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/GridViewDemo1.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/GridViewDemo1.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/GridViewDemo2.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/GridViewDemo2.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/ListView1.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/ListView1.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/ListViewDemo2.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/ListViewDemo2.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/ListViewDemo3.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/ListViewDemo3.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/LongList.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/LongList.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/PullToRefreshDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ListAndGridView/SimpleListViewDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ListAndGridView/SimpleListViewDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/AppBar.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/AppBar.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/BottomNavigationBar.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/BottomNavigationBar.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/Drawer.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/Drawer.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/FloatingActionButton.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/FloatingActionButton.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/PersistentFooterButtons.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/PersistentFooterButtons.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/Scaffold.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/Scaffold.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/SimpleTabBarDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/SimpleTabBarDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/Scaffold/TabBarDemo2.dart" afterPath="$PROJECT_DIR$/lib/widgets/Scaffold/TabBarDemo2.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/TextInputAndChose/CheckBoxDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/TextInputAndChose/CheckBoxDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/TextInputAndChose/MixListTitleDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/TextInputAndChose/MixListTitleDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/TextInputAndChose/RadioGroupDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/TextInputAndChose/RadioGroupDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/TextInputAndChose/SliderDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/TextInputAndChose/SliderDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/TextInputAndChose/SwitchDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/TextInputAndChose/SwitchDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/TextInputAndChose/TextFieldDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/TextInputAndChose/TextFieldDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/AboutDialog.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/AboutDialog.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/AlertDialog.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/AlertDialog.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/BottomSheetDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/BottomSheetDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/CicularProgressIndicatorDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/CicularProgressIndicatorDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/LinearProgressIndicatorDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/LinearProgressIndicatorDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/ModalBottomSheet.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/ModalBottomSheet.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/SimpleDialogDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/SimpleDialogDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/ToastAndDialog/SnackBarDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/ToastAndDialog/SnackBarDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/button/GestureDetectorDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/button/GestureDetectorDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/button/MyButton.dart" afterPath="$PROJECT_DIR$/lib/widgets/button/MyButton.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/container/Container1.dart" afterPath="$PROJECT_DIR$/lib/widgets/container/Container1.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/container/ContainerDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/container/ContainerDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/IndexStackLayout.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/IndexStackLayout.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/LayoutDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/LayoutDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/RowAndColumDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/RowAndColumDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/RowAndColumList1.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/RowAndColumList1.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/RowAndColumList2.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/RowAndColumList2.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/StackLayoutDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/StackLayoutDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/layout/TableDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/layout/TableDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/statefulwidget/ChangeIcon.dart" afterPath="$PROJECT_DIR$/lib/widgets/statefulwidget/ChangeIcon.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/statefulwidget/NumberCount.dart" afterPath="$PROJECT_DIR$/lib/widgets/statefulwidget/NumberCount.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/statefulwidget/StatefulWidget.dart" afterPath="$PROJECT_DIR$/lib/widgets/statefulwidget/StatefulWidget.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/textAndImage/IconDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/textAndImage/IconDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/textAndImage/ImageDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/textAndImage/ImageDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/textAndImage/ImageDemo1.dart" afterPath="$PROJECT_DIR$/lib/widgets/textAndImage/ImageDemo1.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/textAndImage/TextDemo.dart" afterPath="$PROJECT_DIR$/lib/widgets/textAndImage/TextDemo.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/textAndImage/TextDemo1.dart" afterPath="$PROJECT_DIR$/lib/widgets/textAndImage/TextDemo1.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/theme/ThemeDemo.dart" afterPath="$PROJECT_DIR$/lib/theme/ThemeDemo.dart" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -108,12 +56,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThemeDemo.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThemeDemo.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/theme/ThemeDemo.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-234">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="676">
+                <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -143,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="469">
               <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="51" selection-end-line="101" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -210,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/Scaffold/Scaffold.dart" />
         <option value="$PROJECT_DIR$/lib/Scaffold/FloatingActionButton.dart" />
         <option value="$PROJECT_DIR$/lib/Scaffold/PersistentFooterButtons.dart" />
         <option value="$PROJECT_DIR$/lib/Scaffold/Drawer.dart" />
@@ -261,6 +213,7 @@
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/android/local.properties" />
         <option value="$PROJECT_DIR$/lib/ListAndGridView/PullToRefreshDemo.dart" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -754,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542854512735</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="调整项目分包结构">
+      <created>1543279733937</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1543279733937</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -768,6 +728,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -785,7 +746,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2212714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2212714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -806,7 +767,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加text" />
     <MESSAGE value="添加image访问方式" />
     <MESSAGE value="添加Icon代码" />
     <MESSAGE value="添加Container代码，并且跳整分包结构" />
@@ -831,7 +791,8 @@
     <MESSAGE value="添加TabBar、Tab、TabView代码" />
     <MESSAGE value="添加下拉刷新、上拉加载更多方法逻辑处理" />
     <MESSAGE value="修改ItemLoading布局居中显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改ItemLoading布局居中显示" />
+    <MESSAGE value="调整项目分包结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整项目分包结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,13 +801,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/fluttersdk/flutter/bin/cache/artifacts/engine/android-arm/flutter.jar!/io/flutter/plugin/common/MethodCall.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/fluttersdk/flutter/bin/cache/artifacts/engine/android-arm/flutter.jar!/io/flutter/plugin/common/MethodChannel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2652">
@@ -1209,6 +1163,19 @@
         <state relative-caret-position="-234">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="676">
+            <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
