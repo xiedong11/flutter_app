@@ -8,11 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Animation/SimpleHeroAnimationDemo.dart" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/navigation/HeroLoginPage.dart" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart" afterPath="$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -39,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroLoginSuccessPage.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeroLoginSuccessPage.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="-530">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroLoginPage.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeroLoginPage.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/navigation/HeroLoginPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="1408">
+              <caret line="94" column="12" lean-forward="false" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -143,8 +140,8 @@
         <option value="$PROJECT_DIR$/lib/Animation/HeroAnimationSecondPage.dart" />
         <option value="$PROJECT_DIR$/lib/Animation/SimpleHeroAnimationDemo.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart" />
         <option value="$PROJECT_DIR$/lib/navigation/HeroLoginPage.dart" />
+        <option value="$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart" />
       </list>
     </option>
   </component>
@@ -671,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543290097645</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="添加Hero登录动画效果">
+      <created>1543371393809</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1543371393809</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -724,7 +728,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Container代码，并且跳整分包结构" />
     <MESSAGE value="添加Row跟Colum代码" />
     <MESSAGE value="添加Row实现列表数据" />
     <MESSAGE value="添加Table布局" />
@@ -749,7 +752,8 @@
     <MESSAGE value="调整项目分包结构" />
     <MESSAGE value="添加reademe文件" />
     <MESSAGE value="添加基本动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加基本动画" />
+    <MESSAGE value="添加Hero登录动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Hero登录动画效果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,14 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1135,11 +1131,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/navigation/HeroLoginPage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="1408">
+          <caret line="94" column="12" lean-forward="false" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Animation/HeroLoginSuccessPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
