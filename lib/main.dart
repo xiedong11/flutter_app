@@ -1,44 +1,48 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(new MaterialApp(home: new TooltipDemo()));
+  runApp(new MaterialApp(home: new ChipDemo()));
 }
 
-class TooltipDemo extends StatelessWidget {
+class ChipDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Tooltip轻量级提示"),
+        title: new Text("ChipDemo"),
       ),
       body: new Center(
-        child: new Tooltip(
-            message: "Tooltip轻量级提示",
-            child: new Icon(
-              Icons.access_alarm,
-              size: 80.0,
-            ),
-            verticalOffset: 80.0,
-            //具体内部child Widget竖直方向的距离
-            preferBelow: false,
-            //是否显示在下面
-            height: 100.0,
-            //Tooltip的高度
-            padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 50.0)),
+        child: Chip(
+          label: new Text("dd"), //内容标签
+          avatar: new Icon(Icons.access_alarm), //label左侧的图片
+          deleteIcon: new Icon(Icons.delete),
+          onDeleted: () {
+            print("点击删除");
+          },
+          deleteButtonTooltipMessage: "长按删除该条",
+          backgroundColor: Colors.deepPurple, //背景颜色
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(3.0)), //设置背景shape样式
+        ),
       ),
     );
   }
 }
 
-//Tooltip({
-//Key key,
-//@required this.message,//提示的内容
-//this.height = 32.0,//Tooltip的高度
-//this.padding = const EdgeInsets.symmetric(horizontal: 16.0),//padding
-//this.verticalOffset = 24.0,//具体内部child Widget竖直方向的距离
-//this.preferBelow = true,//是否显示在下面
-//this.excludeFromSemantics = false,
-//this.child,
-//})
 
-//height只能改变tip的高度，改变不了宽度，可以使用padding同时改变宽度跟高度
+//Chip({
+//Key key,
+//this.avatar,//标签左侧Widget，一般为小图标
+//@required this.label,//标签
+//this.labelStyle,
+//this.labelPadding,//padding
+//this.deleteIcon//删除图标,
+//this.onDeleted//删除回调，为空时不显示删除图标,
+//this.deleteIconColor//删除图标的颜色,
+//this.deleteButtonTooltipMessage//删除按钮的tip文字,
+//this.shape//形状,
+//this.clipBehavior = Clip.none,
+//this.backgroundColor//背景颜色,
+//this.padding,
+//this.materialTapTargetSize//删除图标material点击区域大小,
+//})
