@@ -80,7 +80,7 @@ class MyState extends State {
         spacing: 5.0,
         runSpacing: 5.0,
 //          direction : Axis.vertical,
-      alignment:  WrapAlignment.spaceAround,
+        alignment:  WrapAlignment.spaceAround,
       ),
     );
   }
