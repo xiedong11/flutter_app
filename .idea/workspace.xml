@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/widgets/layout/SimpleExpansionDemo.dart" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/widgets/layout/ExpandTileDemo2.dart" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
     </list>
@@ -28,18 +28,28 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="426">
+              <caret line="82" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleExpansionDemo.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExpandTileDemo2.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/widgets/layout/ExpandTileDemo2.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleExpansionDemo.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widgets/layout/SimpleExpansionDemo.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -81,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/ToastAndDialog/SnackBarDemo.dart" />
         <option value="$PROJECT_DIR$/lib/ToastAndDialog/SimpleDialogDemo.dart" />
         <option value="$PROJECT_DIR$/lib/ToastAndDialog/AlertDialog.dart" />
         <option value="$PROJECT_DIR$/lib/ToastAndDialog/AboutDialog.dart" />
@@ -130,8 +139,9 @@
         <option value="$PROJECT_DIR$/lib/widgets/layout/WrapDemo.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/ToastAndDialog/SimpleTooltipDemo.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/layout/WrapMutliChipDemo.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/layout/SimpleExpansionDemo.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/widgets/layout/ExpandTileDemo2.dart" />
       </list>
     </option>
   </component>
@@ -700,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544680330010</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="简单ExpansionTile使用">
+      <created>1544925650962</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1544925650962</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -796,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Drawer跟BottomNavigationBar" />
     <MESSAGE value="添加StatefulWeidget控件" />
     <MESSAGE value="添加手势监听" />
     <MESSAGE value="textField and CheckBox代码" />
@@ -821,7 +837,8 @@
     <MESSAGE value="添加tooltip轻量级提示对话框" />
     <MESSAGE value="添加简单chip widget" />
     <MESSAGE value="使用Wrap包裹自定义chip布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用Wrap包裹自定义chip布局" />
+    <MESSAGE value="简单ExpansionTile使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单ExpansionTile使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,13 +847,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -1192,18 +1202,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+    <entry file="file://$PROJECT_DIR$/lib/widgets/layout/SimpleExpansionDemo.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="114">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/layout/SimpleExpansionDemo.dart">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="426">
+          <caret line="82" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/layout/ExpandTileDemo2.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
