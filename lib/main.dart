@@ -1,83 +1,58 @@
 import 'package:flutter/material.dart';
 
-/**
- *界面整体上是一个listView,在ListView的第二例是一个ExpansionTile，
- * ExpansionTile的内部是多个ListTile，trailing结合自定义动画将“+”icon旋转22.5°
- * 变成了一个“×”，并且在ExpansionTile展开时改变了icon的颜色
- */
 void main() {
-  runApp(new MaterialApp(home: new ExPansionTileDemo2()));
+  runApp(new MaterialApp(home: new ExpansionPanelListDemo()));
 }
 
-class ExPansionTileDemo2 extends StatefulWidget {
+class ExpansionPanelListDemo extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => MyState();
+  State<StatefulWidget> createState() => new MyState();
 }
 
-class MyState extends State with SingleTickerProviderStateMixin {
-  Animation _animation;
-  Color _iconColor = Colors.grey;
-  AnimationController _animationController;
+class MyState extends State {
+  var isExpanded;
 
-  @override
-  void initState() {
-    super.initState();
-    _animationController = new AnimationController(
-        vsync: this, duration: new Duration(milliseconds: 200));
-    _animation =
-        new Tween(begin: 0.0, end: 0.125).animate(_animationController);
-  }
-
-  void  _changeOpacity(bool isExpand){
+  _expansionCallback(index, isExpanded) {
     setState(() {
-      if(isExpand){
-        _animationController.forward();
-        _iconColor = Colors.red;
-      }else{
-        _animationController.reverse();
-        _iconColor = Colors.grey;
+      if (this.isExpanded == isExpanded) {
+        this.isExpanded = !this.isExpanded;
       }
     });
-
   }
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("可折叠列表"),
-      ),
-      body: new ListView(
-        children: <Widget>[
-          new ListTile(title: new Text("第1列")),
-          new ExpansionTile(
-            onExpansionChanged: (bool){
-              _changeOpacity(bool);
-            },
-            title: new Text("第2列"),
-            children: <Widget>[
-              new Text("折叠区域内容"),
-              new Icon(
-                Icons.picture_as_pdf,
-                size: 40.0,
-                color: Colors.green,
+        appBar: new AppBar(
+          title: new Text("可折叠列表"),
+        ),
+        body: new SingleChildScrollView(
+          child: new ExpansionPanelList(
+            children: [
+              ExpansionPanel(
+                headerBuilder: (index, opened) {
+                  return ListTile(
+                    title: new Text("更多内容"),
+                  );
+                },
+                body: new Padding(
+                  padding: EdgeInsets.all(20.0),
+                  child: Container(
+                    height: 100.0,
+                    color: Colors.blue,
+                    alignment: Alignment.center,
+                    child: Icon(
+                      Icons.security,
+                      size: 35.0,
+                    ),
+                  ),
+                ),
+                isExpanded: isExpanded, //默认是不展开，利用判断，点击是否展开
+
               )
             ],
-            trailing: new RotationTransition(
-              turns: _animation,
-              child: new Icon(
-                Icons.add,
-                color: _iconColor,
-              ),
-            ),
           ),
-          new ListTile(title: new Text("第3列")),
-          new ListTile(title: new Text("第4列")),
-          new ListTile(title: new Text("第5列")),
-          new ListTile(title: new Text("第6列")),
-          new ListTile(title: new Text("第7列")),
-          new ListTile(title: new Text("第8列")),
-        ],
-      ),
-    );
+        ));
   }
 }
+http://flutter.link/2018/10/10/ExpansionPanelList/
