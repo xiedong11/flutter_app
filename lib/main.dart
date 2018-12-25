@@ -3,6 +3,7 @@ import 'package:flutter_app/pages/TextPage.dart';
 import 'package:flutter_app/pages/TextFieldPage.dart';
 import 'package:flutter_app/pages/ImagePage.dart';
 import 'package:flutter_app/pages/LayoutPage.dart';
+import 'package:flutter_app/pages/GestureDetectorPage.dart';
 
 void main() {
   runApp(new MaterialApp(home: new FlutterDemo()));
@@ -51,7 +52,8 @@ class FlutterDemo extends StatelessWidget {
                         builder: (context) => new LayoutPage()));
               },
               child: new Text("layout布局"),
-            )
+            ),
+            new RaisedButton(onPressed: (){Navigator.push(context, new MaterialPageRoute(builder: (context)=>new GestureDetectorPage()));},child: new Text("GestureDetector"),)
           ],
         ),
       ),
