@@ -26,3 +26,11 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 [Flutter入门进阶之旅（三）Text Widgets](https://blog.csdn.net/xieluoxixi/article/details/84242706)
 
+[Flutter入门进阶之旅（四）文本输入Widget TextField](https://blog.csdn.net/xieluoxixi/article/details/84317255)
+
+[Flutter入门进阶之旅（五）Image Widget](https://blog.csdn.net/xieluoxixi/article/details/84750418)
+
+[Flutter入门进阶之旅（六）Layout Widget](https://blog.csdn.net/xieluoxixi/article/details/85052636)
+
+[Flutter入门进阶之旅（七）GestureDetector](https://blog.csdn.net/xieluoxixi/article/details/85236984)
+
