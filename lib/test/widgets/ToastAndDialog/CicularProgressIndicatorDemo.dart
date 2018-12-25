@@ -53,6 +53,6 @@ class MyProgressIndicatorState extends State<LinearProgressIndicatorDemo> {
 //Key key,
 //double value,
 //Color backgroundColor,
-//Animation<Color> valueColor,
+//test.Animation<Color> valueColor,
 //this.strokeWidth: 4.0,
 //})

@@ -52,5 +52,5 @@ class MyProgressIndicatorState extends State<LinearProgressIndicatorDemo> {
 //Key key,
 //double value,//当前进度0-1之间  (在不指定value的情况下，进度条一直滚动)
 //Color backgroundColor,//背景颜色
-//Animation<Color> valueColor,//选中颜色，需要用到动画的知识，以后讲
+//test.Animation<Color> valueColor,//选中颜色，需要用到动画的知识，以后讲
 //})

@@ -1,9 +1,9 @@
-//widgets.Scaffold
+//test.widgets.Scaffold
 //从前面的文章中我们知道，Scaffold的中文意思是脚手架，顾名思义就是帮助我们快速构建APP，那么我们还是来看下Scaffold能把我们做哪些把。
 //
 //Scaffold构造方法
 //
-//const widgets.Scaffold({
+//const test.widgets.Scaffold({
 //Key key,
 //this.appBar,//标题栏
 //this.body,//内容

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/Animation/HeroLoginSuccessPage.dart'; //导入路由页
+import 'package:flutter_app/test/Animation/HeroLoginSuccessPage.dart'; //导入路由页
 
 void main() {
   runApp(new MaterialApp(home: new HeroAnimatedLoginPage()));

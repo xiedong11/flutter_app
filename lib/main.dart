@@ -1,60 +1,48 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/TextPage.dart';
+import 'package:flutter_app/pages/TextFieldPage.dart';
+import 'package:flutter_app/pages/ImagePage.dart';
 
 void main() {
-  runApp(new MaterialApp(home: new ExpansionPanelListDemo()));
+  runApp(new MaterialApp(home: new FlutterDemo()));
 }
 
-class ExpansionPanelListDemo extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => new MyState();
-}
-
-class MyState extends State {
-  var isExpanded = true;
-
-  _expansionCallback(index, isExpanded) {
-    setState(() {
-      if (this.isExpanded == isExpanded) {
-        this.isExpanded = !this.isExpanded;
-      }
-    });
-  }
-
+class FlutterDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        appBar: new AppBar(
-          title: new Text("可折叠列表"),
-        ),
-        body: new SingleChildScrollView(
-          child: new ExpansionPanelList(
-            children: [
-              ExpansionPanel(
-                headerBuilder: (index, opened) {
-                  return ListTile(
-                    title: new Text("更多内容"),
-                  );
+      appBar: new AppBar(
+        title: new Text("Flutter"),
+      ),
+      body: new Center(
+        child: new ListView(
+
+          children: <Widget>[
+            RaisedButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new TextPage()));
                 },
-                body: new Padding(
-                  padding: EdgeInsets.all(20.0),
-                  child: Container(
-                    height: 100.0,
-                    color: Colors.blue,
-                    alignment: Alignment.center,
-                    child: Icon(
-                      Icons.security,
-                      size: 35.0,
-                    ),
-                  ),
-                ),
-                isExpanded: isExpanded, //默认是不展开，利用判断，点击是否展开
-              )
-            ],
-            expansionCallback: (index, isExpanded) {
-              _expansionCallback(index, isExpanded);
+                child: Text("Text组件")),
+            RaisedButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (context) => new TextFieldPage()));
+                },
+                child: Text("TextField组件")),
+            RaisedButton(onPressed: () {
+              Navigator.push(context,
+                  new MaterialPageRoute(builder: (context) => new ImagePage()));
             },
-          ),
-        ));
+              child:Text("Image组件") ,
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
-//http://flutter.link/2018/10/10/ExpansionPanelList/

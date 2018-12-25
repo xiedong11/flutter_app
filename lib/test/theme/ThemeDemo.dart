@@ -45,7 +45,7 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return new GestureDetector(
       onTap: () {
-        print("widgets.button is click ...");
+        print("test.widgets.button is click ...");
       },
       child: new Container(
         height: 36.0,

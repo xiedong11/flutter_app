@@ -98,7 +98,7 @@ class FormButton extends StatelessWidget {
 //this.crossAxisAlignment = WrapCrossAlignment.start,
 //this.textDirection,//文字排序方向
 //this.verticalDirection = VerticalDirection.down,//direction为Vertical时排序顺序
-//List<Widget> children = const <Widget>[],//widgets
+//List<Widget> children = const <Widget>[],//test.widgets
 //})
 
 //alignment: WrapAlignment.start,//内容排序从左到右排列
