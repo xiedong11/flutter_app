@@ -109,6 +109,7 @@ class MyPage extends StatelessWidget {
                 Navigator.push(
                     context,
                     new MaterialPageRoute(
+                      //_代表参数为空
                         builder: (_) => new DynamicNaviattionPage(
                               username: "xiedong",
                               password: "123456",
