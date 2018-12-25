@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/test/route/SecondPage.dart';
-import 'package:flutter_app/test/route/SecondPageWithParams.dart';
-import 'package:flutter_app/test/route/SecondPageWithParams2.dart';
-import 'package:flutter_app/test/route/SecondPageWithResult.dart';
+import 'package:flutter_app/demo/route/SecondPage.dart';
+import 'package:flutter_app/demo/route/SecondPageWithParams.dart';
+import 'package:flutter_app/demo/route/SecondPageWithParams2.dart';
+import 'package:flutter_app/demo/route/SecondPageWithResult.dart';
 import 'dart:async';
 
 void main() {
