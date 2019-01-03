@@ -8,6 +8,8 @@ import 'package:flutter_app/pages/GestureDetectorPage.dart';
 import 'package:flutter_app/pages/ToastAndDialogPage.dart';
 import 'package:flutter_app/pages/navigator/NavigatorPage.dart';
 import 'package:flutter_app/pages/ButtonPage.dart';
+import 'package:flutter_app/pages/IndexAndChosePage.dart';
+import 'package:flutter_app/pages/PlatformPage.dart';
 
 void main() {
   runApp(new MaterialApp(home: new FlutterDemo()));
@@ -31,6 +33,8 @@ class FlutterDemo extends StatelessWidget {
             MyRaisedButton(new NavigatorPage(), "Navigator页面跳转"),
             MyRaisedButton(new ToastAndDialogPage(), "ToastAndDialogPage"),
             MyRaisedButton(new ButtonPage(), "Button 控件"),
+            MyRaisedButton(new IndexAndChosePage(), "IndexAndChose 控件"),
+            MyRaisedButton(new PaltformPage(), "交互原生"),
           ],
         ),
       ),
