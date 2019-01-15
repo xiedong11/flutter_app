@@ -25,19 +25,19 @@ class MyApp extends StatelessWidget {
                           children: <Widget>[
                             new ListTile(
                               leading: new Icon(Icons.chat),
-                              title: new Text("开始会话"),
+                              title: new Text("对话框列表1"),
                             ),
                             new ListTile(
                               leading: new Icon(Icons.help),
-                              title: new Text("操作说明"),
+                              title: new Text("对话框列表2"),
                             ),
                             new ListTile(
                               leading: new Icon(Icons.settings),
-                              title: new Text("系统设置"),
+                              title: new Text("对话框列表3"),
                             ),
                             new ListTile(
                               leading: new Icon(Icons.more),
-                              title: new Text("更多设置"),
+                              title: new Text("对话框列表4"),
                             ),
                           ],
                         ),
