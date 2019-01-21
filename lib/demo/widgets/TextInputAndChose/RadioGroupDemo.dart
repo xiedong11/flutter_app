@@ -52,10 +52,13 @@ class MyAppState extends State<MyApp> {
   }
 }
 
+
+//当value和groupValue一致的时候则选中
 //const Radio({
 //Key key,
-//@required this.value,
-//@required this.groupValue,
-//@required this.onChanged,
-//this.activeColor
+//@required this.value,  //单选的值。
+//@required this.groupValue, //选择组的值。
+//@required this.onChanged,  //改变时触发。
+//this.activeColor,  //激活时的颜色
+//this.materialTapTargetSize,
 //})
