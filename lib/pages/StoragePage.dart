@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
+import 'package:sqflite/sqflite.dart';
 
 class StoragePage extends StatefulWidget {
   @override
@@ -12,39 +13,52 @@ class StorageState extends State {
   var _storageString = '';
 
   /**
-   * 利用文件存储数据
+   * 利用Sqflite数据库存储数据
    */
   saveString() async {
-    final file = await getFile('file.text');
+    final db = await getDataBase('my_db.db');
     //写入字符串
-    file.writeAsString(_textFieldController.value.text.toString());
+    db.transaction((trx) {
+      trx.rawInsert(
+          'INSERT INTO user(name) VALUES("${_textFieldController.value.text.toString()}")');
+    });
   }
 
   /**
-   * 获取存在文件中的数据
+   * 获取存在Sqflite数据库中的数据
    */
   Future getString() async {
-    final file = await getFile('file.text');
-    var filePath  = file.path;
+    final db = await getDataBase('my_db.db');
+    var dbPath = db.path;
     setState(() {
-      file.readAsString().then((String value) {
-        _storageString = value +'\n文件存储路径：'+filePath;
+      db.rawQuery('SELECT * FROM user').then((List<Map> lists) {
+        print('----------------$lists');
+        var listSize = lists.length;
+        //获取数据库中的最后一条数据
+        _storageString = lists[listSize - 1]['name'] +
+            "\n现在数据库中一共有${listSize}条数据" +
+            "\n数据库的存储路径为${dbPath}";
       });
     });
   }
 
   /**
-   * 初始化文件路径
+   * 初始化数据库存储路径
    */
-  Future<File> getFile(String fileName) async {
+  Future<Database> getDataBase(String dbName) async {
     //获取应用文件目录类似于Ios的NSDocumentDirectory和Android上的 AppData目录
     final fileDirectory = await getApplicationDocumentsDirectory();
 
     //获取存储路径
-    final filePath = fileDirectory.path;
+    final dbPath = fileDirectory.path;
 
-    //或者file对象（操作文件记得导入import 'dart:io'）
-    return new File(filePath + "/"+fileName);
+    //构建数据库对象
+    Database database = await openDatabase(dbPath + "/" + dbName, version: 1,
+        onCreate: (Database db, int version) async {
+      await db.execute("CREATE TABLE user (id INTEGER PRIMARY KEY, name TEXT)");
+    });
+
+    return database;
   }
 
   @override
@@ -56,7 +70,7 @@ class StorageState extends State {
       body: new Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text("文件存储", textAlign: TextAlign.center),
+          Text("Sqflite数据库存储", textAlign: TextAlign.center),
           TextField(
             controller: _textFieldController,
           ),
@@ -70,7 +84,7 @@ class StorageState extends State {
             child: new Text("获取"),
             color: Colors.deepOrange,
           ),
-          Text('从文件存储中获取的值为  $_storageString'),
+          Text('从Sqflite数据库中获取的值为  $_storageString'),
         ],
       ),
     );
