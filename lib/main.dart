@@ -10,6 +10,7 @@ import 'package:flutter_app/pages/navigator/NavigatorPage.dart';
 import 'package:flutter_app/pages/ButtonPage.dart';
 import 'package:flutter_app/pages/IndexAndChosePage.dart';
 import 'package:flutter_app/pages/PlatformPage.dart';
+import 'package:flutter_app/pages/StoragePage.dart';
 
 void main() {
   runApp(new MaterialApp(home: new FlutterDemo()));
@@ -35,6 +36,7 @@ class FlutterDemo extends StatelessWidget {
             MyRaisedButton(new ButtonPage(), "Button 控件"),
             MyRaisedButton(new IndexAndChosePage(), "IndexAndChose 控件"),
             MyRaisedButton(new PaltformPage(), "交互原生"),
+            MyRaisedButton(new StoragePage(), "数据存储"),
           ],
         ),
       ),
