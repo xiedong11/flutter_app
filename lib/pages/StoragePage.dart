@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:path_provider/path_provider.dart';
+import 'dart:io';
 
 class StoragePage extends StatefulWidget {
   @override
@@ -9,25 +10,41 @@ class StoragePage extends StatefulWidget {
 class StorageState extends State {
   var _textFieldController = new TextEditingController();
   var _storageString = '';
-  final STORAGE_KEY = 'storage_key';
 
   /**
-   * 利用SharedPreferences存储数据
+   * 利用文件存储数据
    */
-  Future saveString() async {
-    SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    sharedPreferences.setString(
-        STORAGE_KEY, _textFieldController.value.text.toString());
+  saveString() async {
+    final file = await getFile('file.text');
+    //写入字符串
+    file.writeAsString(_textFieldController.value.text.toString());
   }
 
   /**
-   * 获取存在SharedPreferences中的数据
+   * 获取存在文件中的数据
    */
   Future getString() async {
-    SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+    final file = await getFile('file.text');
+    var filePath  = file.path;
     setState(() {
-      _storageString = sharedPreferences.get(STORAGE_KEY);
+      file.readAsString().then((String value) {
+        _storageString = value +'\n文件存储路径：'+filePath;
+      });
     });
+  }
+
+  /**
+   * 初始化文件路径
+   */
+  Future<File> getFile(String fileName) async {
+    //获取应用文件目录类似于Ios的NSDocumentDirectory和Android上的 AppData目录
+    final fileDirectory = await getApplicationDocumentsDirectory();
+
+    //获取存储路径
+    final filePath = fileDirectory.path;
+
+    //或者file对象（操作文件记得导入import 'dart:io'）
+    return new File(filePath + "/"+fileName);
   }
 
   @override
@@ -37,24 +54,23 @@ class StorageState extends State {
         title: new Text('数据存储'),
       ),
       body: new Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text("shared_preferences存储", textAlign: TextAlign.center),
+          Text("文件存储", textAlign: TextAlign.center),
           TextField(
             controller: _textFieldController,
           ),
           MaterialButton(
             onPressed: saveString,
             child: new Text("存储"),
-            color: Colors.pink,
+            color: Colors.cyan,
           ),
           MaterialButton(
             onPressed: getString,
             child: new Text("获取"),
-            color: Colors.lightGreen,
+            color: Colors.deepOrange,
           ),
-          Text('shared_preferences存储的值为  $_storageString'),
-
-
+          Text('从文件存储中获取的值为  $_storageString'),
         ],
       ),
     );

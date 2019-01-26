@@ -18,6 +18,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   # 添加sharedPreference依赖
   shared_preferences: ^0.5.0
+  # 添加文件依赖
+  path_provider: ^0.5.0
   #添加网络请求依赖
   http: ^0.11.3+16
 
