@@ -3,7 +3,7 @@ import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import 'package:sqflite/sqflite.dart';
 
-class StoragePage extends StatefulWidget {
+class SqfliteStorage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => StorageState();
 }
@@ -65,7 +65,7 @@ class StorageState extends State {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('数据存储'),
+        title: new Text('Sqflite数据库存储'),
       ),
       body: new Column(
         mainAxisAlignment: MainAxisAlignment.center,

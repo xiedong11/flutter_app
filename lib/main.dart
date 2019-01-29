@@ -10,7 +10,7 @@ import 'package:flutter_app/pages/navigator/NavigatorPage.dart';
 import 'package:flutter_app/pages/ButtonPage.dart';
 import 'package:flutter_app/pages/IndexAndChosePage.dart';
 import 'package:flutter_app/pages/PlatformPage.dart';
-import 'package:flutter_app/pages/StoragePage.dart';
+import 'package:flutter_app/pages/storage/StoragePage.dart';
 
 void main() {
   runApp(new MaterialApp(home: new FlutterDemo()));
