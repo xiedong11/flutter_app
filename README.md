@@ -1,5 +1,7 @@
 # flutter_app
 **项目地址：** [Flutter进阶专栏](https://blog.csdn.net/xieluoxixi/column/info/29778)
+
+![代码预览图](https://github.com/xiedong11/flutter_app/blob/master/images/flutter_widget.gif)
 ## 什么是Flutter
 Flutter 是一个跨平台（Android 和 iOS）的移动开发框架，使用的是 Dart 语言。
 
