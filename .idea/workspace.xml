@@ -43,77 +43,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextPage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/TextPage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SharedPerferenceStorage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/storage/SharedPerferenceStorage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileStorage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/storage/FileStorage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqfliteStorage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/storage/SqfliteStorage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="577">
-                <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <first_editor relative-caret-position="728">
+                <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoragePage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/storage/StoragePage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyRaisedButton.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/view/MyRaisedButton.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -248,18 +187,19 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\flutter\flutter_app\images" />
+      <recent name="D:\workplace\flutter\flutter_app\images" />
+      <recent name="D:\workplace\flutter\flutter_app\image" />
+      <recent name="D:\workplace\flutter\flutter_app\lib\image" />
+      <recent name="D:\workplace\flutter\flutter_app\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\flutter\flutter_app\lib\pages\storage" />
       <recent name="E:\workspace\flutter\flutter_app\lib\pages" />
       <recent name="E:\workspace\flutter\flutter_app\lib\demo\widgets\TextInputAndChose" />
       <recent name="E:\workspace\flutter\flutter_app\lib\pages\navigator" />
       <recent name="D:\workplace\flutter\flutter_app\lib\platform" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workplace\flutter\flutter_app\images" />
-      <recent name="D:\workplace\flutter\flutter_app\image" />
-      <recent name="D:\workplace\flutter\flutter_app\lib\image" />
-      <recent name="D:\workplace\flutter\flutter_app\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,20 +292,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533112639523</updated>
-    </task>
-    <task id="LOCAL-00027" summary="textField and CheckBox代码">
-      <created>1541473658788</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1541473658788</updated>
-    </task>
-    <task id="LOCAL-00028" summary="添加Checkbox、switch、RadioGroup、slider代码">
-      <created>1541476174353</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1541476174353</updated>
     </task>
     <task id="LOCAL-00029" summary="添加SwitchListTitle、CheckboxListTitle、RadioListTitle代码">
       <created>1541484936916</created>
@@ -696,7 +622,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548751223474</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="添加readme文件">
+      <created>1548811754749</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1548811754750</updated>
+    </task>
+    <task id="LOCAL-00077" summary="修改readme文件">
+      <created>1548812109946</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1548812109946</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView">
@@ -709,7 +649,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988507" />
@@ -720,7 +661,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021322" side_tool="true" weight="0.32467532" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32873562" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.23444444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.23444444" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.73777777" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49755502" weight="0.31555554" />
       <window_info anchor="right" id="Flutter Outline" order="3" weight="0.3294621" />
@@ -728,7 +669,7 @@
       <window_info id="Captures" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.55017066" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -748,6 +689,7 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32873562" />
       <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.23444444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -759,22 +701,21 @@
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.32467532" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988507" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38225257" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.55017066" />
       <window_info anchor="right" id="Flutter Outline" order="6" weight="0.3294621" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.32666665" />
       <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.73777777" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49755502" weight="0.31555554" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38225257" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.24111111" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988507" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
@@ -819,7 +760,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加tooltip轻量级提示对话框" />
     <MESSAGE value="添加简单chip widget" />
     <MESSAGE value="使用Wrap包裹自定义chip布局" />
     <MESSAGE value="简单ExpansionTile使用" />
@@ -834,7 +774,6 @@
     <MESSAGE value="添加静态路由动态路由逻辑区分" />
     <MESSAGE value="添加注释文件" />
     <MESSAGE value="抽取带路由跳转的RaisedButton" />
-    <MESSAGE value="添加readme文件" />
     <MESSAGE value="添加各种对话框提示" />
     <MESSAGE value="添加各种button控件" />
     <MESSAGE value="暂存代码" />
@@ -844,7 +783,9 @@
     <MESSAGE value="sp存储" />
     <MESSAGE value="添加Sqflite存储" />
     <MESSAGE value="添加文件存储" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文件存储" />
+    <MESSAGE value="添加readme文件" />
+    <MESSAGE value="修改readme文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改readme文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1141,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/TextPage.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state />
@@ -1189,19 +1123,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/storage/SqfliteStorage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        <state relative-caret-position="1823">
+          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="577">
-            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <first_editor relative-caret-position="728">
+            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
