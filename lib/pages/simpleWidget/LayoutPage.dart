@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/layout/ColunmLayoutPage.dart';
-import 'package:flutter_app/pages/layout/AlignLayoutPage.dart';
-import 'package:flutter_app/pages/layout/CenterPage.dart';
-import 'package:flutter_app/pages/layout/ListViewPage.dart';
-import 'package:flutter_app/pages/layout/StackLayoutPage.dart';
-import 'package:flutter_app/pages/layout/OpacityPage.dart';
-import 'package:flutter_app/pages/layout/SizedBoxPage.dart';
-import 'package:flutter_app/pages/layout/PaddingLayoutPage.dart';
-import 'package:flutter_app/pages/layout/AspecRadioLayoutPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/ColunmLayoutPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/AlignLayoutPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/CenterPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/ListViewPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/StackLayoutPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/OpacityPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/SizedBoxPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/PaddingLayoutPage.dart';
+import 'package:flutter_app/pages/simpleWidget/layout/AspecRadioLayoutPage.dart';
 class LayoutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/navigator/StaticNavigatorPage.dart';
-import 'package:flutter_app/pages/navigator/StaticNavigatorPageWithParams.dart';
-import 'package:flutter_app/pages/navigator/DynamicNavigationPage.dart';
+import 'package:flutter_app/pages/simpleWidget/navigator/StaticNavigatorPage.dart';
+import 'package:flutter_app/pages/simpleWidget/navigator/StaticNavigatorPageWithParams.dart';
+import 'package:flutter_app/pages/simpleWidget/navigator/DynamicNavigationPage.dart';
 
 class NavigatorPage extends StatelessWidget {
   @override
