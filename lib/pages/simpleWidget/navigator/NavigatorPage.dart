@@ -12,7 +12,7 @@ class NavigatorPage extends StatelessWidget {
       home: MyPage(context),
       routes: <String, WidgetBuilder>{
         // 这里可以定义静态路由路径名，但是跳转的时候路由名一定要对应一直，不能传递参数，可以从下个页带回参数
-        "route/page_on_result": (_) => new StaticNavigatorPage(),
+        "route/page_no_result": (_) => new StaticNavigatorPage(),
         "route/page_with_result": (BuildContext context) =>
             new StaticNavigatorPageWithResult()
       },
@@ -56,7 +56,7 @@ class MyPage extends StatelessWidget {
             Text("静态路由", textAlign: TextAlign.center),
             new RaisedButton(
               onPressed: () {
-                Navigator.of(context).pushNamed('route/page_on_result');
+                Navigator.of(context).pushNamed('route/page_no_result');
               },
               child: new Text("静态路由无参数返回"),
             ),

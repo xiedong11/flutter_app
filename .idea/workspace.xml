@@ -18,31 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/SimpleWidgetMainPage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/ButtonPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/ButtonPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/GestureDetectorPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/GestureDetectorPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/ImagePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/ImagePage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/IndexAndChosePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/IndexAndChosePage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/LayoutPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/LayoutPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/PlatformPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/PlatformPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/TextFieldPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/TextFieldPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/TextPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/TextPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/ToastAndDialogPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/ToastAndDialogPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/AlignLayoutPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/AlignLayoutPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/AspecRadioLayoutPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/AspecRadioLayoutPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/CenterPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/CenterPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/ColunmLayoutPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/ColunmLayoutPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/ListViewPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/ListViewPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/OpacityPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/OpacityPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/PaddingLayoutPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/PaddingLayoutPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/SizedBoxPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/SizedBoxPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/layout/StackLayoutPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/layout/StackLayoutPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/navigator/DynamicNavigationPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/DynamicNavigationPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/navigator/NavigatorPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/navigator/StaticNavigatorPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/StaticNavigatorPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/navigator/StaticNavigatorPageWithParams.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/StaticNavigatorPageWithParams.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -57,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="448">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -69,70 +46,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scroll_view.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
+      <file leaf-file-name="DynamicNavigationPage.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/DynamicNavigationPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="725" column="2" selection-start-line="725" selection-start-column="2" selection-end-line="725" selection-end-column="2" />
-            </state>
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/basic.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="3981" column="2" selection-start-line="3981" selection-start-column="2" selection-end-line="3981" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoragePage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/storage/StoragePage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleWidgetMainPage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/SimpleWidgetMainPage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LayoutDemo.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/demo/widgets/layout/LayoutDemo.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LayoutPage.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/LayoutPage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigatorPage.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NavigatorPage.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="224">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticNavigatorPageWithParams.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/StaticNavigatorPageWithParams.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticNavigatorPage.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/StaticNavigatorPage.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -219,15 +165,16 @@
         <option value="$PROJECT_DIR$/lib/pages/simpleWidget/storage/StoragePage.dart" />
         <option value="$PROJECT_DIR$/lib/pages/SimpleWidgetPage.dart" />
         <option value="$PROJECT_DIR$/lib/pages/simpleWidget/LayoutPage.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart" />
         <option value="$PROJECT_DIR$/lib/pages/simpleWidget/SimpleWidgetMainPage.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1533" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -238,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,14 +201,28 @@
               <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleWidget" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,13 +343,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533112639523</updated>
-    </task>
-    <task id="LOCAL-00030" summary="添加SimpleDialog、AlertDialog、AboutDialog、BottomSheet、ModalBottomSheet代码">
-      <created>1541560634332</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1541560634332</updated>
     </task>
     <task id="LOCAL-00031" summary="添加ListView、GridView代码">
       <created>1541574658448</created>
@@ -727,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548812926278</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="调整代码分包结构">
+      <created>1549949746026</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1549949746026</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -744,28 +704,27 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021322" side_tool="true" weight="0.32467532" />
-      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32873562" />
-      <window_info anchor="right" id="Flutter Outline" order="3" weight="0.3294621" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32666665" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.55017066" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988507" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.24111111" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021322" side_tool="true" weight="0.32467532" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.23444444" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32873562" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.23444444" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.73777777" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49755502" weight="0.31555554" />
+      <window_info anchor="right" id="Flutter Outline" order="3" weight="0.3294621" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32666665" />
       <window_info id="Captures" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.55017066" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.32928804" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -773,6 +732,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24111111" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
     </layout>
@@ -851,7 +811,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加简单chip widget" />
     <MESSAGE value="使用Wrap包裹自定义chip布局" />
     <MESSAGE value="简单ExpansionTile使用" />
     <MESSAGE value="结合listView给expandTile右边按钮添加动画翻转效果" />
@@ -876,7 +835,8 @@
     <MESSAGE value="添加文件存储" />
     <MESSAGE value="添加readme文件" />
     <MESSAGE value="修改readme文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改readme文件" />
+    <MESSAGE value="调整代码分包结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整代码分包结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,27 +844,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/rendering/proxy_box.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5208">
-          <caret line="186" column="6" selection-start-line="186" selection-start-column="6" selection-end-line="186" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/demo/widgets/view/MyView3.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/demo/widgets/view/MyView.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/demo/widgets/view/MyView2.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -1126,44 +1065,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/FileStorage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/SharedPerferenceStorage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/SqfliteStorage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1823">
-          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/StoragePage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/SimpleWidgetPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/FileStorage.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/SharedPerferenceStorage.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/SqfliteStorage.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/storage/StoragePage.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/pages/SimpleWidgetPage.dart" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1197,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/SimpleWidgetMainPage.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1214,33 +1113,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/storage/StoragePage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="19908">
           <caret line="725" column="2" selection-start-line="725" selection-start-column="2" selection-end-line="725" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/basic.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="109788">
           <caret line="3981" column="2" selection-start-line="3981" selection-start-column="2" selection-end-line="3981" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/storage/StoragePage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="448">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/DynamicNavigationPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/StaticNavigatorPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/StaticNavigatorPageWithParams.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
