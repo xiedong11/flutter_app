@@ -1,5 +1,10 @@
 # flutter_app
-**项目地址：** [Flutter进阶专栏](https://blog.csdn.net/xieluoxixi/column/info/29778)
+**专栏地址：** 
+- csdn：[Flutter进阶专栏](https://blog.csdn.net/xieluoxixi/column/info/29778)
+- 简书：[Flutter进阶专栏](https://www.jianshu.com/c/06cb6b5b177f)
+- 掘金：[Flutter进阶专栏](https://juejin.im/user/5cb416cef265da03893286ea/posts)
+- hexo：[Flutter进阶专栏](https://my-flutter.github.io/)
+
 
 
 ## 什么是Flutter
