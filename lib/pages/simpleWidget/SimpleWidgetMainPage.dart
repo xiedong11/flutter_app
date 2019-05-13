@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/simpleWidget/ScaffoldPage.dart';
 import 'package:flutter_app/view/MyRaisedButton.dart';
 import 'package:flutter_app/pages/simpleWidget/TextPage.dart';
 import 'package:flutter_app/pages/simpleWidget/TextFieldPage.dart';
@@ -34,6 +35,7 @@ class SimpleWidgetMainPage extends StatelessWidget {
             MyRaisedButton(new ToastAndDialogPage(), "ToastAndDialogPage"),
             MyRaisedButton(new ButtonPage(), "Button 控件"),
             MyRaisedButton(new IndexAndChosePage(), "IndexAndChose 控件"),
+            MyRaisedButton(new ScaffoldPage(), "Scaffold 脚手架"),
             MyRaisedButton(new PaltformPage(), "交互原生"),
           ],
         ),
