@@ -46,12 +46,22 @@ class PageState extends State<ScaffoldPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //https://blog.csdn.net/hnnd123/article/details/82735502
+//        https://blog.csdn.net/hnnd123/article/details/82735502
       appBar: AppBar(
+//          leading: Icon(Icons.account_balance),  //添加leading之后需要重写点击事件唤起抽屉菜单
           title: Text("Scaffold 脚手架"),
           centerTitle: true,
           actions: <Widget>[
-            IconButton(icon: Icon(Icons.add), onPressed: () {}),
+            IconButton(icon: Icon(Icons.message), onPressed: () {}),
+            PopupMenuButton(
+                onSelected: (String value) {
+                  print('-----------------$value');
+                },
+                itemBuilder: (BuildContext context) => [
+                      new PopupMenuItem(value: "选项一的内容", child: new Text("选项一")),
+                      new PopupMenuItem(value: "选项二的内容", child: new Text("选项二")),
+                      new PopupMenuItem(value: "选项三的内容", child: new Text("选项三")),
+                    ])
           ],
           bottom: TabBar(
             controller: _tabController,
