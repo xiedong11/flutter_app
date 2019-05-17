@@ -58,9 +58,12 @@ class PageState extends State<ScaffoldPage>
                   print('-----------------$value');
                 },
                 itemBuilder: (BuildContext context) => [
-                      new PopupMenuItem(value: "选项一的内容", child: new Text("选项一")),
-                      new PopupMenuItem(value: "选项二的内容", child: new Text("选项二")),
-                      new PopupMenuItem(value: "选项三的内容", child: new Text("选项三")),
+                      new PopupMenuItem(
+                          value: "选项一的内容", child: new Text("选项一")),
+                      new PopupMenuItem(
+                          value: "选项二的内容", child: new Text("选项二")),
+                      new PopupMenuItem(
+                          value: "选项三的内容", child: new Text("选项三")),
                     ])
           ],
           bottom: TabBar(
@@ -96,12 +99,28 @@ class PageState extends State<ScaffoldPage>
         fixedColor: Colors.blue,
         onTap: (index) => _onBottomTabChange(index),
       ),
+
+//      //与FloatingActionButton配合实现"打洞"效果
+//      bottomNavigationBar: BottomAppBar(
+//        color: Colors.white,
+//        shape: CircularNotchedRectangle(), // 底部导航栏打一个圆形的洞
+//        child: Row(
+//          children: [
+//            Tab(text: "首页", icon: Icon(Icons.home)),
+//            Tab(text: "消息", icon: Icon(Icons.message)),
+//            Tab(text: "动态", icon: Icon(Icons.add_a_photo)),
+//            Tab(text: "我的", icon: Icon(Icons.person)),
+//
+//          ],
+//          mainAxisAlignment: MainAxisAlignment.spaceAround, //均分底部导航栏横向空间
+//        ),
+//      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _onFabClick,
         child: Icon(Icons.add),
       ),
       floatingActionButtonLocation:
-          FloatingActionButtonLocation.endFloat, //设置FloatingActionButton的位置
+          FloatingActionButtonLocation.centerDocked, //设置FloatingActionButton的位置
     );
   }
 }
