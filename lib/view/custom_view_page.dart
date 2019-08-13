@@ -29,7 +29,8 @@ class CustomViewPage extends StatelessWidget {
             ),
 //            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomLeft,)
 //            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomLeft,)
-            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomRight,)
+            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomRight,),
+            CommonLabelView(size: Size(300, 50),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomRight,)
           ],
         ));
   }

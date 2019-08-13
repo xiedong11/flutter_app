@@ -72,10 +72,10 @@ class LabelViewPainter extends CustomPainter {
         break;
 
       case LabelAlignment.bottomRight:
-        path.lineTo(drawSize, size.height);
+        path.lineTo(size.width-drawSize, size.height);
         path.lineTo(size.width, size.height);
         path.lineTo(size.width, size.height - drawSize);
-        path.lineTo(drawSize, size.height);
+        path.lineTo(size.width-drawSize, size.height);
         break;
     }
     path.close();
