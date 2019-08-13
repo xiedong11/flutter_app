@@ -9,9 +9,16 @@ class CommonLabelViewWithAngle extends StatefulWidget {
   final Color labelColor;
   final labelAlignment;
   final bool withAngle;
+  final String labelText;
+  final TextStyle textStyle;
 
   CommonLabelViewWithAngle(
-      {this.size, this.labelColor, this.labelAlignment, this.withAngle});
+      {this.size,
+      this.labelColor,
+      this.labelAlignment,
+      this.withAngle,
+      this.labelText = "hot",
+      this.textStyle});
 
   @override
   State<StatefulWidget> createState() {
@@ -20,13 +27,59 @@ class CommonLabelViewWithAngle extends StatefulWidget {
 }
 
 class ViewState extends State<CommonLabelViewWithAngle> {
+  static final double PI = 3.1415926;
+  var textAngle;
+  var textAlignment;
+
+  var offset;
+
   @override
   Widget build(BuildContext context) {
+    var offsetX = widget.size.width > widget.size.height
+        ? widget.size.height / 4.5
+        : widget.size.width / 4.5;
+
+    switch (widget.labelAlignment) {
+      case LabelAlignment.topLeft:
+        offset = Offset(offsetX, 0);
+        textAlignment = Alignment.topLeft;
+        textAngle = -PI / 4;
+        break;
+      case LabelAlignment.topRight:
+        offset = Offset(-offsetX, 0);
+        textAlignment = Alignment.topRight;
+        textAngle = PI / 4;
+        break;
+      case LabelAlignment.bottomLeft:
+        offset = Offset(offsetX, 0);
+        textAlignment = Alignment.bottomLeft;
+        textAngle = PI / 4;
+        break;
+      case LabelAlignment.bottomRight:
+        offset = Offset(-offsetX, 0);
+        textAlignment = Alignment.bottomRight;
+        textAngle = -PI / 4;
+        break;
+    }
+
     return Container(
       width: widget.size.width,
       height: widget.size.height,
       color: Colors.grey,
       child: CustomPaint(
+        child: Align(
+          alignment: Alignment.topRight,
+          child: Transform.rotate(
+            angle: textAngle,
+            child: Text(
+              widget.labelText,
+              style: widget.textStyle == null
+                  ? TextStyle(color: Colors.white)
+                  : widget.textStyle,
+            ),
+            origin: offset,
+          ),
+        ),
         size: widget.size,
         painter: LabelViewPainter(
             labelColor: widget.labelColor,
