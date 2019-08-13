@@ -16,16 +16,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="调整分包，Sliver单独成一个页">
-      <change afterPath="$PROJECT_DIR$/lib/view/custom_view_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/view/customview/label_view_bottom_left.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/view/customview/label_view_bottom_right.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/view/customview/label_view_top_left.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/view/customview/label_view_top_right.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="添加自定义labelView绘制">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view/custom_view_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/custom_view_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view/customview/common_label_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/customview/common_label_view.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -39,14 +33,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/view/custom_view_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="672">
+              <caret line="31" column="114" selection-start-line="31" selection-start-column="114" selection-end-line="31" selection-end-column="114" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/view/customview/common_label_view.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -144,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/pages/navigator/NavigatorPage.dart" />
         <option value="$PROJECT_DIR$/lib/view/MyRaisedButton.java" />
         <option value="$PROJECT_DIR$/lib/view/MyRaisedButton.dart" />
         <option value="$PROJECT_DIR$/lib/pages/ToastAndDialogPage.dart" />
@@ -195,6 +197,7 @@
         <option value="$PROJECT_DIR$/lib/view/customview/label_view_bottom_left.dart" />
         <option value="$PROJECT_DIR$/lib/view/customview/label_view_bottom_right.dart" />
         <option value="$PROJECT_DIR$/lib/view/custom_view_page.dart" />
+        <option value="$PROJECT_DIR$/lib/view/customview/common_label_view.dart" />
       </list>
     </option>
   </component>
@@ -372,13 +375,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533112639523</updated>
-    </task>
-    <task id="LOCAL-00040" summary="添加reademe文件">
-      <created>1543280268431</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1543280268431</updated>
     </task>
     <task id="LOCAL-00041" summary="添加基本动画">
       <created>1543290097645</created>
@@ -716,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565609291415</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="添加自定义labelView绘制">
+      <created>1565660898882</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1565660898882</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TodoView">
@@ -852,7 +855,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加GestureDetector" />
     <MESSAGE value="解决命名冲突" />
     <MESSAGE value="定义路由的两种写法" />
     <MESSAGE value="添加静态路由动态路由逻辑区分" />
@@ -877,16 +879,10 @@
     <MESSAGE value="添加SliverAppBar" />
     <MESSAGE value="Scaffold脚手架代码" />
     <MESSAGE value="调整分包，Sliver单独成一个页" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整分包，Sliver单独成一个页" />
+    <MESSAGE value="添加自定义labelView绘制" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加自定义labelView绘制" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/demo/widgets/ListAndGridView/ListView1.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/demo/widgets/ListAndGridView/GridViewDemo2.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1213,13 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/customview/label_view_top_right.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/view/customview/label_view_bottom_left.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1241,13 +1230,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/customview/label_view_top_right.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/view/custom_view_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="672">
+          <caret line="31" column="114" selection-start-line="31" selection-start-column="114" selection-end-line="31" selection-end-column="114" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/customview/common_label_view.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
     </entry>

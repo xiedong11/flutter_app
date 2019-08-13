@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/view/customview/label_view_top_left.dart';
 import 'package:flutter_app/view/customview/label_view_top_right.dart';
 
+import 'customview/common_label_view.dart';
 import 'customview/label_view_bottom_left.dart';
 import 'customview/label_view_bottom_right.dart';
 
@@ -26,6 +27,9 @@ class CustomViewPage extends StatelessWidget {
             CustomPaint(
               painter: LabelViewBottomRight(),
             ),
+//            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomLeft,)
+//            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomLeft,)
+            CommonLabelView(size: Size(100, 400),labelColor: Colors.red,labelAlignment: LabelAlignment.bottomRight,)
           ],
         ));
   }
