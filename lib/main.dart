@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/network/net_work_page.dart';
 import 'package:flutter_app/view/MyRaisedButton.dart';
 import 'package:flutter_app/pages/simpleWidget/SimpleWidgetMainPage.dart';
 import 'package:flutter_app/pages/storage/StoragePage.dart';
@@ -23,6 +24,7 @@ class FlutterDemo extends StatelessWidget {
             MyRaisedButton(new SimpleWidgetMainPage(), "基础Widget部分"),
             MyRaisedButton(new StoragePage(), "数据存储"),
             MyRaisedButton(new CustomViewPage(), "自定义View"),
+            MyRaisedButton(new NetWorkPage(), "网络请求"),
           ],
         ),
       ),

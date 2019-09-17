@@ -24,6 +24,7 @@ dependencies:
   sqflite: ^1.0.0
   #添加网络请求依赖
   http: ^0.11.3+16
+  dio : 2.1.7
 
 dev_dependencies:
   flutter_test:
