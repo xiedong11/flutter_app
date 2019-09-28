@@ -61,6 +61,7 @@ class DioUtils {
 
   get(url, {data, options}) async {
     print('get request path ------${url}-------请求参数${data}');
+    print('------------');
     Response response;
     try {
       response = await _dio.get(url, queryParameters: data, options: options);
