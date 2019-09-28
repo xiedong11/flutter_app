@@ -1,12 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/network/utils/dio_utils.dart';
 
 class NetWorkPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => SimpleRequestState();
 }
 
-class RequestUtilState extends State<NetWorkPage>{
+class RequestUtilState extends State<NetWorkPage> {
   var resultJson = "";
 
   @override
@@ -15,24 +16,25 @@ class RequestUtilState extends State<NetWorkPage>{
   }
 
   getRequest() async {
-    Response response = await Dio()
-        .get('https://www.wanandroid.com/banner/json');
+    var data = {
+      "cid": 60
+    };
+    RequestOptions options = new RequestOptions(baseUrl: "http://www.test.com/");
+    String result = await DioUtils().get('/article/list/0/json', data: data,options: options);
     this.setState(() {
-      resultJson = response.toString();
+      resultJson = result;
     });
   }
 
   postRequest() async {
-    var path = "https://www.wanandroid.com/user/register";
     var params = {
       "username": "aa112233",
       "password": "123456",
       "repassword": "123456"
     };
-    Response response =
-    await Dio().post(path, queryParameters: params);
+    String result = await DioUtils().post("/user/register",data: params);
     this.setState(() {
-      resultJson = response.toString();
+      resultJson = result;
     });
   }
 
@@ -59,23 +61,21 @@ class RequestUtilState extends State<NetWorkPage>{
               }),
           Expanded(
               child: Padding(
-                padding: EdgeInsets.all(20),
-                child: Center(
-                  child: resultJson.length <= 0
-                      ? Text("数据加载中...")
-                      : Text(
-                    resultJson,
-                    style: TextStyle(fontSize: 16),
-                  ),
-                ),
-              ))
+            padding: EdgeInsets.all(20),
+            child: Center(
+              child: resultJson.length <= 0
+                  ? Text("数据加载中...")
+                  : Text(
+                      resultJson,
+                      style: TextStyle(fontSize: 16),
+                    ),
+            ),
+          ))
         ],
       ),
     );
   }
-
 }
-
 
 class SimpleRequestState extends State<NetWorkPage> {
   var resultJson = "";
@@ -86,8 +86,8 @@ class SimpleRequestState extends State<NetWorkPage> {
   }
 
   getRequest() async {
-    Response response = await Dio()
-        .get('https://www.wanandroid.com/banner/json');
+    Response response =
+        await Dio().get('https://www.wanandroid.com/banner/json');
     this.setState(() {
       resultJson = response.toString();
     });
@@ -100,8 +100,7 @@ class SimpleRequestState extends State<NetWorkPage> {
       "password": "123456",
       "repassword": "123456"
     };
-    Response response =
-        await Dio().post(path, queryParameters: params);
+    Response response = await Dio().post(path, queryParameters: params);
     this.setState(() {
       resultJson = response.toString();
     });

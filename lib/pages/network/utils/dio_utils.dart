@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 
 class DioUtils {
-  static final String BASE_URL = "https://api.github.com"; //base url
+  static final String BASE_URL = "https://www.wanandroid.com"; //base url
   static DioUtils _instance;
   Dio _dio;
   BaseOptions _baseOptions;
@@ -59,17 +59,30 @@ class DioUtils {
    * get请求
    */
 
-  get(url, {data, options, cancleToken}) async {
+  get(url, {data, options}) async {
     print('get request path ------${url}-------请求参数${data}');
     Response response;
     try {
-      response = await _dio.get(url,
-          queryParameters: data, options: options, cancelToken: cancleToken);
-      print('get success ---${response.data}');
+      response = await _dio.get(url, queryParameters: data, options: options);
+      print('get result ---${response.data}');
     } on DioError catch (e) {
-      print('请求失败---错误类型${e.type}');
+      print('请求失败---错误类型${e.type}--错误信息${e.message}');
     }
 
     return response.data;
+  }
+
+  /**
+   * Post请求
+   */
+  post(url, {data, options}) async {
+    print('post request path ------${url}-------请求参数${data}');
+    Response response;
+    try {
+      response = await _dio.post(url, queryParameters: data, options: options);
+      print('post result ---${response.data}');
+    }on DioError catch(e){
+      print('请求失败---错误类型${e.type}--错误信息${e.message}');
+    }
   }
 }
