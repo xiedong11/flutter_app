@@ -4,7 +4,7 @@ import 'package:flutter_app/pages/network/utils/dio_utils.dart';
 
 class NetWorkPage extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => SimpleRequestState();
+  State<StatefulWidget> createState() => RequestUtilState();
 }
 
 class RequestUtilState extends State<NetWorkPage> {
@@ -16,11 +16,10 @@ class RequestUtilState extends State<NetWorkPage> {
   }
 
   getRequest() async {
-    var data = {
-      "cid": 60
-    };
-    RequestOptions options = new RequestOptions(baseUrl: "http://www.test.com/");
-    String result = await DioUtils().get('/article/list/0/json', data: data,options: options);
+    var data = {"cid": 60};
+    RequestOptions requestOptions = new RequestOptions(headers: {"testHeader":"aaaa"});
+    String result = await DioUtils()
+        .get('/article/list/0/json', data: data,options: requestOptions);
     this.setState(() {
       resultJson = result;
     });
@@ -32,7 +31,7 @@ class RequestUtilState extends State<NetWorkPage> {
       "password": "123456",
       "repassword": "123456"
     };
-    String result = await DioUtils().post("/user/register",data: params);
+    String result = await DioUtils().post("/user/register", data: params);
     this.setState(() {
       resultJson = result;
     });
