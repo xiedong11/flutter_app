@@ -65,6 +65,16 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    sourceSets{
+        main{
+            if (isLibrary){
+                manifest.srcFile 'src/main/lib/AndroidManifest.xml'
+            }else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+            }
+        }
+    }
 }
 
 flutter {
