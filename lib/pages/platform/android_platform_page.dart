@@ -15,12 +15,38 @@ class AndroidPlatformPage extends StatefulWidget {
 }
 
 class PageState extends State<AndroidPlatformPage> {
+  static final String METHOD_CHANNEL = "com.zhuandian.flutter/android";
+  static final String EVENT_CHANNEL = "com.zhuandian.flutter/android/event";
+  static final String NATIVE_SHOW_TOAST =
+      "showToast"; //原生android平台定义的供flutter端唤起的方法名
+  static final String NATIVE_METHOD_ADD =
+      "numberAdd"; //原生android平台定义的供flutter端唤起的方法名
 
-  static final String CHANNEL = "com.zhuandian.flutter/android";
-  static final String SHOW_NATIVE_TOAST = "showToast"; //原生android平台定义的供flutter端唤起的方法名
-  static final String NATIVE_METHOD_ADD = "numberAdd"; //原生android平台定义的供flutter端唤起的方法名
+  static final String NATIVE_SEND_MESSAGE_TO_FLUTTER =
+      "nativeSendMessage2Flutter"; //原生主动向flutter发送消息
 
-  static final MethodChannel _MethodChannel = MethodChannel(CHANNEL); //平台交互通道
+  static final MethodChannel _MethodChannel =
+      MethodChannel(METHOD_CHANNEL); //平台交互通道
+  static final EventChannel _EventChannel =
+      EventChannel(EVENT_CHANNEL); //原生平台主动调用flutter端事件通道
+
+  String _fromNativeInfo = "";
+
+  @override
+  void initState() {
+    super.initState();
+    _EventChannel.receiveBroadcastStream().listen(_onEvent, onError: _onErroe);
+  }
+
+  void _onEvent(Object object) {
+    print(object.toString() + "-------------从原生主动传递过来的值");
+    setState(() {
+      _fromNativeInfo = object.toString();
+    });
+  }
+
+  void _onErroe(Object object) {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,18 +58,28 @@ class PageState extends State<AndroidPlatformPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+          Text("从原生平台主动传递回来的值"),
+          RaisedButton(
+            color: Colors.orangeAccent,
+            child: Text("点击调用原生主动向flutter发消息方法"),
+            onPressed: () {
+             _MethodChannel.invokeMethod(NATIVE_SEND_MESSAGE_TO_FLUTTER);
+            },
+          ),
+          Text(_fromNativeInfo),
+          SizedBox(height: 30),
           RaisedButton(
             color: Colors.orangeAccent,
             child: Text("调用原生平台Toast"),
-            onPressed: (){
+            onPressed: () {
               showNativeToast("flutter调用原生android的Toast");
             },
           ),
           RaisedButton(
             color: Colors.orangeAccent,
             child: Text("计算两个数的和"),
-            onPressed: (){
-              getNumberResult(25,36);
+            onPressed: () {
+              getNumberResult(25, 36);
             },
           )
         ],
@@ -52,19 +88,16 @@ class PageState extends State<AndroidPlatformPage> {
   }
 
   void showNativeToast(String content) {
-    _MethodChannel.invokeMethod(SHOW_NATIVE_TOAST,{"msg":content});
+    _MethodChannel.invokeMethod(NATIVE_SHOW_TOAST, {"msg": content});
   }
 
   /**
    * 调用平台方法计算两个数的和，并调用原生toast打印出结果
    */
   void getNumberResult(int i, int j) async {
-    Map<String,dynamic> map = {
-      "number1":12,
-      "number2":43
-    };
-    int result = await _MethodChannel.invokeMethod(NATIVE_METHOD_ADD,map);
+    Map<String, dynamic> map = {"number1": 12, "number2": 43};
+    int result = await _MethodChannel.invokeMethod(NATIVE_METHOD_ADD, map);
 
-    _MethodChannel.invokeMethod(SHOW_NATIVE_TOAST,{"msg":"12+43= $result"});
+    _MethodChannel.invokeMethod(NATIVE_SHOW_TOAST, {"msg": "12+43= $result"});
   }
 }

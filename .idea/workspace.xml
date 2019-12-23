@@ -6,7 +6,6 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="请求参数" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
@@ -17,12 +16,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="flutter_calc_plugin添加github引入方式">
-      <change afterPath="$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/platform/platform_page.dart" afterDir="false" />
+    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="原生平台增加加法运算功能给flutter端调用">
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/plugin/FlutterPluginBatteryLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/zhuandian/flutterapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -43,8 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="-253">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -91,11 +88,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+            <state relative-caret-position="477">
+              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="858" column="2" selection-start-line="858" selection-start-column="2" selection-end-line="858" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/text.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/flutter-sdk/flutter/bin/cache/pkg/sky_engine/lib/async/stream.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="434" column="24" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -113,32 +137,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/GestureDetectorPage.dart">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugin/flutter_calc_plugin/lib/flutter_calc_plugin.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/sliverWidget/SliverAppBarPage.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -251,10 +249,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="35" />
+    <option name="x" value="711" />
+    <option name="y" value="23" />
     <option name="width" value="1467" />
-    <option name="height" value="1233" />
+    <option name="height" value="1336" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -444,20 +442,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533112639523</updated>
-    </task>
-    <task id="LOCAL-00051" summary="折叠view">
-      <created>1545039517490</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1545039517494</updated>
-    </task>
-    <task id="LOCAL-00052" summary="添加可折叠ExpansionPanelList">
-      <created>1545042169513</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1545042169513</updated>
     </task>
     <task id="LOCAL-00053" summary="调整项目分包，添加部分简单控件">
       <created>1545704761533</created>
@@ -788,7 +772,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577070559456</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="添加平台交互方法">
+      <created>1577083570821</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1577083570821</updated>
+    </task>
+    <task id="LOCAL-00101" summary="原生平台增加加法运算功能给flutter端调用">
+      <created>1577084593964</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1577084593964</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TodoView">
@@ -801,7 +799,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1191" y="32" width="1467" height="1233" extended-state="0" />
+    <frame x="711" y="23" width="1467" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" weight="0.26616192" />
@@ -815,7 +813,7 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793956" visible="true" weight="0.44785276" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49793956" visible="true" weight="0.44292605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -823,7 +821,7 @@
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32850778" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" weight="0.32467532" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18596882" />
-      <window_info anchor="bottom" id="Logcat" order="10" weight="0.56681514" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.42363343" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49755502" weight="0.40841368" />
       <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flutter Performance" order="13" sideWeight="0.5020604" side_tool="true" weight="0.2955056" />
@@ -834,7 +832,7 @@
       <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.3290623" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.55017066" />
-      <window_info anchor="right" id="Flutter Outline" order="6" visible="true" weight="0.31368423" />
+      <window_info anchor="right" id="Flutter Outline" order="6" weight="0.31368423" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Preview" order="9" weight="0.32964474" />
@@ -925,8 +923,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加Json序列化跟翻序列化代码" />
-    <MESSAGE value="sp存储" />
     <MESSAGE value="添加Sqflite存储" />
     <MESSAGE value="添加文件存储" />
     <MESSAGE value="添加readme文件" />
@@ -950,30 +946,11 @@
     <MESSAGE value="配置工程可作为aar library" />
     <MESSAGE value="添加flutter_calc_plugin插件部分代码，引入本地插件依赖" />
     <MESSAGE value="flutter_calc_plugin添加github引入方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="flutter_calc_plugin添加github引入方式" />
+    <MESSAGE value="添加平台交互方法" />
+    <MESSAGE value="原生平台增加加法运算功能给flutter端调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="原生平台增加加法运算功能给flutter端调用" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/ButtonPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/navigator/NavigatorPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/ToastAndDialogPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6104">
-          <caret line="218" column="16" selection-start-line="218" selection-start-column="16" selection-end-line="218" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/demo/widgets/statefulwidget/NumberCount.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1224,16 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1263,10 +1230,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter-sdk/flutter/bin/cache/pkg/sky_engine/lib/async/stream.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="434" column="24" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/text.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="858" column="2" selection-start-line="858" selection-start-column="2" selection-end-line="858" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        <state relative-caret-position="477">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
