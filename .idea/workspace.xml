@@ -17,113 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="配置工程可作为aar library">
-      <change afterPath="$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/libraries/Flutter_for_Android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/src/main/kotlin/com/example/flutter_calc_plugin/FlutterCalcPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/android/src/main/kotlin/com/example/flutter_calc_plugin/MyPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/kotlin/com/example/flutter_calc_plugin_example/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/example/test/widget_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/flutter_calc_plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/ios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/ios/Assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/ios/Classes/FlutterCalcPlugin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/ios/Classes/FlutterCalcPlugin.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/ios/Classes/SwiftFlutterCalcPlugin.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/ios/flutter_calc_plugin.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/lib/flutter_calc_plugin.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/flutter_calc_plugin/test/flutter_calc_plugin_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="添加flutter_calc_plugin插件部分代码，引入本地插件依赖">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
@@ -154,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+            <state relative-caret-position="64">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -192,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="946">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -205,9 +101,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.pub-cache/git/flutter_calc_plugin-4189b97fe068a8cd93f8d10f3cef24395b6990d8/lib/flutter_calc_plugin.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin/flutter_calc_plugin/lib/flutter_calc_plugin.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="88">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -331,9 +237,9 @@
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/lib/pages/network/net_work_page.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
       </list>
     </option>
   </component>
@@ -370,6 +276,38 @@
               <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Dart Packages" type="3dd79eb:DartTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Flutter Plugins" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -482,13 +420,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533112639523</updated>
-    </task>
-    <task id="LOCAL-00049" summary="简单ExpansionTile使用">
-      <created>1544925650962</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1544925650962</updated>
     </task>
     <task id="LOCAL-00050" summary="结合listView给expandTile右边按钮添加动画翻转效果">
       <created>1544927216605</created>
@@ -826,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572434519264</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="添加flutter_calc_plugin插件部分代码，引入本地插件依赖">
+      <created>1577070037012</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1577070037012</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TodoView">
@@ -963,7 +901,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加自定义view代码" />
     <MESSAGE value="修改部分代码" />
     <MESSAGE value="添加Json序列化跟翻序列化代码" />
     <MESSAGE value="sp存储" />
@@ -988,10 +925,10 @@
     <MESSAGE value="封装dio工具类" />
     <MESSAGE value="升级项目支持Android x" />
     <MESSAGE value="配置工程可作为aar library" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置工程可作为aar library" />
+    <MESSAGE value="添加flutter_calc_plugin插件部分代码，引入本地插件依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加flutter_calc_plugin插件部分代码，引入本地插件依赖" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/widgets/preferred_size.dart" />
     <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/app_bar.dart" />
     <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/widgets/sliver.dart" />
     <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/sliverWidget/SliverPage.dart">
@@ -1255,25 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/flutter_calc_plugin/lib/flutter_calc_plugin.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/simpleWidget/sliverWidget/SliverAppBarPage.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
@@ -1284,10 +1202,37 @@
     <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/git/flutter_calc_plugin-4189b97fe068a8cd93f8d10f3cef24395b6990d8/lib/flutter_calc_plugin.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+        <state relative-caret-position="64">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/flutter_calc_plugin/lib/flutter_calc_plugin.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
