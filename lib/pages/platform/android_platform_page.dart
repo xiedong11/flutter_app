@@ -51,7 +51,7 @@ class PageState extends State<AndroidPlatformPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("交互平台"),
+        title: Text("平台交互"),
         centerTitle: true,
       ),
       body: Column(
@@ -59,14 +59,15 @@ class PageState extends State<AndroidPlatformPage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Text("从原生平台主动传递回来的值"),
+          Text(_fromNativeInfo),
           RaisedButton(
             color: Colors.orangeAccent,
             child: Text("点击调用原生主动向flutter发消息方法"),
             onPressed: () {
-             _MethodChannel.invokeMethod(NATIVE_SEND_MESSAGE_TO_FLUTTER);
+              _MethodChannel.invokeMethod(NATIVE_SEND_MESSAGE_TO_FLUTTER);
             },
           ),
-          Text(_fromNativeInfo),
+
           SizedBox(height: 30),
           RaisedButton(
             color: Colors.orangeAccent,
@@ -80,6 +81,13 @@ class PageState extends State<AndroidPlatformPage> {
             child: Text("计算两个数的和"),
             onPressed: () {
               getNumberResult(25, 36);
+            },
+          ),
+          RaisedButton(
+            color: Colors.orangeAccent,
+            child: Text("打开原生androd页面"),
+            onPressed: () {
+              _MethodChannel.invokeMethod("new_page");
             },
           )
         ],

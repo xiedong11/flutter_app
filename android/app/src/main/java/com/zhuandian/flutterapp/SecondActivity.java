@@ -16,7 +16,7 @@ public class SecondActivity extends Activity {
         findViewById(R.id.btn_flutter).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SecondActivity.this, MainActivity.class));
+                finish();
             }
         });
 
