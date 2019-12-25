@@ -36,8 +36,34 @@ class PageState extends State<AndroidPlatformPage> {
   void initState() {
     super.initState();
     _EventChannel.receiveBroadcastStream().listen(_onEvent, onError: _onErroe);
+    _MethodChannel.setMethodCallHandler(nativeCallHandler);
+//    _MethodChannel.setMethodCallHandler((methodCall) async{
+//      switch (methodCall.method) {
+//      case "getFlutterResult":
+//        String paramsFromNative = await methodCall.arguments["params"];
+//        print("原生android传递过来的参数为------ $paramsFromNative");
+//        return "result from flutter";
+//        break;
+//    }
+//    });
   }
 
+  /**
+   * 注册方法，等待被原生通过invokeMethod唤起
+   */
+  Future<dynamic> nativeCallHandler(MethodCall methodCall) async {
+    switch (methodCall.method) {
+      case "getFlutterResult":
+        String paramsFromNative = await methodCall.arguments["params"];
+        print("原生android传递过来的参数为------ $paramsFromNative");
+        return "result from flutter";
+        break;
+    }
+  }
+
+  /**
+   * 监听原生传递回来的值（通过eventChannel）
+   */
   void _onEvent(Object object) {
     print(object.toString() + "-------------从原生主动传递过来的值");
     setState(() {
@@ -45,7 +71,9 @@ class PageState extends State<AndroidPlatformPage> {
     });
   }
 
-  void _onErroe(Object object) {}
+  void _onErroe(Object object) {
+    print(object.toString() + "-------------从原生主动传递过来的值");
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +95,6 @@ class PageState extends State<AndroidPlatformPage> {
               _MethodChannel.invokeMethod(NATIVE_SEND_MESSAGE_TO_FLUTTER);
             },
           ),
-
           SizedBox(height: 30),
           RaisedButton(
             color: Colors.orangeAccent,
