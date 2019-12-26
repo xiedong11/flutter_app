@@ -1,37 +1,57 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/network/net_work_page.dart';
 import 'package:flutter_app/pages/platform/platform_page.dart';
+import 'package:flutter_app/pages/redux/redux_first_page.dart';
+import 'package:flutter_app/pages/redux/redux_state.dart';
 import 'package:flutter_app/view/MyRaisedButton.dart';
 import 'package:flutter_app/pages/simpleWidget/SimpleWidgetMainPage.dart';
 import 'package:flutter_app/pages/storage/StoragePage.dart';
 import 'package:flutter_app/view/custom_view_page.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
+import 'package:redux/redux.dart';
 
 void main() {
-  runApp(new MaterialApp(home: new FlutterDemo()));
+  final store =
+      Store<ReduxState>(getReduce, initialState: ReduxState.initState());
+
+  runApp(new FlutterDemo(store));
 }
 
 class FlutterDemo extends StatelessWidget {
+  final Store<ReduxState> store;
+
+  FlutterDemo(this.store);
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Flutter进阶之旅"),
-      ),
-      body: new Center(
-        child: new Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            MyRaisedButton(new SimpleWidgetMainPage(), "基础Widget部分"),
-            MyRaisedButton(new StoragePage(), "数据存储"),
-            MyRaisedButton(new CustomViewPage(), "自定义View"),
-            MyRaisedButton(new NetWorkPage(), "网络请求"),
-            MyRaisedButton(new PlatformPage(), "平台调用"),
-          ],
-        ),
-      ),
+    return StoreProvider(
+      //StoreProvider的节点下必须是MaterialApp作为根布局，否则在StoreBuilder中无非完成状态管理
+      store: store,
+      child: StoreBuilder<ReduxState>(
+          builder: (BuildContext context, Store<ReduxState> store) {
+        return MaterialApp(
+          home: Scaffold(
+            appBar: new AppBar(
+              title: new Text("Flutter进阶之旅"),
+            ),
+            body: new Center(
+              child: new Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  MyRaisedButton(new SimpleWidgetMainPage(), "基础Widget部分"),
+                  MyRaisedButton(new StoragePage(), "数据存储"),
+                  MyRaisedButton(new CustomViewPage(), "自定义View"),
+                  MyRaisedButton(new NetWorkPage(), "网络请求"),
+                  MyRaisedButton(new PlatformPage(), "平台调用"),
+                  MyRaisedButton(new ReduxFirstPage(), "Redux状态管理"),
+                ],
+              ),
+            ),
+          ),
+        );
+      }),
     );
   }
 }
