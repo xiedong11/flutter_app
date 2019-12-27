@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/network/net_work_page.dart';
 import 'package:flutter_app/pages/platform/platform_page.dart';
-import 'package:flutter_app/pages/redux/redux_first_page.dart';
-import 'package:flutter_app/pages/redux/redux_state.dart';
+import 'package:flutter_app/pages/stateManage/redux/redux_state.dart';
+import 'package:flutter_app/pages/stateManage/state_manage.dart';
 import 'package:flutter_app/view/MyRaisedButton.dart';
 import 'package:flutter_app/pages/simpleWidget/SimpleWidgetMainPage.dart';
 import 'package:flutter_app/pages/storage/StoragePage.dart';
@@ -45,7 +45,7 @@ class FlutterDemo extends StatelessWidget {
                   MyRaisedButton(new CustomViewPage(), "自定义View"),
                   MyRaisedButton(new NetWorkPage(), "网络请求"),
                   MyRaisedButton(new PlatformPage(), "平台调用"),
-                  MyRaisedButton(new ReduxFirstPage(), "Redux状态管理"),
+                  MyRaisedButton(new StateManage(), "状态管理"),
                 ],
               ),
             ),

@@ -1,4 +1,6 @@
-import 'package:flutter_app/pages/redux/action.dart';
+
+
+import 'package:flutter_app/pages/stateManage/redux/action.dart';
 
 /// 定义一个state
 class ReduxState {

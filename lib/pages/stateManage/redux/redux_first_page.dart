@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/redux/redux_second_page.dart';
-import 'package:flutter_app/pages/redux/redux_state.dart';
+import 'package:flutter_app/pages/stateManage/redux/redux_second_page.dart';
+import 'package:flutter_app/pages/stateManage/redux/redux_state.dart';
+
 import 'package:flutter_redux/flutter_redux.dart';
 
 import 'package:redux/redux.dart';
