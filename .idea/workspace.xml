@@ -6,7 +6,6 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="--" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
@@ -17,14 +16,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="添加flutter_redux状态管理">
-      <change afterPath="$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart" afterDir="false" />
+    <list default="true" id="d8deab69-7b85-4a87-91ea-dd3133f8b4ea" name="Default" comment="调整分包">
+      <change afterPath="$PROJECT_DIR$/lib/pages/stateManage/BLoC/bloc_state_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/stateManage/callback/call_back_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/redux/action.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/stateManage/redux/action.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/redux/redux_first_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/stateManage/redux/redux_first_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/redux/redux_second_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/stateManage/redux/redux_second_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/redux/redux_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/stateManage/redux/redux_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -43,40 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_state.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_second_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/services/platform_channel.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="97" selection-start-line="97" selection-end-line="98" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="6534">
+              <caret line="306" column="65" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -84,35 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/view/MyRaisedButton.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/binding.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18128">
-              <caret line="842" column="5" selection-start-line="842" selection-start-column="5" selection-end-line="842" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_first_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            <state relative-caret-position="418">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -121,19 +62,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/material/page.dart">
+        <entry file="file://$PROJECT_DIR$/lib/view/MyRaisedButton.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+            <state relative-caret-position="103">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/callback/call_back_page.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_redux-0.6.0/lib/flutter_redux.dart">
+        <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/BLoC/bloc_state_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7964">
-              <caret line="366" column="8" selection-start-line="366" selection-start-column="8" selection-end-line="366" selection-end-column="8" />
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1298">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -193,9 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/pages/storage/SharedPerferenceStorage.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/storage/SqfliteStorage.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/LayoutPage.dart" />
         <option value="$PROJECT_DIR$/lib/pages/simpleWidget/storage/StoragePage.dart" />
         <option value="$PROJECT_DIR$/lib/pages/SimpleWidgetPage.dart" />
         <option value="$PROJECT_DIR$/lib/pages/simpleWidget/LayoutPage.dart" />
@@ -229,11 +212,9 @@
         <option value="$PROJECT_DIR$/lib/pages/network/utils/dio_utils.dart" />
         <option value="$PROJECT_DIR$/.flutter-plugins-dependencies" />
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/lib/pages/network/net_work_page.dart" />
         <option value="$PROJECT_DIR$/lib/pages/platform/calc_plugin_page.dart" />
         <option value="$PROJECT_DIR$/lib/pages/platform/platform_page.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/pages/redux/action.dart" />
         <option value="$PROJECT_DIR$/lib/pages/redux/redux_state.dart" />
@@ -242,15 +223,20 @@
         <option value="$PROJECT_DIR$/lib/pages/stateManage/redux/redux_state.dart" />
         <option value="$PROJECT_DIR$/lib/pages/stateManage/redux/redux_second_page.dart" />
         <option value="$PROJECT_DIR$/lib/pages/stateManage/redux/redux_first_page.dart" />
-        <option value="$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/stateManage/BLoC/bloc_state_page.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart" />
+        <option value="$PROJECT_DIR$/lib/view/MyRaisedButton.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/stateManage/callback/call_back_page.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="947" />
-    <option name="y" value="24" />
-    <option name="width" value="1608" />
+    <option name="x" value="379" />
+    <option name="y" value="23" />
+    <option name="width" value="2069" />
     <option name="height" value="1336" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -261,14 +247,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
@@ -288,18 +286,10 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="stateManage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,13 +396,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533112639523</updated>
-    </task>
-    <task id="LOCAL-00056" summary="解决命名冲突">
-      <created>1545709845319</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1545709845319</updated>
     </task>
     <task id="LOCAL-00057" summary="定义路由的两种写法">
       <created>1545722031889</created>
@@ -750,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577352645592</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="调整分包">
+      <created>1577431352447</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1577431352448</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TodoView">
@@ -763,9 +753,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="947" y="24" width="1608" height="1336" extended-state="0" />
+    <frame x="379" y="23" width="2069" height="1336" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.18965517" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.14652196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" sideWeight="0.50248754" side_tool="true" weight="0.1716418" />
@@ -783,7 +774,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32850778" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" weight="0.32467532" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18596882" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18569131" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.4630225" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49755502" weight="0.40836012" />
       <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
@@ -886,7 +877,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改readme文件" />
     <MESSAGE value="调整代码分包结构" />
     <MESSAGE value="修改路由名" />
     <MESSAGE value="修改readme" />
@@ -911,11 +901,10 @@
     <MESSAGE value="调用eventChannel完成原生主动向Flutter端发送数据" />
     <MESSAGE value="更新平台交互代码" />
     <MESSAGE value="添加flutter_redux状态管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加flutter_redux状态管理" />
+    <MESSAGE value="调整分包" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整分包" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/dio-2.1.7/lib/src/dio_error.dart" />
-    <entry file="file://$PROJECT_DIR$/../bin/cache/pkg/sky_engine/lib/collection/list.dart" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/dio-2.1.7/lib/src/response.dart" />
     <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/foundation/print.dart" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.flutter-io.cn/dio-2.1.7/lib/src/interceptor.dart" />
@@ -974,13 +963,6 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1159,17 +1141,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view/MyRaisedButton.dart">
+    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_state.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/binding.dart">
+    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_second_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18128">
-          <caret line="842" column="5" selection-start-line="842" selection-start-column="5" selection-end-line="842" selection-end-column="5" />
+        <state relative-caret-position="528">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_first_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,61 +1182,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart">
+    <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/widgets/binding.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1161">
+          <caret line="842" column="5" selection-start-line="842" selection-start-column="5" selection-end-line="842" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/flutter-sdk/flutter/packages/flutter/lib/src/services/platform_channel.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="97" selection-start-line="97" selection-end-line="98" selection-end-column="17" />
+        <state relative-caret-position="6534">
+          <caret line="306" column="65" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_state.dart">
+    <entry file="file://$PROJECT_DIR$/lib/pages/platform/android_platform_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_second_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="1298">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/redux/redux_first_page.dart">
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart">
+    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/BLoC/bloc_state_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="594">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/view/MyRaisedButton.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/state_manage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/stateManage/callback/call_back_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
