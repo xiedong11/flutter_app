@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/stateManage/callback/call_back_second_page.dart';
 import 'package:flutter_app/pages/stateManage/state_manage.dart';
 
 class CallBackPage extends StatefulWidget {
@@ -24,9 +25,13 @@ class PageState extends State<CallBackPage> {
     );
   }
 
+
+  /**
+   * 利用callback的思想类似方法回调，要处理一件事的时机是另外一件事处理完成之后触发。
+   */
   void updataInfo() {
     setState(() {
-      _stateInfo="311314";
+      _stateInfo="被修改之后的值";
     });
     print("------------");
   }
@@ -44,7 +49,7 @@ class ButtonWithCallBack extends StatelessWidget {
       child: Text(_title),
       onPressed: () {
         Navigator.of(context)
-            .push(new MaterialPageRoute(builder: (context) => StateManage()))
+            .push(new MaterialPageRoute(builder: (context) => CallBackSecondPage()))
             .then((res) {
           _funCallBack();
         });
