@@ -71,6 +71,13 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 [Flutter入门进阶之旅（二十）Flutter插件开发](https://blog.csdn.net/xieluoxixi/article/details/103902322)
 
 
+#### 进阶篇
+
+[Flutter 验证码倒计时Widget封装](https://blog.csdn.net/xieluoxixi/article/details/104552521)
+
+[Flutter 城市/通讯录列表字母索引联动效果实现](https://blog.csdn.net/xieluoxixi/article/details/105853662)
+
+
 
 
 
