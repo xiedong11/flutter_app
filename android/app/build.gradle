@@ -1,3 +1,6 @@
+//是否作为依赖
+boolean isLibrary = false
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -21,8 +24,19 @@ if (flutterVersionName == null) {
     throw new GradleException("versionName not found. Define flutter.versionName in the local.properties file.")
 }
 
-apply plugin: 'com.android.application'
+if (isLibrary) {
+    apply plugin: 'com.android.library'
+} else {
+    apply plugin: 'com.android.application'
+}
+
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+if (isLibrary) {
+    //引入fat-aar
+    apply plugin: 'com.kezong.fat-aar'
+}
+
 
 android {
     compileSdkVersion 28
@@ -33,7 +47,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.zhuandian.flutterapp"
+        if (!isLibrary) {
+            applicationId "com.zhuandian.flutterapp"
+        }
+
         minSdkVersion 16
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
@@ -48,6 +65,16 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    sourceSets{
+        main{
+            if (isLibrary){
+                manifest.srcFile 'src/main/lib/AndroidManifest.xml'
+            }else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+            }
+        }
+    }
 }
 
 flutter {
@@ -60,4 +87,19 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
     implementation 'androidx.appcompat:appcompat:1.0.0'
+
+    if (isLibrary) {
+        //TODO 添加fat-aar处理flutter打包成aar中三方依赖
+        def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
+        def plugins = new Properties()
+        def pluginsFile = new File(flutterProjectRoot.toFile(), '.flutter-plugins')
+        if (pluginsFile.exists()) {
+            pluginsFile.withReader('UTF-8') { reader -> plugins.load(reader) }
+        }
+        plugins.each { name, _ ->
+            println name
+            embed project(path: ":$name", configuration: 'default')
+        }
+    }
+
 }

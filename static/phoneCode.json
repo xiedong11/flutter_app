@@ -1,0 +1,1449 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": [
+    {
+      "listData": [
+        {
+          "id": 1096,
+          "groupCode": "a",
+          "code": "355",
+          "name": "阿尔巴尼亚"
+        },
+        {
+          "id": 1027,
+          "groupCode": "a",
+          "code": "213",
+          "name": "阿尔及利亚"
+        },
+        {
+          "id": 1213,
+          "groupCode": "a",
+          "code": "93",
+          "name": "阿富汗"
+        },
+        {
+          "id": 1149,
+          "groupCode": "a",
+          "code": "54",
+          "name": "阿根廷"
+        },
+        {
+          "id": 1227,
+          "groupCode": "a",
+          "code": "971",
+          "name": "阿拉伯联合酋长国"
+        },
+        {
+          "id": 1224,
+          "groupCode": "a",
+          "code": "968",
+          "name": "阿曼"
+        },
+        {
+          "id": 1239,
+          "groupCode": "a",
+          "code": "994",
+          "name": "阿塞拜疆"
+        },
+        {
+          "id": 1057,
+          "groupCode": "a",
+          "code": "247",
+          "name": "阿森松"
+        },
+        {
+          "id": 1024,
+          "groupCode": "a",
+          "code": "20",
+          "name": "埃及"
+        },
+        {
+          "id": 1061,
+          "groupCode": "a",
+          "code": "251",
+          "name": "埃塞俄比亚"
+        },
+        {
+          "id": 1094,
+          "groupCode": "a",
+          "code": "353",
+          "name": "爱尔兰"
+        },
+        {
+          "id": 1105,
+          "groupCode": "a",
+          "code": "372",
+          "name": "爱沙尼亚"
+        },
+        {
+          "id": 1109,
+          "groupCode": "a",
+          "code": "376",
+          "name": "安道尔共和国"
+        },
+        {
+          "id": 1002,
+          "groupCode": "a",
+          "code": "1-264",
+          "name": "安圭拉岛"
+        },
+        {
+          "id": 1003,
+          "groupCode": "a",
+          "code": "1-268",
+          "name": "安提瓜和巴布达"
+        },
+        {
+          "id": 1129,
+          "groupCode": "a",
+          "code": "43",
+          "name": "奥地利"
+        },
+        {
+          "id": 1167,
+          "groupCode": "a",
+          "code": "61",
+          "name": "澳大利亚"
+        }
+      ],
+      "name": "a"
+    },
+    {
+      "listData": [
+        {
+          "id": 1005,
+          "groupCode": "b",
+          "code": "1-246",
+          "name": "巴巴多斯"
+        },
+        {
+          "id": 1177,
+          "groupCode": "b",
+          "code": "675",
+          "name": "巴布亚新几内亚"
+        },
+        {
+          "id": 1004,
+          "groupCode": "b",
+          "code": "1-242",
+          "name": "巴哈马"
+        },
+        {
+          "id": 1212,
+          "groupCode": "b",
+          "code": "92",
+          "name": "巴基斯坦"
+        },
+        {
+          "id": 1159,
+          "groupCode": "b",
+          "code": "595",
+          "name": "巴拉圭"
+        },
+        {
+          "id": 1226,
+          "groupCode": "b",
+          "code": "970",
+          "name": "巴勒斯坦"
+        },
+        {
+          "id": 1229,
+          "groupCode": "b",
+          "code": "973",
+          "name": "巴林"
+        },
+        {
+          "id": 1143,
+          "groupCode": "b",
+          "code": "507",
+          "name": "巴拿马"
+        },
+        {
+          "id": 1150,
+          "groupCode": "b",
+          "code": "55",
+          "name": "巴西"
+        },
+        {
+          "id": 1108,
+          "groupCode": "b",
+          "code": "375",
+          "name": "白俄罗斯"
+        },
+        {
+          "id": 1006,
+          "groupCode": "b",
+          "code": "1-441",
+          "name": "百慕大群岛"
+        },
+        {
+          "id": 1100,
+          "groupCode": "b",
+          "code": "359",
+          "name": "保加利亚"
+        },
+        {
+          "id": 1039,
+          "groupCode": "b",
+          "code": "229",
+          "name": "贝宁"
+        },
+        {
+          "id": 1088,
+          "groupCode": "b",
+          "code": "32",
+          "name": "比利时"
+        },
+        {
+          "id": 1095,
+          "groupCode": "b",
+          "code": "354",
+          "name": "冰岛"
+        },
+        {
+          "id": 1015,
+          "groupCode": "b",
+          "code": "1-787",
+          "name": "波多黎各"
+        },
+        {
+          "id": 1134,
+          "groupCode": "b",
+          "code": "48",
+          "name": "波兰"
+        },
+        {
+          "id": 1155,
+          "groupCode": "b",
+          "code": "591",
+          "name": "玻利维亚"
+        },
+        {
+          "id": 1137,
+          "groupCode": "b",
+          "code": "501",
+          "name": "伯利兹"
+        },
+        {
+          "id": 1077,
+          "groupCode": "b",
+          "code": "267",
+          "name": "博茨瓦纳"
+        },
+        {
+          "id": 1036,
+          "groupCode": "b",
+          "code": "226",
+          "name": "布基纳法索"
+        },
+        {
+          "id": 1067,
+          "groupCode": "b",
+          "code": "257",
+          "name": "布隆迪"
+        }
+      ],
+      "name": "b"
+    },
+    {
+      "listData": [
+        {
+          "id": 1198,
+          "groupCode": "c",
+          "code": "850",
+          "name": "朝鲜"
+        }
+      ],
+      "name": "c"
+    },
+    {
+      "listData": [
+        {
+          "id": 1131,
+          "groupCode": "d",
+          "code": "45",
+          "name": "丹麦"
+        },
+        {
+          "id": 1135,
+          "groupCode": "d",
+          "code": "49",
+          "name": "德国"
+        },
+        {
+          "id": 1056,
+          "groupCode": "d",
+          "code": "246",
+          "name": "迪戈加西亚"
+        },
+        {
+          "id": 1102,
+          "groupCode": "d",
+          "code": "37",
+          "name": "东德"
+        },
+        {
+          "id": 1173,
+          "groupCode": "d",
+          "code": "670",
+          "name": "东帝汶"
+        },
+        {
+          "id": 1038,
+          "groupCode": "d",
+          "code": "228",
+          "name": "多哥"
+        },
+        {
+          "id": 1011,
+          "groupCode": "d",
+          "code": "1-890",
+          "name": "多米尼加共和国"
+        },
+        {
+          "id": 1010,
+          "groupCode": "d",
+          "code": "1-767",
+          "name": "多米尼克"
+        }
+      ],
+      "name": "d"
+    },
+    {
+      "listData": [
+        {
+          "id": 1194,
+          "groupCode": "e",
+          "code": "7",
+          "name": "俄罗斯"
+        },
+        {
+          "id": 1157,
+          "groupCode": "e",
+          "code": "593",
+          "name": "厄瓜多尔"
+        },
+        {
+          "id": 1082,
+          "groupCode": "e",
+          "code": "291",
+          "name": "厄立特里亚"
+        }
+      ],
+      "name": "e"
+    },
+    {
+      "listData": [
+        {
+          "id": 1089,
+          "groupCode": "f",
+          "code": "33",
+          "name": "法国"
+        },
+        {
+          "id": 1084,
+          "groupCode": "f",
+          "code": "298",
+          "name": "法罗群岛"
+        },
+        {
+          "id": 1190,
+          "groupCode": "f",
+          "code": "689",
+          "name": "法属波利尼西亚"
+        },
+        {
+          "id": 1158,
+          "groupCode": "f",
+          "code": "594",
+          "name": "法属圭亚那"
+        },
+        {
+          "id": 1112,
+          "groupCode": "f",
+          "code": "379",
+          "name": "梵蒂冈"
+        },
+        {
+          "id": 1169,
+          "groupCode": "f",
+          "code": "63",
+          "name": "菲律宾"
+        },
+        {
+          "id": 1181,
+          "groupCode": "f",
+          "code": "679",
+          "name": "斐济"
+        },
+        {
+          "id": 1099,
+          "groupCode": "f",
+          "code": "358",
+          "name": "芬兰"
+        },
+        {
+          "id": 1048,
+          "groupCode": "f",
+          "code": "238",
+          "name": "佛得角"
+        },
+        {
+          "id": 1136,
+          "groupCode": "f",
+          "code": "500",
+          "name": "福克兰群岛"
+        }
+      ],
+      "name": "f"
+    },
+    {
+      "listData": [
+        {
+          "id": 1030,
+          "groupCode": "g",
+          "code": "220",
+          "name": "冈比亚"
+        },
+        {
+          "id": 1052,
+          "groupCode": "g",
+          "code": "242",
+          "name": "刚果共和国（布）"
+        },
+        {
+          "id": 1053,
+          "groupCode": "g",
+          "code": "243",
+          "name": "刚果民主共和国（金）"
+        },
+        {
+          "id": 1152,
+          "groupCode": "g",
+          "code": "57",
+          "name": "哥伦比亚"
+        },
+        {
+          "id": 1142,
+          "groupCode": "g",
+          "code": "506",
+          "name": "哥斯达黎加"
+        },
+        {
+          "id": 1012,
+          "groupCode": "g",
+          "code": "1-809",
+          "name": "格林纳达"
+        },
+        {
+          "id": 1085,
+          "groupCode": "g",
+          "code": "299",
+          "name": "格陵兰"
+        },
+        {
+          "id": 1240,
+          "groupCode": "g",
+          "code": "995",
+          "name": "格鲁吉亚"
+        },
+        {
+          "id": 1148,
+          "groupCode": "g",
+          "code": "53",
+          "name": "古巴"
+        },
+        {
+          "id": 1022,
+          "groupCode": "g",
+          "code": "1-671",
+          "name": "关岛"
+        },
+        {
+          "id": 1156,
+          "groupCode": "g",
+          "code": "592",
+          "name": "圭亚那"
+        }
+      ],
+      "name": "g"
+    },
+    {
+      "listData": [
+        {
+          "id": 1243,
+          "groupCode": "h",
+          "code": "327",
+          "name": "哈萨克斯坦"
+        },
+        {
+          "id": 1145,
+          "groupCode": "h",
+          "code": "509",
+          "name": "海地"
+        },
+        {
+          "id": 1196,
+          "groupCode": "h",
+          "code": "82",
+          "name": "韩国"
+        },
+        {
+          "id": 1087,
+          "groupCode": "h",
+          "code": "31",
+          "name": "荷兰"
+        },
+        {
+          "id": 1163,
+          "groupCode": "h",
+          "code": "599",
+          "name": "荷属安的列斯"
+        },
+        {
+          "id": 1164,
+          "groupCode": "h",
+          "code": "599",
+          "name": "荷属圣马丁"
+        },
+        {
+          "id": 1116,
+          "groupCode": "h",
+          "code": "382",
+          "name": "黑山"
+        },
+        {
+          "id": 1140,
+          "groupCode": "h",
+          "code": "504",
+          "name": "洪都拉斯"
+        }
+      ],
+      "name": "h"
+    },
+    {
+      "listData": [
+        {
+          "id": 1063,
+          "groupCode": "j",
+          "code": "253",
+          "name": "吉布提"
+        },
+        {
+          "id": 1241,
+          "groupCode": "j",
+          "code": "996",
+          "name": "吉尔吉斯斯坦"
+        },
+        {
+          "id": 1034,
+          "groupCode": "j",
+          "code": "224",
+          "name": "几内亚"
+        },
+        {
+          "id": 1055,
+          "groupCode": "j",
+          "code": "245",
+          "name": "几内亚比绍"
+        },
+        {
+          "id": 1001,
+          "groupCode": "j",
+          "code": "1",
+          "name": "加拿大"
+        },
+        {
+          "id": 1043,
+          "groupCode": "j",
+          "code": "233",
+          "name": "加纳"
+        },
+        {
+          "id": 1051,
+          "groupCode": "j",
+          "code": "241",
+          "name": "加蓬"
+        },
+        {
+          "id": 1201,
+          "groupCode": "j",
+          "code": "855",
+          "name": "柬埔寨"
+        },
+        {
+          "id": 1126,
+          "groupCode": "j",
+          "code": "420",
+          "name": "捷克共和国"
+        },
+        {
+          "id": 1125,
+          "groupCode": "j",
+          "code": "42",
+          "name": "捷克斯洛伐克"
+        },
+        {
+          "id": 1073,
+          "groupCode": "j",
+          "code": "263",
+          "name": "津巴布韦"
+        }
+      ],
+      "name": "j"
+    },
+    {
+      "listData": [
+        {
+          "id": 1047,
+          "groupCode": "k",
+          "code": "237",
+          "name": "喀麦隆"
+        },
+        {
+          "id": 1230,
+          "groupCode": "k",
+          "code": "974",
+          "name": "卡塔尔"
+        },
+        {
+          "id": 1008,
+          "groupCode": "k",
+          "code": "1-345",
+          "name": "开曼群岛"
+        },
+        {
+          "id": 1079,
+          "groupCode": "k",
+          "code": "269",
+          "name": "科摩罗和马约特"
+        },
+        {
+          "id": 1035,
+          "groupCode": "k",
+          "code": "225",
+          "name": "科特迪瓦"
+        },
+        {
+          "id": 1221,
+          "groupCode": "k",
+          "code": "965",
+          "name": "科威特"
+        },
+        {
+          "id": 1117,
+          "groupCode": "k",
+          "code": "385",
+          "name": "克罗地亚"
+        },
+        {
+          "id": 1064,
+          "groupCode": "k",
+          "code": "254",
+          "name": "肯尼亚"
+        },
+        {
+          "id": 1184,
+          "groupCode": "k",
+          "code": "682",
+          "name": "库克群岛"
+        },
+        {
+          "id": 1165,
+          "groupCode": "k",
+          "code": "599-9",
+          "name": "库拉索"
+        }
+      ],
+      "name": "k"
+    },
+    {
+      "listData": [
+        {
+          "id": 1104,
+          "groupCode": "l",
+          "code": "371",
+          "name": "拉脱维亚"
+        },
+        {
+          "id": 1076,
+          "groupCode": "l",
+          "code": "266",
+          "name": "莱索托"
+        },
+        {
+          "id": 1202,
+          "groupCode": "l",
+          "code": "856",
+          "name": "老挝"
+        },
+        {
+          "id": 1217,
+          "groupCode": "l",
+          "code": "961",
+          "name": "黎巴嫩"
+        },
+        {
+          "id": 1103,
+          "groupCode": "l",
+          "code": "370",
+          "name": "立陶宛"
+        },
+        {
+          "id": 1041,
+          "groupCode": "l",
+          "code": "231",
+          "name": "利比里亚"
+        },
+        {
+          "id": 1029,
+          "groupCode": "l",
+          "code": "218",
+          "name": "利比亚"
+        },
+        {
+          "id": 1128,
+          "groupCode": "l",
+          "code": "423",
+          "name": "列支敦士登"
+        },
+        {
+          "id": 1072,
+          "groupCode": "l",
+          "code": "262",
+          "name": "留尼汪"
+        },
+        {
+          "id": 1093,
+          "groupCode": "l",
+          "code": "352",
+          "name": "卢森堡"
+        },
+        {
+          "id": 1060,
+          "groupCode": "l",
+          "code": "250",
+          "name": "卢旺达"
+        },
+        {
+          "id": 1123,
+          "groupCode": "l",
+          "code": "40",
+          "name": "罗马尼亚"
+        }
+      ],
+      "name": "l"
+    },
+    {
+      "listData": [
+        {
+          "id": 1071,
+          "groupCode": "m",
+          "code": "261",
+          "name": "马达加斯加"
+        },
+        {
+          "id": 1216,
+          "groupCode": "m",
+          "code": "960",
+          "name": "马尔代夫"
+        },
+        {
+          "id": 1097,
+          "groupCode": "m",
+          "code": "356",
+          "name": "马耳他"
+        },
+        {
+          "id": 1075,
+          "groupCode": "m",
+          "code": "265",
+          "name": "马拉维"
+        },
+        {
+          "id": 1166,
+          "groupCode": "m",
+          "code": "60",
+          "name": "马来西亚"
+        },
+        {
+          "id": 1033,
+          "groupCode": "m",
+          "code": "223",
+          "name": "马里"
+        },
+        {
+          "id": 1121,
+          "groupCode": "m",
+          "code": "389",
+          "name": "马其顿"
+        },
+        {
+          "id": 1193,
+          "groupCode": "m",
+          "code": "692",
+          "name": "马绍尔群岛"
+        },
+        {
+          "id": 1160,
+          "groupCode": "m",
+          "code": "596",
+          "name": "马提尼克"
+        },
+        {
+          "id": 1040,
+          "groupCode": "m",
+          "code": "230",
+          "name": "毛里求斯"
+        },
+        {
+          "id": 1032,
+          "groupCode": "m",
+          "code": "222",
+          "name": "毛里塔尼亚"
+        },
+        {
+          "id": 1000,
+          "groupCode": "m",
+          "code": "1",
+          "name": "美国"
+        },
+        {
+          "id": 1009,
+          "groupCode": "m",
+          "code": "1-684",
+          "name": "美属萨摩亚"
+        },
+        {
+          "id": 1021,
+          "groupCode": "m",
+          "code": "1-340",
+          "name": "美属维京群岛"
+        },
+        {
+          "id": 1232,
+          "groupCode": "m",
+          "code": "976",
+          "name": "蒙古"
+        },
+        {
+          "id": 1014,
+          "groupCode": "m",
+          "code": "1-664",
+          "name": "蒙特塞拉特"
+        },
+        {
+          "id": 1206,
+          "groupCode": "m",
+          "code": "880",
+          "name": "孟加拉国"
+        },
+        {
+          "id": 1146,
+          "groupCode": "m",
+          "code": "51",
+          "name": "秘鲁"
+        },
+        {
+          "id": 1192,
+          "groupCode": "m",
+          "code": "691",
+          "name": "密克罗尼西亚联邦"
+        },
+        {
+          "id": 1215,
+          "groupCode": "m",
+          "code": "95",
+          "name": "缅甸"
+        },
+        {
+          "id": 1106,
+          "groupCode": "m",
+          "code": "373",
+          "name": "摩尔多瓦"
+        },
+        {
+          "id": 1026,
+          "groupCode": "m",
+          "code": "212",
+          "name": "摩洛哥"
+        },
+        {
+          "id": 1110,
+          "groupCode": "m",
+          "code": "377",
+          "name": "摩纳哥"
+        },
+        {
+          "id": 1068,
+          "groupCode": "m",
+          "code": "258",
+          "name": "莫桑比克"
+        },
+        {
+          "id": 1147,
+          "groupCode": "m",
+          "code": "52",
+          "name": "墨西哥"
+        }
+      ],
+      "name": "m"
+    },
+    {
+      "listData": [
+        {
+          "id": 1074,
+          "groupCode": "n",
+          "code": "264",
+          "name": "纳米比亚"
+        },
+        {
+          "id": 1080,
+          "groupCode": "n",
+          "code": "27",
+          "name": "南非"
+        },
+        {
+          "id": 1113,
+          "groupCode": "n",
+          "code": "38",
+          "name": "南斯拉夫"
+        },
+        {
+          "id": 1025,
+          "groupCode": "n",
+          "code": "211",
+          "name": "南苏丹"
+        },
+        {
+          "id": 1176,
+          "groupCode": "n",
+          "code": "674",
+          "name": "瑙鲁"
+        },
+        {
+          "id": 1233,
+          "groupCode": "n",
+          "code": "977",
+          "name": "尼泊尔"
+        },
+        {
+          "id": 1141,
+          "groupCode": "n",
+          "code": "505",
+          "name": "尼加拉瓜"
+        },
+        {
+          "id": 1037,
+          "groupCode": "n",
+          "code": "227",
+          "name": "尼日尔"
+        },
+        {
+          "id": 1044,
+          "groupCode": "n",
+          "code": "234",
+          "name": "尼日利亚"
+        },
+        {
+          "id": 1185,
+          "groupCode": "n",
+          "code": "683",
+          "name": "纽埃"
+        },
+        {
+          "id": 1133,
+          "groupCode": "n",
+          "code": "47",
+          "name": "挪威"
+        }
+      ],
+      "name": "n"
+    },
+    {
+      "listData": [
+        {
+          "id": 1182,
+          "groupCode": "p",
+          "code": "680",
+          "name": "帕劳"
+        },
+        {
+          "id": 1092,
+          "groupCode": "p",
+          "code": "351",
+          "name": "葡萄牙"
+        }
+      ],
+      "name": "p"
+    },
+    {
+      "listData": [
+        {
+          "id": 1195,
+          "groupCode": "r",
+          "code": "81",
+          "name": "日本"
+        },
+        {
+          "id": 1132,
+          "groupCode": "r",
+          "code": "46",
+          "name": "瑞典"
+        },
+        {
+          "id": 1124,
+          "groupCode": "r",
+          "code": "41",
+          "name": "瑞士"
+        }
+      ],
+      "name": "r"
+    },
+    {
+      "listData": [
+        {
+          "id": 1139,
+          "groupCode": "s",
+          "code": "503",
+          "name": "萨尔瓦多"
+        },
+        {
+          "id": 1186,
+          "groupCode": "s",
+          "code": "685",
+          "name": "萨摩亚"
+        },
+        {
+          "id": 1115,
+          "groupCode": "s",
+          "code": "381",
+          "name": "塞尔维亚"
+        },
+        {
+          "id": 1042,
+          "groupCode": "s",
+          "code": "232",
+          "name": "塞拉利昂"
+        },
+        {
+          "id": 1031,
+          "groupCode": "s",
+          "code": "221",
+          "name": "塞内加尔"
+        },
+        {
+          "id": 1098,
+          "groupCode": "s",
+          "code": "357",
+          "name": "塞浦路斯"
+        },
+        {
+          "id": 1058,
+          "groupCode": "s",
+          "code": "248",
+          "name": "塞舌尔"
+        },
+        {
+          "id": 1069,
+          "groupCode": "s",
+          "code": "259",
+          "name": "桑给巴尔"
+        },
+        {
+          "id": 1222,
+          "groupCode": "s",
+          "code": "966",
+          "name": "沙特阿拉伯"
+        },
+        {
+          "id": 1049,
+          "groupCode": "s",
+          "code": "239",
+          "name": "圣多美和普林西比"
+        },
+        {
+          "id": 1081,
+          "groupCode": "s",
+          "code": "290",
+          "name": "圣赫勒拿"
+        },
+        {
+          "id": 1016,
+          "groupCode": "s",
+          "code": "1-869",
+          "name": "圣基茨和尼维斯"
+        },
+        {
+          "id": 1017,
+          "groupCode": "s",
+          "code": "1-758",
+          "name": "圣卢西亚"
+        },
+        {
+          "id": 1111,
+          "groupCode": "s",
+          "code": "378",
+          "name": "圣马力诺"
+        },
+        {
+          "id": 1018,
+          "groupCode": "s",
+          "code": "1-784",
+          "name": "圣文森特和格林纳丁斯"
+        },
+        {
+          "id": 1214,
+          "groupCode": "s",
+          "code": "94",
+          "name": "斯里兰卡"
+        },
+        {
+          "id": 1127,
+          "groupCode": "s",
+          "code": "421",
+          "name": "斯洛伐克"
+        },
+        {
+          "id": 1118,
+          "groupCode": "s",
+          "code": "386",
+          "name": "斯洛文尼亚"
+        },
+        {
+          "id": 1078,
+          "groupCode": "s",
+          "code": "268",
+          "name": "斯威士兰"
+        },
+        {
+          "id": 1059,
+          "groupCode": "s",
+          "code": "249",
+          "name": "苏丹"
+        },
+        {
+          "id": 1161,
+          "groupCode": "s",
+          "code": "597",
+          "name": "苏里南"
+        },
+        {
+          "id": 1179,
+          "groupCode": "s",
+          "code": "677",
+          "name": "所罗门群岛"
+        },
+        {
+          "id": 1062,
+          "groupCode": "s",
+          "code": "252",
+          "name": "索马里"
+        }
+      ],
+      "name": "s"
+    },
+    {
+      "listData": [
+        {
+          "id": 1237,
+          "groupCode": "t",
+          "code": "992",
+          "name": "塔吉克斯坦"
+        },
+        {
+          "id": 1172,
+          "groupCode": "t",
+          "code": "66",
+          "name": "泰国"
+        },
+        {
+          "id": 1065,
+          "groupCode": "t",
+          "code": "255",
+          "name": "坦桑尼亚"
+        },
+        {
+          "id": 1178,
+          "groupCode": "t",
+          "code": "676",
+          "name": "汤加"
+        },
+        {
+          "id": 1019,
+          "groupCode": "t",
+          "code": "1-868",
+          "name": "特立尼达和多巴哥"
+        },
+        {
+          "id": 1028,
+          "groupCode": "t",
+          "code": "216",
+          "name": "突尼斯"
+        },
+        {
+          "id": 1210,
+          "groupCode": "t",
+          "code": "90",
+          "name": "土耳其"
+        },
+        {
+          "id": 1238,
+          "groupCode": "t",
+          "code": "993",
+          "name": "土库曼斯坦"
+        },
+        {
+          "id": 1191,
+          "groupCode": "t",
+          "code": "690",
+          "name": "托克劳群岛"
+        }
+      ],
+      "name": "t"
+    },
+    {
+      "listData": [
+        {
+          "id": 1180,
+          "groupCode": "w",
+          "code": "678",
+          "name": "瓦努阿图"
+        },
+        {
+          "id": 1138,
+          "groupCode": "w",
+          "code": "502",
+          "name": "危地马拉"
+        },
+        {
+          "id": 1153,
+          "groupCode": "w",
+          "code": "58",
+          "name": "委内瑞拉"
+        },
+        {
+          "id": 1175,
+          "groupCode": "w",
+          "code": "673",
+          "name": "文莱"
+        },
+        {
+          "id": 1066,
+          "groupCode": "w",
+          "code": "256",
+          "name": "乌干达"
+        },
+        {
+          "id": 1114,
+          "groupCode": "w",
+          "code": "380",
+          "name": "乌克兰"
+        },
+        {
+          "id": 1162,
+          "groupCode": "w",
+          "code": "598",
+          "name": "乌拉圭"
+        },
+        {
+          "id": 1242,
+          "groupCode": "w",
+          "code": "998",
+          "name": "乌兹别克斯坦"
+        }
+      ],
+      "name": "w"
+    },
+    {
+      "listData": [
+        {
+          "id": 1090,
+          "groupCode": "x",
+          "code": "34",
+          "name": "西班牙"
+        },
+        {
+          "id": 1086,
+          "groupCode": "x",
+          "code": "30",
+          "name": "希腊"
+        },
+        {
+          "id": 1171,
+          "groupCode": "x",
+          "code": "65",
+          "name": "新加坡"
+        },
+        {
+          "id": 1188,
+          "groupCode": "x",
+          "code": "687",
+          "name": "新喀里多尼亚"
+        },
+        {
+          "id": 1170,
+          "groupCode": "x",
+          "code": "64",
+          "name": "新西兰"
+        },
+        {
+          "id": 1101,
+          "groupCode": "x",
+          "code": "36",
+          "name": "匈牙利"
+        },
+        {
+          "id": 1219,
+          "groupCode": "x",
+          "code": "963",
+          "name": "叙利亚"
+        }
+      ],
+      "name": "x"
+    },
+    {
+      "listData": [
+        {
+          "id": 1013,
+          "groupCode": "y",
+          "code": "1-876",
+          "name": "牙买加"
+        },
+        {
+          "id": 1107,
+          "groupCode": "y",
+          "code": "374",
+          "name": "亚美尼亚"
+        },
+        {
+          "id": 1223,
+          "groupCode": "y",
+          "code": "967",
+          "name": "也门"
+        },
+        {
+          "id": 1225,
+          "groupCode": "y",
+          "code": "969",
+          "name": "也门民主共和国"
+        },
+        {
+          "id": 1220,
+          "groupCode": "y",
+          "code": "964",
+          "name": "伊拉克"
+        },
+        {
+          "id": 1235,
+          "groupCode": "y",
+          "code": "98",
+          "name": "伊朗"
+        },
+        {
+          "id": 1228,
+          "groupCode": "y",
+          "code": "972",
+          "name": "以色列"
+        },
+        {
+          "id": 1122,
+          "groupCode": "y",
+          "code": "39",
+          "name": "意大利"
+        },
+        {
+          "id": 1211,
+          "groupCode": "y",
+          "code": "91",
+          "name": "印度"
+        },
+        {
+          "id": 1168,
+          "groupCode": "y",
+          "code": "62",
+          "name": "印度尼西亚"
+        },
+        {
+          "id": 1130,
+          "groupCode": "y",
+          "code": "44",
+          "name": "英国"
+        },
+        {
+          "id": 1218,
+          "groupCode": "y",
+          "code": "962",
+          "name": "约旦"
+        },
+        {
+          "id": 1197,
+          "groupCode": "y",
+          "code": "84",
+          "name": "越南"
+        }
+      ],
+      "name": "y"
+    },
+    {
+      "listData": [
+        {
+          "id": 1070,
+          "groupCode": "z",
+          "code": "260",
+          "name": "赞比亚"
+        },
+        {
+          "id": 1045,
+          "groupCode": "z",
+          "code": "235",
+          "name": "乍得"
+        },
+        {
+          "id": 1091,
+          "groupCode": "z",
+          "code": "350",
+          "name": "直布罗陀"
+        },
+        {
+          "id": 1151,
+          "groupCode": "z",
+          "code": "56",
+          "name": "智利"
+        },
+        {
+          "id": 1046,
+          "groupCode": "z",
+          "code": "236",
+          "name": "中非共和国"
+        },
+        {
+          "id": 1200,
+          "groupCode": "z",
+          "code": "853",
+          "name": "中国澳门"
+        },
+        {
+          "id": 1203,
+          "groupCode": "z",
+          "code": "86",
+          "name": "中国大陆"
+        },
+        {
+          "id": 1209,
+          "groupCode": "z",
+          "code": "886",
+          "name": "中国台湾"
+        },
+        {
+          "id": 1199,
+          "groupCode": "z",
+          "code": "852",
+          "name": "中国香港"
+        }
+      ],
+      "name": "z"
+    }
+  ]
+}

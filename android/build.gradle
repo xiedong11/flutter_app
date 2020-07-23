@@ -6,6 +6,8 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.1'
+        //引入fat-aar支持
+        classpath 'com.kezong:fat-aar:1.1.7'
     }
 }
 

@@ -25,6 +25,22 @@ dependencies:
   #添加网络请求依赖
   http: ^0.11.3+16
   dio : 2.1.7
+  flutter_redux: ^0.6.0
+
+
+  #本地插件引入
+  flutter_calc_plugin:
+    path: plugin/flutter_calc_plugin
+
+
+#  #从github上引入插件依赖
+#  flutter_calc_plugin:
+#    git:
+#     url:
+#      https://github.com/xiedong11/flutter_calc_plugin.git
+#
+
+
 
 dev_dependencies:
   flutter_test:

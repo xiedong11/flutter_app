@@ -31,7 +31,7 @@ class RequestUtilState extends State<NetWorkPage> {
       "password": "123456",
       "repassword": "123456"
     };
-    String result = await DioUtils().post("/user/register", data: params);
+    String result = await DioUtils.getInstance().post("/user/register", data: params);
     this.setState(() {
       resultJson = result;
     });

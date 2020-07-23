@@ -10,5 +10,5 @@
         android:id="@+id/btn_flutter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="跳回flutter" />
+        android:text="返回flutter页面" />
 </LinearLayout>
