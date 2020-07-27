@@ -25,8 +25,6 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 专栏介绍
  本专栏定位人群为初识Flutter，并且想熟练掌握Flutter的开发者，由于我业务范畴涉及到的只有android，所有后面的平台交互部分我会从android平台带大家进行实例操作，由浅入深的带大家一起学习并掌握Flutter这门新技术，并能快速上手到实际开发中去。
 
-##### 线下问题交流：
-![QQ群](https://github.com/xiedong11/flutter_app/blob/master/images/qq_group.png)
 
 ## 目录
 #### 基础控件篇
@@ -80,6 +78,11 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 [Flutter 城市/通讯录列表字母索引联动效果实现](https://blog.csdn.net/xieluoxixi/article/details/105853662)
 
+
+
+
+##### 线下问题交流：
+![QQ群](https://github.com/xiedong11/flutter_app/blob/master/images/qq_group.png)
 
 
 
