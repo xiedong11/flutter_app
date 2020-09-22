@@ -7,3 +7,7 @@
 build/
 
 .flutter-plugins
+/.idea/codeStyles/
+/.idea/libraries/
+/.idea/workspace.xml
+/.idea/codeStyles/
