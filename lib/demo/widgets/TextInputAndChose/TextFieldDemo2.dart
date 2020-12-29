@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/demo/lifecycle/LifeCycleDemo.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -18,16 +19,16 @@ class PageState extends State<TextFieldDemo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("TextField"),
+        title: Text("组件生命周期"),
       ),
-      body: TextField(
-        decoration: InputDecoration(
-          icon: Icon(Icons.person),
-          labelText: "请输入账号...",
-          labelStyle: TextStyle(color: Colors.red, fontSize: 13.0),
-        ),
+      body: Center(
+        child: RaisedButton(
+            child: Text('测试组件生命周期'),
+            onPressed: () => {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (buildContext) => LifeCycleDemo()))
+                }),
       ),
     );
-    ;
   }
 }
