@@ -71,6 +71,8 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 [Flutter入门进阶之旅（二十）Flutter插件开发](https://blog.csdn.net/xieluoxixi/article/details/103902322)
 
+[Flutter入门进阶之旅（二十一）Flutter 组件的生命周期](https://blog.csdn.net/xieluoxixi/article/details/111867940)
+
 
 #### 进阶篇
 
