@@ -15,6 +15,16 @@ class TextFieldDemo extends StatefulWidget {
 }
 
 class PageState extends State<TextFieldDemo> {
+  var _textFieldEditController = TextEditingController(text: "138");
+
+  @override
+  void initState() {
+    super.initState();
+    _textFieldEditController.addListener(() {
+      print("当前输入框内的值为：" + _textFieldEditController.text);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,11 +34,7 @@ class PageState extends State<TextFieldDemo> {
       body: Padding(
         padding: EdgeInsets.all(20),
         child: TextField(
-          inputFormatters: [
-            WhitelistingTextInputFormatter(RegExp("[a-z]")),
-            WhitelistingTextInputFormatter(RegExp("[0-9]")),
-            LengthLimitingTextInputFormatter(11)
-          ],
+          controller: _textFieldEditController,
           decoration: InputDecoration(
             hintText: "请输入手机号...",
           ),
