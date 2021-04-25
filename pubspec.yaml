@@ -24,7 +24,7 @@ dependencies:
   sqflite: ^1.0.0
   #添加网络请求依赖
   http: ^0.11.3+16
-  dio : 2.1.7
+  dio : 3.0.9
   flutter_redux: ^0.6.0
 
 

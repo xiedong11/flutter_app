@@ -29,7 +29,7 @@ class DioUtils {
         //预设好的header信息
         "testHeader":"bb"
       },
-      contentType: ContentType.json,
+      contentType: ContentType.json.toString(),
       responseType: ResponseType.json,
     );
 
