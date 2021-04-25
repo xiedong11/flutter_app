@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/custom_widget/pages/phone_country_code_page.dart';
+import 'package:flutter_app/pages/custom_widget/pages/syllabus_page.dart';
 import 'package:flutter_app/pages/custom_widget/pages/verification_code_page.dart';
 import 'package:flutter_app/view/MyRaisedButton.dart';
 
@@ -19,7 +20,8 @@ class CustomWidgetPage extends StatelessWidget{
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         MyRaisedButton(new VerficationCodePage(), "验证码倒计时Widget"),
-        MyRaisedButton(new PhoneCountryCodePage(), "城市地区选择页")
+        MyRaisedButton(new PhoneCountryCodePage(), "城市地区选择页"),
+        MyRaisedButton(new SyllabusPage(), "课程表View")
       ],
     ),);
   }
