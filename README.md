@@ -82,6 +82,7 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 [Flutter入门进阶之旅 - Flutter课程表View](https://blog.csdn.net/xieluoxixi/article/details/116130085)
 
+![代码预览图](https://github.com/xiedong11/flutter_app/blob/master/images/syllabus.gif)
 
 
 
