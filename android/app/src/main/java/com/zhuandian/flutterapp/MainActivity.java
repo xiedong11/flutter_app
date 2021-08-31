@@ -5,14 +5,18 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 import java.util.HashMap;
 import java.util.Map;
 
-import io.flutter.app.FlutterActivity;
+
 import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugins.GeneratedPluginRegistrant;
+import io.flutter.embedding.android.FlutterActivity;
+import io.flutter.embedding.engine.FlutterEngine;
 
 public class MainActivity extends FlutterActivity {
     private static final String METHOD_CHANNEL = "com.zhuandian.flutter/android";
@@ -23,14 +27,13 @@ public class MainActivity extends FlutterActivity {
     private EventChannel.EventSink eventChannel;
     private MethodChannel methodChannel;
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
-        GeneratedPluginRegistrant.registerWith(this);
+    public void configureFlutterEngine(@NonNull FlutterEngine flutterEngine) {
+//        super.configureFlutterEngine(flutterEngine);
+        GeneratedPluginRegistrant.registerWith(flutterEngine);
 
-
-        methodChannel = new MethodChannel(getFlutterView(), METHOD_CHANNEL);
+        methodChannel = new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), METHOD_CHANNEL);
         //接受fltuter端传递过来的方法，并做出响应逻辑处理
         methodChannel.setMethodCallHandler(new MethodChannel.MethodCallHandler() {
             @Override
@@ -55,7 +58,7 @@ public class MainActivity extends FlutterActivity {
         });
 
 
-        new EventChannel(getFlutterView(), EVENT_CHANNEL).setStreamHandler(new EventChannel.StreamHandler() {
+        new EventChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), EVENT_CHANNEL).setStreamHandler(new EventChannel.StreamHandler() {
             @Override
             public void onListen(Object o, EventChannel.EventSink eventSink) {
                 eventChannel = eventSink;
@@ -71,7 +74,60 @@ public class MainActivity extends FlutterActivity {
         });
 
 
+
+
     }
+
+    //TODO 新版本flutter在configureFlutterEngine完成初始化
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+////        setContentView(R.layout.activity_main);
+//        GeneratedPluginRegistrant.registerWith(this);
+//
+//
+//        methodChannel = new MethodChannel(getFlutterView(), METHOD_CHANNEL);
+//        //接受fltuter端传递过来的方法，并做出响应逻辑处理
+//        methodChannel.setMethodCallHandler(new MethodChannel.MethodCallHandler() {
+//            @Override
+//            public void onMethodCall(MethodCall call, MethodChannel.Result result) {
+//                System.out.println(call.method);
+//                if (call.method.equals(METHOD_SHOW_TOAST)) {
+//                    if (call.hasArgument("msg") && !TextUtils.isEmpty(call.argument("msg").toString())) {
+//                        Toast.makeText(MainActivity.this, call.argument("msg").toString(), Toast.LENGTH_SHORT).show();
+//                    } else {
+//                        Toast.makeText(MainActivity.this, "toast text must not null", Toast.LENGTH_SHORT).show();
+//                    }
+//                } else if (call.method.equals(METHOD_NUMBER_ADD)) {
+//                    int number1 = call.argument("number1");
+//                    int number2 = call.argument("number2");
+//                    result.success(number1 + number2); //返回两个数相加后的值
+//                } else if (call.method.equals(METHOD_NATIVE_SEND_MESSAGE_FLUTTER)) {
+//                    nativeSendMessage2Flutter();
+//                } else if (call.method.equals("new_page")) {
+//                    startActivity(new Intent(MainActivity.this, SecondActivity.class));
+//                }
+//            }
+//        });
+//
+//
+//        new EventChannel(getFlutterView(), EVENT_CHANNEL).setStreamHandler(new EventChannel.StreamHandler() {
+//            @Override
+//            public void onListen(Object o, EventChannel.EventSink eventSink) {
+//                eventChannel = eventSink;
+//                eventSink.success("事件通道准备就绪");
+//                //在此不建议做耗时操作，因为当onListen回调被触发后，在此注册当方法需要执行完毕才算结束回调函数
+//                //的执行，耗时操作可能会导致界面卡死，这里读者需注意！！
+//            }
+//
+//            @Override
+//            public void onCancel(Object o) {
+//
+//            }
+//        });
+//
+//
+//    }
 
 
     /**

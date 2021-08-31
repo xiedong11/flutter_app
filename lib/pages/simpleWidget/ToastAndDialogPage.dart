@@ -15,12 +15,14 @@ class ToastAndDialogPage extends StatelessWidget {
   void _showAboutDialog(BuildContext context) {
     showDialog(
         context: context,
-        child: new AboutDialog(
-          applicationIcon: new Icon(Icons.android),
-          applicationName: "Flutter",
-          applicationVersion: "3.1.1",
-          children: <Widget>[new Text("更新摘要\n新增飞天遁地功能\n优化用户体验")],
-        ));
+        builder: (context) {
+          return AboutDialog(
+            applicationIcon: Icon(Icons.android),
+            applicationName: "Flutter",
+            applicationVersion: "3.1.1",
+            children: <Widget>[Text("更新摘要\n新增飞天遁地功能\n优化用户体验")],
+          );
+        });
   }
 
   //showModalBottomSheet与BottomSheet的区别是 BottomSheet充满屏幕，ModalBottomSheet半屏
@@ -91,52 +93,56 @@ class ToastAndDialogPage extends StatelessWidget {
   void _showSimpleDialog(BuildContext context) {
     showDialog(
         context: context,
-        child: new SimpleDialog(
-          title: new Text("标题"),
-          contentPadding: const EdgeInsets.all(10.0),
-          children: <Widget>[
-            //SimpleDialog内可指定多个children
-            new Text("内容1"),
-            new ListTile(
-              leading: new Icon(Icons.android),
-              title: new Text("android"),
-            ),
-            new ListTile(
-              leading: new Icon(Icons.android),
-              title: new Text("andrpid"),
-            ),
-            new ListTile(
-              leading: new Icon(Icons.cake),
-              title: new Text("cake"),
-            ),
-            new ListTile(
-              leading: new Icon(Icons.local_cafe),
-              title: new Text("cofe"),
-            ),
-          ],
-        ));
+        builder: (context) {
+          return new SimpleDialog(
+            title: new Text("标题"),
+            contentPadding: const EdgeInsets.all(10.0),
+            children: <Widget>[
+              //SimpleDialog内可指定多个children
+              new Text("内容1"),
+              new ListTile(
+                leading: new Icon(Icons.android),
+                title: new Text("android"),
+              ),
+              new ListTile(
+                leading: new Icon(Icons.android),
+                title: new Text("andrpid"),
+              ),
+              new ListTile(
+                leading: new Icon(Icons.cake),
+                title: new Text("cake"),
+              ),
+              new ListTile(
+                leading: new Icon(Icons.local_cafe),
+                title: new Text("cofe"),
+              ),
+            ],
+          );
+        });
   }
 
   void _shwoAlertDialog(BuildContext context) {
     showDialog(
         context: context,
-        child: new AlertDialog(
-          title: new Text("标题"),
-          content: new Text("内容区域"),
-          actions: <Widget>[
-            new FlatButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                child: new Text("确定")),
-            new FlatButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                  print("点击取消------");
-                },
-                child: new Text("取消")),
-          ],
-        ));
+        builder: (context) {
+          return new AlertDialog(
+            title: new Text("标题"),
+            content: new Text("内容区域"),
+            actions: <Widget>[
+              new FlatButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: new Text("确定")),
+              new FlatButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                    print("点击取消------");
+                  },
+                  child: new Text("取消")),
+            ],
+          );
+        });
   }
 
   @override

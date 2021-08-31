@@ -67,9 +67,11 @@ class MyPage extends StatelessWidget {
                     .then((onValue) {
                   showDialog(
                       context: _rootContext, //dialog显示在父级布局上，所有应该使用_rootContext
-                      child: new AlertDialog(
-                        content: new Text(onValue),
-                      ));
+                      builder: (context) {
+                        return new AlertDialog(
+                          content: new Text(onValue),
+                        );
+                      });
                 });
               },
               child: new Text("静态路由带回页面返回值"),
@@ -109,16 +111,18 @@ class MyPage extends StatelessWidget {
                 Navigator.push(
                     context,
                     new MaterialPageRoute(
-                      //_代表参数为空
+                        //_代表参数为空
                         builder: (_) => new DynamicNaviattionPage(
                               username: "xiedong",
                               password: "123456",
                             ))).then((value) {
                   showDialog(
                       context: _rootContext,
-                      child: new AlertDialog(
-                        content: new Text(value),
-                      ));
+                      builder: (context) {
+                        return new AlertDialog(
+                          content: new Text(value),
+                        );
+                      });
                 });
               },
               child: new Text("路由传参"),
