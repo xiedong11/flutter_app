@@ -86,6 +86,7 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 ![代码预览图](https://github.com/xiedong11/flutter_app/blob/master/images/syllabus.gif)
 
+[Flutter入门进阶之旅（二十二）Flutter 自定义view](https://blog.csdn.net/xieluoxixi/article/details/119953009)
 
 
 ##### 线下问题交流：
