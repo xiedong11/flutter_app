@@ -29,8 +29,6 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 ## 目录
 #### 基础控件篇
 
-![代码预览图](https://github.com/xiedong11/flutter_app/blob/master/images/flutter_widget.gif)
-
 [ Flutter入门进阶之旅（一）-初识Flutter ](https://blog.csdn.net/xieluoxixi/article/details/84068594)
 
 [Flutter入门进阶之旅（二）Hello Flutter](https://blog.csdn.net/xieluoxixi/article/details/84102514)
@@ -87,9 +85,10 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 #### 效果预览图
 
-|1. [城市/通讯录列表字母索引联动](https://blog.csdn.net/xieluoxixi/article/details/105853662)|2. [Flutter课程表View](https://blog.csdn.net/xieluoxixi/article/details/116130085)|3. [...]()|
+|3. [基础控件篇](https://blog.csdn.net/xieluoxixi/category_9281251.html)|1. [城市/通讯录列表字母索引联动](https://blog.csdn.net/xieluoxixi/article/details/105853662)|2. [Flutter课程表View](https://blog.csdn.net/xieluoxixi/article/details/116130085)|
 |----|---|---|
-|<img width="265" src="https://github.com/xiedong11/flutter_app/blob/master/images/code_scroll.gif"/>|<img width="265" src="https://github.com/xiedong11/flutter_app/blob/master/images/syllabus.gif"/>|<img width="265" src=""/>|
+|<img width="265" src="https://github.com/xiedong11/flutter_app/blob/master/images/flutter_widget.gif"/>|<img width="265" src="https://github.com/xiedong11/flutter_app/blob/master/images/code_scroll.gif"/>|<img width="265" src="https://github.com/xiedong11/flutter_app/blob/master/images/syllabus.gif"/>|
+
 
 ##### 线下问题交流：
 ![QQ群](https://github.com/xiedong11/flutter_app/blob/master/images/qq_group.png)
