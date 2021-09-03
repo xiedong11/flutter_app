@@ -80,14 +80,12 @@ Flutter采用 Materal Design 设计语言（规范），该规范定义了用户
 
 [Flutter 城市/通讯录列表字母索引联动效果实现](https://blog.csdn.net/xieluoxixi/article/details/105853662)
 
-![代码预览图](https://github.com/xiedong11/flutter_app/blob/master/images/code_scroll.gif)
-
 [Flutter入门进阶之旅 - Flutter课程表View](https://blog.csdn.net/xieluoxixi/article/details/116130085)
-
-![代码预览图](https://github.com/xiedong11/flutter_app/blob/master/images/syllabus.gif)
 
 [Flutter入门进阶之旅（二十二）Flutter 自定义view](https://blog.csdn.net/xieluoxixi/article/details/119953009)
 
+
+#### 效果预览图
 
 |1. [城市/通讯录列表字母索引联动](https://blog.csdn.net/xieluoxixi/article/details/105853662)|2. [Flutter课程表View](https://blog.csdn.net/xieluoxixi/article/details/116130085)|3. [...]()|
 |----|---|---|
