@@ -17,29 +17,32 @@ class MyApp extends StatelessWidget {
               onPressed: () {
                 showDialog(
                     context: context,
-                    child: new SimpleDialog(
-                      title: new Text("标题"),
-                      contentPadding: const EdgeInsets.all(10.0),
-                      children: <Widget>[    //SimpleDialog内可指定多个children
-                        new Text("内容1"),
-                        new ListTile(
-                          leading: new Icon(Icons.android),
-                          title: new Text("android"),
-                        ),
-                        new ListTile(
-                          leading: new Icon(Icons.android),
-                          title: new Text("andrpid"),
-                        ),
-                        new ListTile(
-                          leading: new Icon(Icons.cake),
-                          title: new Text("cake"),
-                        ),
-                        new ListTile(
-                          leading: new Icon(Icons.local_cafe),
-                          title: new Text("cofe"),
-                        ),
-                      ],
-                    ));
+                    builder: (context) {
+                      return new SimpleDialog(
+                        title: new Text("标题"),
+                        contentPadding: const EdgeInsets.all(10.0),
+                        children: <Widget>[
+                          //SimpleDialog内可指定多个children
+                          new Text("内容1"),
+                          new ListTile(
+                            leading: new Icon(Icons.android),
+                            title: new Text("android"),
+                          ),
+                          new ListTile(
+                            leading: new Icon(Icons.android),
+                            title: new Text("andrpid"),
+                          ),
+                          new ListTile(
+                            leading: new Icon(Icons.cake),
+                            title: new Text("cake"),
+                          ),
+                          new ListTile(
+                            leading: new Icon(Icons.local_cafe),
+                            title: new Text("cofe"),
+                          ),
+                        ],
+                      );
+                    });
               },
               child: new Text("Dialog出来"),
               color: Colors.blue,

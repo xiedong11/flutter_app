@@ -20,7 +20,7 @@ class ImageDemo extends StatelessWidget {
       appBar: AppBar(
         title: Text("ImageDemo"),
       ),
-      // body: Image(""),
+      body: Image.asset("images/aaa.png")
     );
   }
 }

@@ -61,8 +61,9 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
+  # 导入图片资源可以导入文件夹下的具体某一个图片，也可以直接导入该文件夹，导入文件夹后，该文件夹内的所有图片都会被导入
   assets:
+     - images/
      - images/a.png
      - images/aaa.png
   # An image asset can refer to one or more resolution-specific "variants", see

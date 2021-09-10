@@ -17,22 +17,24 @@ class MyApp extends StatelessWidget {
             onPressed: () {
               showDialog(
                   context: context,
-                  child: new AlertDialog(
-                    title: new Text("标题"),
-                    content: new Text("内容区域"),
-                    actions: <Widget>[
-                      new FlatButton(
-                          onPressed: () {
-                            Navigator.of(context);
-                          },
-                          child: new Text("确定")),
-                      new FlatButton(
-                          onPressed: () {
-                            print("点击取消------");
-                          },
-                          child: new Text("取消")),
-                    ],
-                  ));
+                  builder:(context){
+                    return new AlertDialog(
+                      title: new Text("标题"),
+                      content: new Text("内容区域"),
+                      actions: <Widget>[
+                        new FlatButton(
+                            onPressed: () {
+                              Navigator.of(context);
+                            },
+                            child: new Text("确定")),
+                        new FlatButton(
+                            onPressed: () {
+                              print("点击取消------");
+                            },
+                            child: new Text("取消")),
+                      ],
+                    );
+                  } );
             },
             color: Colors.lightBlueAccent,
             child: new Icon(Icons.phone),
