@@ -14,13 +14,14 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
   String addResult = '';
-  TextEditingController _addNumber1Controller,_addNumber2Controller;
+  TextEditingController _addNumber1Controller= TextEditingController();
+  TextEditingController _addNumber2Controller= TextEditingController();
 
   @override
   void initState() {
     super.initState();
-    _addNumber1Controller = TextEditingController();
-    _addNumber2Controller = TextEditingController();
+    // _addNumber1Controller = TextEditingController();
+    // _addNumber2Controller = TextEditingController();
   }
 
   Future<void> getAddResult() async {
