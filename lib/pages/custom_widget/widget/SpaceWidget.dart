@@ -18,6 +18,7 @@ class SpaceWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return
        Container(
+
         height: height,
         width: width,
         color: Colors.transparent,

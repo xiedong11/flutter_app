@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/custom_widget/custom_widget_page.dart';
+import 'package:flutter_app/pages/key/globalKey/globalKey_demo.dart';
+import 'package:flutter_app/pages/key/key_demo.dart';
 import 'package:flutter_app/pages/network/net_work_page.dart';
 import 'package:flutter_app/pages/platform/platform_page.dart';
 import 'package:flutter_app/pages/stateManage/redux/redux_state.dart';
@@ -48,6 +50,7 @@ class FlutterDemo extends StatelessWidget {
                   MyRaisedButton(new PlatformPage(), "平台调用"),
                   MyRaisedButton(new StateManage(), "状态管理"),
                   MyRaisedButton(new CustomWidgetPage(), "组件封装"),
+                  MyRaisedButton(new KeyDemo(), "Key Demo"),
                 ],
               ),
             ),
