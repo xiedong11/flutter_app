@@ -13,9 +13,9 @@ class MyAppState extends State<MyApp> {
   //CheckBoxListTitle相关属性方法声明
   bool _isChecked = false;
 
-  void _onCheckBoxStateChanged(bool value) {
+  void _onCheckBoxStateChanged(bool? value) {
     setState(() {
-      _isChecked = value;
+      _isChecked = value!;
       print(_isChecked.toString() + '-------------------');
     });
   }
@@ -23,9 +23,9 @@ class MyAppState extends State<MyApp> {
   //RadioListTitle相关属性方法声明
   int _radioCurrentIndex = 0;
 
-  void _onRadioCheckedChange(int value) {
+  void _onRadioCheckedChange(int? value) {
     setState(() {
-      _radioCurrentIndex = value;
+      _radioCurrentIndex = value!;
     });
   }
 

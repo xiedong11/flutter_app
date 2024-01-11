@@ -12,9 +12,9 @@ class MyApp extends StatefulWidget {
 class MyAppState extends State<MyApp> {
   var _isChecked = true;
 
-  void onCheckChange(bool isChecked) {
+  void onCheckChange(bool? isChecked) {
     setState(() {
-      _isChecked = isChecked;
+      _isChecked = isChecked!;
       print(_isChecked.toString()+'----');
     });
   }

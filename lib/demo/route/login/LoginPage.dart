@@ -52,7 +52,7 @@ class MyAppState extends State<MyApp> {
               obscureText: true,
             ),
             new Builder(builder: (BuildContext context) {
-              return new RaisedButton(
+              return new ElevatedButton(
                   onPressed: () {
                     var userName=   _userNameController.text.toString();
                     var passWord=   _userPasswordController.text.toString();
@@ -65,14 +65,15 @@ class MyAppState extends State<MyApp> {
 
                           }));
                     } else {
-                      Scaffold.of(context).showSnackBar(
+                      ScaffoldMessenger.of(context).showSnackBar(
                           new SnackBar(content: new Text("登录失败，用户名密码有误")));
                     }
                     onTextClear();
                   },
-                  color: Colors.blue,
-                  highlightColor: Colors.lightBlueAccent,
-                  disabledColor: Colors.lightBlueAccent,
+                  //
+                  // color: Colors.blue,
+                  // highlightColor: Colors.lightBlueAccent,
+                  // disabledColor: Colors.lightBlueAccent,
                   child: new Text(
                     "登录",
                     style: new TextStyle(color: Colors.white),

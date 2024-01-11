@@ -22,11 +22,11 @@ class MyApp extends StatelessWidget {
       bottomNavigationBar: new BottomNavigationBar(
         items: [
           new BottomNavigationBarItem(
-              icon: new Icon(Icons.shopping_cart), title: new Text("购物车")),
+              icon: new Icon(Icons.shopping_cart), label: "购物车"),
           new BottomNavigationBarItem(
-              icon: new Icon(Icons.message), title: new Text("会话")),
+              icon: new Icon(Icons.message), label: "会话"),
           new BottomNavigationBarItem(
-              icon: new Icon(Icons.person), title: new Text("我的"))
+              icon: new Icon(Icons.person), label: "我的")
         ],
         fixedColor: Colors.cyan,
         iconSize: 20.0,

@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _result = false;
 
   Future<Null> _openNewPage() async {
-    bool value = await Navigator.of(context).push(new MaterialPageRoute<bool>(
+    bool? value = await Navigator.of(context).push(new MaterialPageRoute<bool>(
         builder: (BuildContext context) {
           return new Center(
             child: new GestureDetector(
@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ));
 
     setState(() {
-      _result = value;
+      _result = value!;
     });
   }
 

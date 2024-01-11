@@ -13,7 +13,7 @@ class CalcPluginPage extends StatefulWidget {
 class _CalcPluginPageState extends State<CalcPluginPage> {
   String _platformVersion = 'Unknown';
   String addResult = '';
-  TextEditingController _addNumber1Controller,_addNumber2Controller;
+  late TextEditingController _addNumber1Controller,_addNumber2Controller;
 
   @override
   void initState() {

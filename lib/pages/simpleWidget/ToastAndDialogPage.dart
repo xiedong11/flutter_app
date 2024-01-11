@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ToastAndDialogPage extends StatelessWidget {
   void _showSnackBarDialog(BuildContext context) {
-    Scaffold.of(context).showSnackBar(new SnackBar(
+    ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
       content: new Text("SanckBar is Showing "),
       action: new SnackBarAction(
           label: "撤销",
@@ -129,12 +129,12 @@ class ToastAndDialogPage extends StatelessWidget {
             title: new Text("标题"),
             content: new Text("内容区域"),
             actions: <Widget>[
-              new FlatButton(
+              new TextButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: new Text("确定")),
-              new FlatButton(
+              new TextButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     print("点击取消------");

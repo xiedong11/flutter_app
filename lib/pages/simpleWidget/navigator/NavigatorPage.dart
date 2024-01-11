@@ -54,13 +54,13 @@ class MyPage extends StatelessWidget {
         child: new Column(
           children: <Widget>[
             Text("静态路由", textAlign: TextAlign.center),
-            new RaisedButton(
+            new ElevatedButton(
               onPressed: () {
                 Navigator.of(context).pushNamed('route/page_no_result');
               },
               child: new Text("静态路由无参数返回"),
             ),
-            new RaisedButton(
+            new ElevatedButton(
               onPressed: () {
 //                Navigator.of(context).pushNamed( 'route/page_with_result') //两种写法都可以
                 Navigator.pushNamed(context, 'route/page_with_result')
@@ -69,7 +69,7 @@ class MyPage extends StatelessWidget {
                       context: _rootContext, //dialog显示在父级布局上，所有应该使用_rootContext
                       builder: (context) {
                         return new AlertDialog(
-                          content: new Text(onValue),
+                          content: new Text(onValue as String),
                         );
                       });
                 });
@@ -82,7 +82,7 @@ class MyPage extends StatelessWidget {
             //借助动态路由可以向下一级页面传递参数，同时也可以跟静态路由一样，得到下一级页面带回的返回值,
             //在路由回调方法的then中接受返回参数
             Text("动态路由", textAlign: TextAlign.center),
-            new RaisedButton(
+            new ElevatedButton(
               onPressed: () {
                 Navigator.push(
                         context,
@@ -106,7 +106,7 @@ class MyPage extends StatelessWidget {
               },
               child: new Text("添加路由跳转动画"),
             ),
-            new RaisedButton(
+            new ElevatedButton(
               onPressed: () {
                 Navigator.push(
                     context,

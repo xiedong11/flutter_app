@@ -61,21 +61,21 @@ class MyAppState extends State<MyApp> {
                   helperText: "注册名字"),
             ),
             new Builder(builder: (BuildContext context) {
-              return new RaisedButton(
+              return new ElevatedButton(
                 onPressed: () {
                   if (_userPasswordController.text.toString() == "10086" &&
                       _userPhoneController.text.toString() == "10086") {
-                    Scaffold.of(context)
+                    ScaffoldMessenger.of(context)
                         .showSnackBar(new SnackBar(content: new Text("校验通过")));
                   } else {
-                    Scaffold.of(context)
+                    ScaffoldMessenger.of(context)
                         .showSnackBar(new SnackBar(content: new Text("校验有问题，请重新输入")));
                     onTextClear(); //情况输入内容，让用户重新输入
                   }
                 },
-                color: Colors.blue,
-                highlightColor: Colors.deepPurple,
-                disabledColor: Colors.cyan,
+                // color: Colors.blue,
+                // highlightColor: Colors.deepPurple,
+                // disabledColor: Colors.cyan,
                 child: new Text(
                   "登录",
                   style: new TextStyle(color: Colors.white),

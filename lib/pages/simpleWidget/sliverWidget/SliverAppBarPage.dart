@@ -11,7 +11,7 @@ class NestedScrollViewPageState extends State with TickerProviderStateMixin {
 //  https://blog.csdn.net/yumi0629/article/details/83305627
 //
 //  https://gitee.com/yumi0629/FlutterUI/tree/master/lib/sliver
-  TabController _tabController;
+  late TabController _tabController;
 
   @override
   void initState() {

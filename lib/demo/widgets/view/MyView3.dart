@@ -18,9 +18,10 @@ class CircleViewRenderBox extends RenderConstrainedBox {
   }
 
   //handleEvent用来处理用户触摸事件
+
   @override
   void handleEvent(PointerEvent event, HitTestEntry entry) {
-    super.handleEvent(event, entry);
+    super.handleEvent(event, entry as BoxHitTestEntry );
   }
 
   //paint 用来对Vidget进行绘制

@@ -18,10 +18,10 @@ class StorageState extends State {
   saveString() async {
     final db = await getDataBase('my_db.db');
     //写入字符串
-    db.transaction((trx) {
-      trx.rawInsert(
-          'INSERT INTO user(name) VALUES("${_textFieldController.value.text.toString()}")');
-    });
+    db.transaction((txn) =>
+        txn.rawInsert(
+            'INSERT INTO user(name) VALUES("${_textFieldController.value.text.toString()}")')
+    );
   }
 
   /**

@@ -13,8 +13,8 @@ class AnimationDemo extends StatefulWidget {
 class AnimationState extends State<AnimationDemo>
     with SingleTickerProviderStateMixin {
   //传入
-  Animation<double> _doubleAnimation;
-  AnimationController _animationController;
+  late Animation<double> _doubleAnimation;
+  late AnimationController _animationController;
 
   @override
   void initState() {
@@ -78,12 +78,12 @@ class AnimationState extends State<AnimationDemo>
  * 使用AnimatedWidget，直接把animation传递给Widget，在weidget中做处理，不用监听anmition的状态了
  */
 class AnimationText extends AnimatedWidget {
-  AnimationText({Key key, Animation<double> animation})
+  AnimationText({Key? key, required Animation<double> animation})
       : super(key: key, listenable: animation);
 
   @override
   Widget build(BuildContext context) {
-    final Animation<double> animation = listenable;
+    final Animation<double> animation = listenable as Animation<double>;
     return Text(
       "我会变大",
       style: TextStyle(fontSize: animation.value),

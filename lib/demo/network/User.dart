@@ -8,7 +8,7 @@ class User {
   final String avatar_url;
   final String html_url;
 
-  User({this.name, this.location, this.blog, this.avatar_url, this.html_url});
+  User({this.name="", this.location="", this.blog="", this.avatar_url="", this.html_url=""});
 
   factory User.fromJson(Map<String, dynamic> json) {
     return new User(

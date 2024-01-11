@@ -67,7 +67,7 @@ class MyView2 extends CustomPainter {
 
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
-    return null;
+    return true;
   }
 }
 //http://flutter.link/2018/10/23/%E8%87%AA%E5%AE%9A%E4%B9%89View%E3%80%902%E3%80%91/

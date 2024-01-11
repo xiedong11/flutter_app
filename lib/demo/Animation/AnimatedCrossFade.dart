@@ -41,7 +41,7 @@ class MyState extends State {
                     : CrossFadeState.showSecond,
                 duration: Duration(seconds: 2)),
             new SizedBox(height: 30.0),
-            new RaisedButton(
+            new ElevatedButton(
               onPressed: _changeOpacity,
               child: new Text("过渡动画"),
             )

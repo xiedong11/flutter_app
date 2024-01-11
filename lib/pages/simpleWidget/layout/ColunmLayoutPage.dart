@@ -21,25 +21,25 @@ class ColunmLayoutPage extends StatelessWidget {
           new Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   print('点击红色按钮');
                 },
-                color: const Color(0xffff0000),
+                // color: const Color(0xffff0000),
                 child: new Text('红色按钮'),
               ),
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   print("点击蓝色按钮");
                 },
-                color: const Color(0xff000099),
+                // color: const Color(0xff000099),
                 child: new Text('蓝色按钮'),
               ),
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   print("点击粉色按钮");
                 },
-                color: const Color(0xffee9999),
+                // color: const Color(0xffee9999),
                 child: new Text('粉色按钮'),
               )
             ],

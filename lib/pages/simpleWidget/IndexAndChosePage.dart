@@ -10,9 +10,9 @@ class MyState extends State {
   bool _isSwitchChecked = true;
   int _radioValue = 0;
 
-  void handleRadioValueChanged(int value) {
+  void handleRadioValueChanged(int? value) {
     setState(() {
-      _radioValue = value;
+      _radioValue = value!;
       print(_radioValue.toString() + '-------------------');
     });
   }
@@ -77,7 +77,7 @@ class MyState extends State {
           Checkbox(
               value: _isCheckBoxChecked,
               onChanged: (isChecked) {
-                _checkState(isChecked);
+                _checkState(isChecked!);
               }),
           Text(
             "Switch",

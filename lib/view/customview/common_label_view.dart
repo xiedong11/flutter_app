@@ -10,7 +10,7 @@ class CommonLabelView extends StatefulWidget {
   final Color labelColor;
   final labelAlignment;
 
-  CommonLabelView({this.size, this.labelColor, this.labelAlignment});
+  CommonLabelView({required this.size, required this.labelColor, this.labelAlignment});
 
   @override
   State<StatefulWidget> createState() {

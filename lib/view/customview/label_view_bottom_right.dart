@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LabelViewBottomRight extends CustomPainter {
-  Paint _paint;
+  late Paint _paint;
 
   LabelViewBottomRight() {
     _paint = Paint()

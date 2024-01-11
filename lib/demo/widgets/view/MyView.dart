@@ -90,7 +90,7 @@ class MyView extends CustomPainter {
 
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
-    return null;
+    return true;
   }
 }
 

@@ -14,7 +14,7 @@ class MyRaisedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(
+    return ElevatedButton(
       onPressed: () {
         //第一种写法
         Navigator.push(context,
@@ -27,9 +27,10 @@ class MyRaisedButton extends StatelessWidget {
         _btnTitle,
         style: _textStyle,
       ),
-      color: Colors.lightGreen,
-      highlightColor: Colors.green,
-      shape: _shapeBorder,
+      //高版本sdk，无此属性
+      // color: Colors.lightGreen,
+      // highlightColor: Colors.green,
+      // shape: _shapeBorder,
     );
   }
 }

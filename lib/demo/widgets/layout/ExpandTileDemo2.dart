@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 /**
@@ -15,9 +17,9 @@ class ExPansionTileDemo2 extends StatefulWidget {
 }
 
 class MyState extends State with SingleTickerProviderStateMixin {
-  Animation _animation;
+  late Animation _animation;
   Color _iconColor = Colors.grey;
-  AnimationController _animationController;
+  late AnimationController _animationController;
 
   @override
   void initState() {
@@ -63,7 +65,7 @@ class MyState extends State with SingleTickerProviderStateMixin {
               )
             ],
             trailing: new RotationTransition(
-              turns: _animation,
+              turns: _animation as Animation<double>,
               child: new Icon(
                 Icons.add,
                 color: _iconColor,

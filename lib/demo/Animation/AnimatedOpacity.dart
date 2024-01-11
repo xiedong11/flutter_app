@@ -41,7 +41,7 @@ class MyState extends State {
               curve: Curves.linear,
             ),
             new SizedBox(height: 30.0),
-            new RaisedButton(
+            new ElevatedButton(
               onPressed: _changeOpacityLevel,
               child: new Text("改变透明度"),
             )

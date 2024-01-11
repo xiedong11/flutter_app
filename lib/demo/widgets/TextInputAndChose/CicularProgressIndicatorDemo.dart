@@ -39,7 +39,7 @@ class MyProgressIndicatorState extends State<LinearProgressIndicatorDemo> {
             ),
             new Padding(
               padding: const EdgeInsets.all(20.0),
-              child: new RaisedButton(
+              child: new ElevatedButton(
                 onPressed: changeCurrentIdex,
                 child: new Text("改变进度"),
               ),

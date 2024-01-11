@@ -45,7 +45,7 @@ class MyState extends State {
           SizedBox(
             height: 30.0,
           ),
-          new RaisedButton(
+          new ElevatedButton(
             child: new Text('GO'),
             onPressed: _changeValue,
           ),

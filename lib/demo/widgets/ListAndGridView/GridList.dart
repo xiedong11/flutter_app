@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 //              color: Colors.red,
               child: new Text(
                 'Item $index',
-                style: Theme.of(context).textTheme.headline,
+                style: Theme.of(context).textTheme.headline1,
               ),
             );
           }),

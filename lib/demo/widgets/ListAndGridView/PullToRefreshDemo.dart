@@ -67,7 +67,7 @@ class MyState extends State {
                 } else {
                   return new GestureDetector(
                     onTap: () {
-                      Scaffold.of(context).showSnackBar(
+                      ScaffoldMessenger.of(context).showSnackBar(
                           new SnackBar(content: new Text("点击了条目$index")));
                     },
                     child: ListTile(

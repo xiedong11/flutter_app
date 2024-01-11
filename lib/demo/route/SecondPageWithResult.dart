@@ -14,13 +14,13 @@ class SecondPageWithResult extends StatelessWidget {
               "Page2",
               style: new TextStyle(fontSize: 25.0),
             ),
-            new RaisedButton(
+            new ElevatedButton(
               child: new Text("点我返回"),
               onPressed: () {
                 Navigator.of(context).pop("我是第二个页面返回的数据");  //页面出栈携带返回值
               },
-              color: Colors.blue,
-              highlightColor: Colors.lightBlue,
+              // color: Colors.blue,
+              // highlightColor: Colors.lightBlue,
             ),
           ],
         ),

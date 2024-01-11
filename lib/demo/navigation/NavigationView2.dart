@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyPage extends StatelessWidget {
-  MyPage({Key key, this.title}) : super(key: key);
+  MyPage({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
@@ -59,7 +59,7 @@ class MyPage extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title});
+  MyHomePage({Key? key, required this.title});
 
   final String title;
 
@@ -76,18 +76,18 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: new Row(
         children: <Widget>[
-          new RaisedButton(
+          new ElevatedButton(
               child: new Text("按钮A"),
               onPressed: () {
                 Navigator.of(context).pushNamed('/a');
               }),
-          new RaisedButton(
+          new ElevatedButton(
             onPressed: () {
               Navigator.of(context).pushNamed('/b');
             },
             child: new Text("按钮B"),
           ),
-          new RaisedButton(
+          new ElevatedButton(
             onPressed: () {
               Navigator.of(context).pushNamed('/c');
             },

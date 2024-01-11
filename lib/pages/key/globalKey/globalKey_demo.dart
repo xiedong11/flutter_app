@@ -24,7 +24,7 @@ class _pageState extends State<GlobalKeyPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          key.currentState.changeState();
+          key.currentState?.changeState();
         },
         child: Text('切换'),
       ),

@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       ),
       body: new Center(
         child: new Builder(builder: (BuildContext context) {
-          return new RaisedButton(
+          return new ElevatedButton(
               onPressed: () {
                 showDialog(
                     context: context,
@@ -45,9 +45,10 @@ class MyApp extends StatelessWidget {
                     });
               },
               child: new Text("Dialog出来"),
-              color: Colors.blue,
-              highlightColor: Colors.lightBlueAccent,
-              disabledColor: Colors.lightBlueAccent);
+              // color: Colors.blue,
+              // highlightColor: Colors.lightBlueAccent,
+              // disabledColor: Colors.lightBlueAccent
+          );
         }),
       ),
     );

@@ -41,13 +41,13 @@ class PageState extends State<ReduxSecondPage> {
                 ],
               ),
               SizedBox(height: 30),
-              RaisedButton(
+              ElevatedButton(
                 child: Text("增加点赞"),
                 onPressed: () {
                   store.dispatch(prefix0.Action.increase);
                 },
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text("减少点赞"),
                 onPressed: () {
                   store.dispatch(prefix0.Action.decrease);

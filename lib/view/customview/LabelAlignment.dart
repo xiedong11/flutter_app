@@ -5,7 +5,7 @@
 class LabelAlignment {
   int labelAlignment;
 
-  LabelAlignment({this.labelAlignment});
+  LabelAlignment({required this.labelAlignment});
 
   static const topLeft = 0;
   static const topRight = 1;

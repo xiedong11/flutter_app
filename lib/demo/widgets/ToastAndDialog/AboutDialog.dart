@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       ),
       body: new Center(
         child: new Builder(builder: (BuildContext context) {
-          return new RaisedButton(
+          return new ElevatedButton(
             onPressed: () {
               showDialog(
                   context: context,
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                     );
                   });
             },
-            color: Colors.lightBlueAccent,
+            // color: Colors.lightBlueAccent,
             child: new Icon(Icons.phone),
           );
         }),

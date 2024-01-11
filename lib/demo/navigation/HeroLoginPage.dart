@@ -93,7 +93,15 @@ class MyState extends State {
               ),
             ),
             new SizedBox(height: 20.0),
-            new FlatButton(
+
+
+            /**
+             * **Old Widget        change to    New Widget
+                FlatButton   =>      TextButton
+                RaisedButton =>      ElevatedButton
+                OutlineButton =>    OutlinedButton**
+             */
+            new TextButton(
               child: Text(
                 '忘记密码?',
                 style: TextStyle(color: Colors.black54),

@@ -7,7 +7,6 @@ void main() {
     home: MyApp(),
     theme: ThemeData(
       primaryColor: Colors.red,
-      accentColor: Colors.redAccent,
     ),
   ));
 }

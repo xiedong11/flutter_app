@@ -16,17 +16,17 @@ class GetUserInfo extends StatefulWidget {
 
 class MyUserInfoState extends State {
   TextEditingController _userNameController = new TextEditingController();
-  User user;
+  late User user;
 
   void getUserInfo(String userName) {
-    http.get("https://api.github.com/users/$userName").then((response) {
+    http.get(Uri.parse("https://api.github.com/users/$userName")).then((response) {
       setState(() {
         final responseJson = json.decode(response.body);
         user = new User.fromJson(responseJson);
       });
     }).catchError((errorInfo) {
       setState(() {
-        user = null;
+        user = new User();
       });
     });
   }
@@ -57,7 +57,7 @@ class MyUserInfoState extends State {
                   labelText: "请输入你的github用户名",
                   contentPadding: const EdgeInsets.all(10.0)),
             ),
-            RaisedButton(
+            ElevatedButton(
               onPressed: () {
                 getUserInfo(_userNameController.value.text.toString());
               },

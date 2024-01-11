@@ -18,7 +18,7 @@ class PlatFormDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(title: Text("platformChannels"),),body:  Center(
-      child: RaisedButton(
+      child: ElevatedButton(
         child: Text("点我提示"),
         onPressed: () {
           showToast("我是android系统的toast");

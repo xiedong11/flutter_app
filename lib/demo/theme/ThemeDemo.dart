@@ -5,7 +5,7 @@ void main() {
     new MaterialApp(
       title: 'd',
       home: new MyApp(),
-      theme: new ThemeData(primaryColor: Colors.red,accentColor: Colors.redAccent),
+      theme: new ThemeData(primaryColor: Colors.red),
     ),
   );
 }

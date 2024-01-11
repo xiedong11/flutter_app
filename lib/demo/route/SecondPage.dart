@@ -14,7 +14,7 @@ class SecondPage extends StatelessWidget {
               "Page2",
               style: new TextStyle(fontSize: 25.0),
             ),
-            new RaisedButton(
+            new ElevatedButton(
               child: new Text("点我返回"),
               onPressed: () {
                 Navigator.of(context).pop();
@@ -25,8 +25,8 @@ class SecondPage extends StatelessWidget {
 //
 //                还是上面的代码，我们把第二个页面的Text改成一个按钮，每当点击这个按钮就关闭掉这个页面
               },
-              color: Colors.blue,
-              highlightColor: Colors.lightBlue,
+              // color: Colors.blue,
+              // highlightColor: Colors.lightBlue,
             ),
           ],
         ),

@@ -8,7 +8,7 @@ class StaticNavigatorPageWithResult extends StatelessWidget {
         title: new Text("静态路由带返回参数"),
       ),
       body: new Center(
-        child: new OutlineButton(
+        child: new OutlinedButton(
           onPressed: () {
             Navigator.of(context).pop("上个页面结束后返回的数据");
           },

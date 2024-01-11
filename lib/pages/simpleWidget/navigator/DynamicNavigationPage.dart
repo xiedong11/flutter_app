@@ -4,7 +4,7 @@ class DynamicNaviattionPage extends StatelessWidget {
   var username;
   var password;
 
-  DynamicNaviattionPage({Key key, this.username, this.password})
+  DynamicNaviattionPage({Key? key, this.username, this.password})
       : super(key: key);
 
   @override

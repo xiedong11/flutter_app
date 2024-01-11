@@ -10,15 +10,20 @@ class CommonLabelViewWithAngle extends StatefulWidget {
   final labelAlignment;
   final bool withAngle;
   final String labelText;
-  final TextStyle textStyle;
+  final TextStyle? textStyle;
 
+  //sdk升级到2.12以上之后，那么就会执行空安全检查
+//  在字段前面加required修饰符，或者TextStyle? textStyle加上“？”可选参数，也就是加问号 ?.
+//  但是此方法有一个弊端, 问号表示允许为null，后续调用该参数时，
+//  所有用到的地方都得加感叹号（断言符号）用于先判断该参数是否为空.
+//  赋值时,需要使用双问号以防止其值是null时给其一个默认值
   CommonLabelViewWithAngle(
-      {this.size,
-      this.labelColor,
+      {required this.size,
+      required this.labelColor,
       this.labelAlignment,
-      this.withAngle,
+      required this.withAngle,
       this.labelText = "hot",
-      this.textStyle});
+      this.textStyle });
 
   @override
   State<StatefulWidget> createState() {

@@ -21,7 +21,7 @@ class PageState extends State<PhoneCountryCodePage> {
   var GET_PHONE_COUNTRY_CODE_URL =
       "https://raw.githubusercontent.com/xiedong11/flutter_app/master/static/phoneCode.json";
   List<String> letters = [];
-  List<PhoneCountryCodeData> data;
+  List<PhoneCountryCodeData> data =[];
 
   ScrollController _scrollController = ScrollController();
   int _currentIndex = 0;
@@ -40,8 +40,8 @@ class PageState extends State<PhoneCountryCodePage> {
     if(resultEntity.code==200){
       this.setState(() {
         data = resultEntity.data;
-        for (int i = 0; i < data.length; i++) {
-          letters.add(data[i].name.toUpperCase());
+        for (int i = 0; i < data!.length; i++) {
+          letters.add(data![i].name!.toUpperCase());
         }
       });
     }
@@ -68,7 +68,7 @@ class PageState extends State<PhoneCountryCodePage> {
                         return Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            PhoneCodeIndexName(data[index].name.toUpperCase()),
+                            PhoneCodeIndexName(data[index].name!.toUpperCase()),
                             ListView.builder(
                                 itemBuilder:
                                     (BuildContext context, int index2) {

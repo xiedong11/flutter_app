@@ -29,7 +29,7 @@ class LayoutPage extends StatelessWidget {
               color: Colors.blue,
             ),
           ),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -37,7 +37,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new AlignLayoutPage()));
               },
               child: new Text("Align布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -45,7 +45,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new CenterLayoutPage()));
               },
               child: new Text("Center布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -53,7 +53,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new ColunmLayoutPage()));
               },
               child: new Text("ColunmLayout布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -61,7 +61,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new ListViewLayoutPage()));
               },
               child: new Text("ListView布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -69,7 +69,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new OpacityLayoutDemo()));
               },
               child: new Text("Opacity布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -77,7 +77,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new SizedBoxPage()));
               },
               child: new Text("SizedBox布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -85,7 +85,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new StackLayoutPage()));
               },
               child: new Text("StackLayout布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,
@@ -93,7 +93,7 @@ class LayoutPage extends StatelessWidget {
                         builder: (context) => new PaddingLayoutPage()));
               },
               child: new Text("PaddingLayout布局")),
-          new FlatButton(
+          new TextButton(
               onPressed: () {
                 Navigator.push(
                     context,

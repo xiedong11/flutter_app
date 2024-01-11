@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           child: new Column(
             children: <Widget>[
               //静态路由跳转 Navigator.of(context).pushNamed('/****');
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   Navigator.of(context).pushNamed('/SecondPage');
                 },
@@ -35,10 +35,10 @@ class MyApp extends StatelessWidget {
                   '无参跳转到下个页面',
                   style: new TextStyle(color: Colors.white),
                 ),
-                color: Colors.brown,
-                highlightColor: Colors.lightBlue,
+                // color: Colors.brown,
+                // highlightColor: Colors.lightBlue,
               ),
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   Navigator.of(context).pushNamed('/SecondPageWithParams');
                 },
@@ -46,22 +46,22 @@ class MyApp extends StatelessWidget {
                   '带参跳转到下个页面',
                   style: new TextStyle(color: Colors.white),
                 ),
-                color: Colors.brown,
-                highlightColor: Colors.lightBlue,
+                // color: Colors.brown,
+                // highlightColor: Colors.lightBlue,
               ),
 
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   //带回第二个页返回的数据值
                   Navigator.push<String>(context,
                       new MaterialPageRoute(builder: (BuildContext context) {
                         return new SecondPageWithResult();
-                      })).then((String result) {
+                      })).then((String? result) {
                     showDialog(
                         context: context,
                         builder: (BuildContext context) {
                           return new AlertDialog(
-                            content: new Text(result),
+                            content: new Text(result!),
                           );
                         });
                   });
@@ -80,12 +80,12 @@ class MyApp extends StatelessWidget {
                   '调到下一个页面，并且带回返回值',
                   style: new TextStyle(color: Colors.white),
                 ),
-                color: Colors.brown,
-                highlightColor: Colors.lightBlue,
+                // color: Colors.brown,
+                // highlightColor: Colors.lightBlue,
               ),
 
               //动态路由在Navigator中还有一个方法是push（）方法，需要传入一个Route对象，在Flutter中我们可以使用PageRouteBuilder来构建这个Route对象。
-              new RaisedButton(
+              new ElevatedButton(
                 onPressed: () {
                   Navigator.of(context).push(new PageRouteBuilder(pageBuilder:
                       (BuildContext context, Animation<double> animation,
@@ -97,8 +97,8 @@ class MyApp extends StatelessWidget {
                   '动态路由传参到下个页面',
                   style: new TextStyle(color: Colors.white),
                 ),
-                color: Colors.brown,
-                highlightColor: Colors.lightBlue,
+                // color: Colors.brown,
+                // highlightColor: Colors.lightBlue,
               ),
             ],
           ),

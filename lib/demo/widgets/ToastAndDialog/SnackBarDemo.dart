@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
       ),
       body: new Center(
         child: new Builder(builder: (BuildContext context) {
-          return new RaisedButton(
+          return new ElevatedButton(
             onPressed: () {
-              Scaffold.of(context).showSnackBar(new SnackBar(
+              ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
                 content: new Text("SanckBar is Showing "),
                 action: new SnackBarAction(
                     label: "撤销",
@@ -25,9 +25,9 @@ class MyApp extends StatelessWidget {
               ));
             },
             child: new Text("SnackBar提示"),
-            color: Colors.cyan,
-            highlightColor: Colors.lightBlueAccent,
-            disabledColor: Colors.lightBlueAccent,
+            // color: Colors.cyan,
+            // highlightColor: Colors.lightBlueAccent,
+            // disabledColor: Colors.lightBlueAccent,
           );
         }),
       ),

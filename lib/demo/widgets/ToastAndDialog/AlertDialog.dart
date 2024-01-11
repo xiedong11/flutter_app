@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       ),
       body: new Center(
         child: new Builder(builder: (BuildContext context) {
-          return new RaisedButton(
+          return new ElevatedButton(
             onPressed: () {
               showDialog(
                   context: context,
@@ -22,12 +22,12 @@ class MyApp extends StatelessWidget {
                       title: new Text("标题"),
                       content: new Text("内容区域"),
                       actions: <Widget>[
-                        new FlatButton(
+                        new TextButton(
                             onPressed: () {
                               Navigator.of(context);
                             },
                             child: new Text("确定")),
-                        new FlatButton(
+                        new TextButton(
                             onPressed: () {
                               print("点击取消------");
                             },
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                     );
                   } );
             },
-            color: Colors.lightBlueAccent,
+            // color: Colors.lightBlueAccent,
             child: new Icon(Icons.phone),
           );
         }),

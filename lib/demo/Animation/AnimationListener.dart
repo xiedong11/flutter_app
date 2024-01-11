@@ -16,8 +16,8 @@ class AnimationDemo extends StatefulWidget {
 class AnimationState extends State<AnimationDemo>
     with SingleTickerProviderStateMixin {
   //传入
-  Animation<double> _doubleAnimation;
-  AnimationController _animationController;
+  late Animation<double> _doubleAnimation;
+  late AnimationController _animationController;
   var _textSize;
 
   @override

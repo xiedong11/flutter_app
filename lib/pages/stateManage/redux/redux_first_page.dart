@@ -39,7 +39,7 @@ class PageState extends State<ReduxFirstPage> {
                 ],
               ),
               SizedBox(height: 50),
-              RaisedButton(
+              ElevatedButton(
                 child: Text("点击进入下一页"),
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(

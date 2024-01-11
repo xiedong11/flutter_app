@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 class Box extends StatefulWidget {
   Color color;
 
-  Box(this.color, {Key key}) : super(key: key);
+  Box(this.color, {Key? key}) : super(key: key);
 
   @override
   State<StatefulWidget> createState() => _BoxState();

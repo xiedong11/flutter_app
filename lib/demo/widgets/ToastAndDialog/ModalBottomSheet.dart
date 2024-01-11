@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       ),
       body: new Center(
         child: new Builder(builder: (BuildContext context) {
-          return new RaisedButton(
+          return new ElevatedButton(
             onPressed: () {
               showModalBottomSheet(
                   context: context,

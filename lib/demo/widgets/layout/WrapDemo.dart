@@ -46,9 +46,9 @@ class MyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(
-      child: new RaisedButton(
+      child: new ElevatedButton(
         onPressed: () {
-          Scaffold.of(context).showSnackBar(new SnackBar(
+          ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
             content: new Text(text),
             action: new SnackBarAction(label: "撤回", onPressed: () {}),
           ));
@@ -71,17 +71,20 @@ class FormButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Container(
       margin: EdgeInsets.only(left: 3.0, right: 3.0),
-      child: OutlineButton(
+      child: OutlinedButton(
         onPressed: () {},
         child: new Text(text),
-        highlightedBorderColor: Colors.redAccent,
-        //按钮点下去的颜色
-        borderSide: new BorderSide(
-          color: Colors.lightBlue,
-          width: 2.0,
-          style: BorderStyle.solid,
+        style: ButtonStyle(
+
         ),
-        disabledBorderColor: Colors.grey,
+        // highlightedBorderColor: Colors.redAccent,
+        // //按钮点下去的颜色
+        // borderSide: new BorderSide(
+        //   color: Colors.lightBlue,
+        //   width: 2.0,
+        //   style: BorderStyle.solid,
+        // ),
+        // disabledBorderColor: Colors.grey,
       ),
     );
   }

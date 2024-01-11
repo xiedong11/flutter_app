@@ -8,7 +8,7 @@ void main() {
 class MyNetWork extends StatelessWidget {
   void doGet() {
     print("--------------------"+"开始请求");
-    http.get("https://api.github.com/users/xiedong11").then((response){
+    http.get(Uri.parse("https://api.github.com/users/xiedong11")).then((response){
       print("--------------------"+response.body);
     }).catchError((error){
       print("--------------------"+error);
@@ -23,11 +23,14 @@ class MyNetWork extends StatelessWidget {
       appBar: new AppBar(
         title: Text("网络请求DEMO"),
       ),
-      body: new FlatButton(
+      body: new TextButton(
         onPressed: () {
           doGet();
         },
-        child: Text("开始请求"),color: Colors.brown,),
+        child: Text("开始请求"),
+        //高版本sdk无此属性
+        // color: Colors.brown,
+      ),
     );
   }
 }

@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
  */
 
 class TimerCountDownWidget extends StatefulWidget {
-  Function onTimerFinish;
+  Function? onTimerFinish;
 
   TimerCountDownWidget({this.onTimerFinish}) : super();
 
@@ -18,7 +18,7 @@ class TimerCountDownWidget extends StatefulWidget {
 }
 
 class TimerCountDownWidgetState extends State<TimerCountDownWidget> {
-  Timer _timer;
+  late Timer _timer;
   int _countdownTime = 0;
 
   @override
@@ -33,8 +33,9 @@ class TimerCountDownWidgetState extends State<TimerCountDownWidget> {
           startCountdownTimer();
         }
       },
-      child: RaisedButton(
-        color: Colors.black12,
+      child: ElevatedButton(
+        onPressed:() {},
+        // color: Colors.black12,
         child: Text(
           _countdownTime > 0 ? '$_countdownTime后重新获取' : '获取验证码',
           style: TextStyle(
@@ -68,7 +69,7 @@ class TimerCountDownWidgetState extends State<TimerCountDownWidget> {
         (Timer timer) => {
               setState(() {
                 if (_countdownTime < 1) {
-                  widget.onTimerFinish();
+                  widget.onTimerFinish!();
                   _timer.cancel();
                 } else {
                   _countdownTime = _countdownTime - 1;

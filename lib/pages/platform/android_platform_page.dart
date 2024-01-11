@@ -64,7 +64,7 @@ class PageState extends State<AndroidPlatformPage> {
   /**
    * 监听原生传递回来的值（通过eventChannel）
    */
-  void _onEvent(Object object) {
+  void _onEvent(Object? object) {
     print(object.toString() + "-------------从原生主动传递过来的值");
     setState(() {
       _fromNativeInfo = object.toString();
@@ -88,30 +88,30 @@ class PageState extends State<AndroidPlatformPage> {
         children: <Widget>[
           Text("从原生平台主动传递回来的值"),
           Text(_fromNativeInfo),
-          RaisedButton(
-            color: Colors.orangeAccent,
+          ElevatedButton(
+            // color: Colors.orangeAccent,
             child: Text("点击调用原生主动向flutter发消息方法"),
             onPressed: () {
               _MethodChannel.invokeMethod(NATIVE_SEND_MESSAGE_TO_FLUTTER);
             },
           ),
           SizedBox(height: 30),
-          RaisedButton(
-            color: Colors.orangeAccent,
+          ElevatedButton(
+            // color: Colors.orangeAccent,
             child: Text("调用原生平台Toast"),
             onPressed: () {
               showNativeToast("flutter调用原生android的Toast");
             },
           ),
-          RaisedButton(
-            color: Colors.orangeAccent,
+          ElevatedButton(
+            // color: Colors.orangeAccent,
             child: Text("计算两个数的和"),
             onPressed: () {
               getNumberResult(25, 36);
             },
           ),
-          RaisedButton(
-            color: Colors.orangeAccent,
+          ElevatedButton(
+            // color: Colors.orangeAccent,
             child: Text("打开原生androd页面"),
             onPressed: () {
               _MethodChannel.invokeMethod("new_page");

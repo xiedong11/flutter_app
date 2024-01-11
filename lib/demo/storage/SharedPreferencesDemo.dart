@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
                     labelText: "请输入用户名",
                     helperText: "注册时填写的名字"),
               ),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   if (_userNameController.value.text.toString().length < 1) {
                     print("---------------------" + '太短');
@@ -61,16 +61,16 @@ class MyApp extends StatelessWidget {
                   "存储用户名",
                   style: new TextStyle(color: Colors.white),
                 ),
-                color: Colors.red,
+                // color: Colors.red,
               ),
-              RaisedButton(
-                color: Colors.greenAccent,
+              ElevatedButton(
+                // color: Colors.greenAccent,
                 child: Text("获取"),
                 onPressed: () {
                   Future<String> userName = getData();
                   userName.then((String name) {
                     print("---------------------" + name);
-                    Scaffold.of(context).showSnackBar(
+                    ScaffoldMessenger.of(context).showSnackBar(
                         new SnackBar(content: new Text("存储的用户名为:$name")));
                   }).catchError((String error) {
                     print("---------------------" + error);

@@ -26,7 +26,7 @@ class StorageState extends State {
   Future getString() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     setState(() {
-      _storageString = sharedPreferences.get(STORAGE_KEY);
+      _storageString = sharedPreferences.get(STORAGE_KEY) as String;
     });
   }
 

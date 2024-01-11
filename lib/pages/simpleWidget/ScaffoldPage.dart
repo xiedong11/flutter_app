@@ -9,7 +9,7 @@ class PageState extends State<ScaffoldPage>
     with SingleTickerProviderStateMixin {
   int _currentBottomIndex = 0; //底部tab索引
   //顶部Tab
-  TabController _tabController;
+  late TabController _tabController;
   List<String> topTabLists = ["Tab 1", "Tab 2", "Tab 3"];
 
   @override
@@ -89,11 +89,11 @@ class PageState extends State<ScaffoldPage>
         //不设置该属性多于三个不显示颜色
         type: BottomNavigationBarType.fixed,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("首页")),
-          BottomNavigationBarItem(icon: Icon(Icons.message), title: Text("消息")),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "首页"),
+          BottomNavigationBarItem(icon: Icon(Icons.message), label: "消息"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.add_a_photo), title: Text("动态")),
-          BottomNavigationBarItem(icon: Icon(Icons.person), title: Text("我的"))
+              icon: Icon(Icons.add_a_photo), label: "动态"),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "我的")
         ],
         currentIndex: _currentBottomIndex,
         fixedColor: Colors.blue,

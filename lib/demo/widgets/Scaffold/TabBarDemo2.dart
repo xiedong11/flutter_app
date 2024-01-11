@@ -62,7 +62,7 @@ class MyTabView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextStyle textStyle = Theme.of(context).textTheme.display1;
+    TextStyle textStyle = Theme.of(context).textTheme.displaySmall!;
     return new Card(
       color: Colors.white,
       child: new Center(

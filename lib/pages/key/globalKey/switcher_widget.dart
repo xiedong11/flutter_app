@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
  * date: 2021/11/26
  **/
 class SwitcherWidget extends StatefulWidget {
-  SwitcherWidget({Key key}):super(key:key);
+  SwitcherWidget({Key? key}):super(key:key);
   @override
   State<StatefulWidget> createState() => SwitcherWidgetPageState();
 }

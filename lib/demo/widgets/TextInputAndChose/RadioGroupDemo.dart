@@ -12,9 +12,9 @@ class MyApp extends StatefulWidget {
 class MyAppState extends State<MyApp> {
   int _radioValue = 0;
 
-  void handleRadioValueChanged(int value) {
+  void handleRadioValueChanged(int? value) {
     setState(() {
-      _radioValue = value;
+      _radioValue = value!;
       print(_radioValue.toString() + '-------------------');
     });
   }

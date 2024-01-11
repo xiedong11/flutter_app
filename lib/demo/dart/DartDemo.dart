@@ -86,6 +86,6 @@ void execute(callback) {
 /**
  * 可选的命名参数
  */
-void enableFlags({bool isShow, String name}) {
+void enableFlags({ bool? isShow, String? name}) {
   //定义函数时，使用{param1, param2, …}，用于指定命名参数。
 }

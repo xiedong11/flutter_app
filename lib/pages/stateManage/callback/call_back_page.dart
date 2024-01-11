@@ -45,7 +45,7 @@ class ButtonWithCallBack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
+    return TextButton(
       child: Text(_title),
       onPressed: () {
         Navigator.of(context)
@@ -54,7 +54,7 @@ class ButtonWithCallBack extends StatelessWidget {
           _funCallBack();
         });
       },
-      color: Colors.black12,
+      // color: Colors.black12,
     );
   }
 }

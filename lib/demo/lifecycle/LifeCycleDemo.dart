@@ -48,12 +48,12 @@ class _LifeCycleState extends State<LifeCycleDemo> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            RaisedButton(
+            ElevatedButton(
               child: Text('关闭页面'),
               onPressed: () => {Navigator.of(context).pop()},
             ),
             Text('当前计数器数量 : '+_count.toString()),
-            RaisedButton(
+            ElevatedButton(
               child: Text('刷新界面'),
               onPressed: () => {
                 this.setState(() {

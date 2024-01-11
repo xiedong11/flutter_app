@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(new MaterialApp(home:new MyApp(),theme:
-  new ThemeData(primaryColor: Colors.red,accentColor: Colors.redAccent, ),
+  new ThemeData(primaryColor: Colors.red, ),
   ));
 }
 
