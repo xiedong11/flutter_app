@@ -34,6 +34,12 @@ class FlutterDemo extends StatelessWidget {
       child: StoreBuilder<ReduxState>(
           builder: (BuildContext context, Store<ReduxState> store) {
         return MaterialApp(
+          theme: ThemeData(
+            appBarTheme: AppBarTheme(
+              foregroundColor: Colors.white,
+              color: Colors.blue,
+            ),
+          ),
           home: Scaffold(
             appBar: new AppBar(
               title: new Text("Flutter进阶之旅"),

@@ -27,6 +27,9 @@ class MyRaisedButton extends StatelessWidget {
         _btnTitle,
         style: _textStyle,
       ),
+      style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all(Colors.lightGreen),
+      ),
       //高版本sdk，无此属性
       // color: Colors.lightGreen,
       // highlightColor: Colors.green,
