@@ -14,24 +14,60 @@ class ButtonPage extends StatelessWidget {
           new Text("简单样式",
               textAlign: TextAlign.center,
               style: new TextStyle(color: Colors.brown, fontSize: 20.0)),
-          new ElevatedButton(onPressed: () {}, child: new Text("ElevatedButton")),
+          new ElevatedButton(
+              onPressed: () {}, child: new Text("ElevatedButton")),
           new TextButton(onPressed: () {}, child: new Text("TextButton")),
           new MaterialButton(
               onPressed: () {}, child: new Text("MaterialButton")),
           new RawMaterialButton(
               onPressed: () {}, child: new Text("RawMaterialButton")),
-          new OutlinedButton(onPressed: () {}, child: new Text("OutlineButton")),
+          new OutlinedButton(
+              onPressed: () {}, child: new Text("OutlineButton")),
           new SizedBox(height: 20),
           new Text("升级样式",
               textAlign: TextAlign.center,
               style: new TextStyle(color: Colors.brown, fontSize: 20.0)),
           new ElevatedButton(
-            style: ButtonStyle(
-              //按钮的背景颜色
-              backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-              padding: MaterialStateProperty.all(EdgeInsets.all(15.0)),
-
+            style: ElevatedButton.styleFrom(
+              // splashFactory: NoSplash.splashFactory, // 没有水波纹效果
+              backgroundColor: const Color(0xff22aa00),
+              // 背景黑色
+              foregroundColor: const Color(0xffffffff),
+              // 文字白色
+              disabledForegroundColor: const Color(0xffffff00),
+              // 禁用时前景色
+              disabledBackgroundColor: const Color(0xff1100ff),
+              //禁用时 背景色
+              shadowColor: const Color(0xffff0000),
+              //阴影颜色
+              elevation: 20,
+              //阴影高度
+              maximumSize: const Size(2000, 100),
+              //最大尺寸
+              textStyle: const TextStyle(fontSize: 20 // 文字大小
+                  ),
+              padding: const EdgeInsets.only(
+                  // 边距
+                  left: 20.0,
+                  top: 10.0,
+                  right: 20.0,
+                  bottom: 10.0),
+              side: const BorderSide(
+                  //边框
+                  width: 2,
+                  color: Colors.red,
+                  style: BorderStyle.none,
+                  strokeAlign: BorderSide.strokeAlignOutside //
+                  ),
+              // shape:  RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)) // 可调节圆角的shape
+              shape: BeveledRectangleBorder(
+                  // 棱形shape
+                  borderRadius: BorderRadius.circular(5.0),
+                  side: const BorderSide(
+                    style: BorderStyle.none,
+                  )),
             ),
+            //TODO 以下为flutter老版本属性，新版本设置按钮属性通过ButtonStyle设置
             // color: Colors.blueAccent,
             // //按钮的背景颜色
             // padding: EdgeInsets.all(15.0),
@@ -68,26 +104,27 @@ class ButtonPage extends StatelessWidget {
           new TextButton(
               // color: Colors.lightGreen,
               // textColor: Colors.red,
-              onPressed: () {}, child: new Text("TextButton")),
+              onPressed: () {},
+              child: new Text("TextButton")),
           new OutlinedButton(
-            // textColor: Colors.blue,
-            // highlightedBorderColor: Colors.deepOrange,
-            // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-            // borderSide: new BorderSide(color: Colors.blueAccent),
-            onPressed: () {},
-            child: new Text("OutlineButton")
-          ),
+              // textColor: Colors.blue,
+              // highlightedBorderColor: Colors.deepOrange,
+              // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+              // borderSide: new BorderSide(color: Colors.blueAccent),
+              onPressed: () {},
+              child: new Text("OutlineButton")),
           MaterialButton(
               color: Colors.yellow,
               textColor: Colors.red,
-            onPressed: () {},
-            child: new Text("MaterialButton")
-          ),
+              onPressed: () {},
+              child: new Text("MaterialButton")),
           RawMaterialButton(
-            fillColor: Colors.deepOrange,
-            onPressed: () {},
-            child: new Text("RawMaterialButton",style: new TextStyle(color: Colors.white),)
-          )
+              fillColor: Colors.deepOrange,
+              onPressed: () {},
+              child: new Text(
+                "RawMaterialButton",
+                style: new TextStyle(color: Colors.white),
+              ))
         ],
       ),
     );
