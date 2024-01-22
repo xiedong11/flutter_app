@@ -18,7 +18,7 @@ class DynamicNaviattionPage extends StatelessWidget {
           children: <Widget>[
             new MaterialButton(
               onPressed: () {
-                Navigator.pop(context, "动态路由跳转页面返回值");
+                Navigator.pop(context, "DynamicNaviattionPage 动态路由跳转页面返回值");
               },
               child: new Text("点我返回"),
               color: Colors.lightGreen,

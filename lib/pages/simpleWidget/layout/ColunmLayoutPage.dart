@@ -25,6 +25,10 @@ class ColunmLayoutPage extends StatelessWidget {
                 onPressed: () {
                   print('点击红色按钮');
                 },
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.red),
+                  foregroundColor: MaterialStateProperty.all(Colors.white)
+                ),
                 // color: const Color(0xffff0000),
                 child: new Text('红色按钮'),
               ),
@@ -32,6 +36,10 @@ class ColunmLayoutPage extends StatelessWidget {
                 onPressed: () {
                   print("点击蓝色按钮");
                 },
+                style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
+                    foregroundColor: MaterialStateProperty.all(Colors.white)
+                ),
                 // color: const Color(0xff000099),
                 child: new Text('蓝色按钮'),
               ),
@@ -39,6 +47,10 @@ class ColunmLayoutPage extends StatelessWidget {
                 onPressed: () {
                   print("点击粉色按钮");
                 },
+                style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.pink),
+                    foregroundColor: MaterialStateProperty.all(Colors.white)
+                ),
                 // color: const Color(0xffee9999),
                 child: new Text('粉色按钮'),
               )

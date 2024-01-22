@@ -8,7 +8,12 @@ class NavigatorPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "路由页面",
-      theme: new ThemeData(primarySwatch: Colors.blue),
+      theme: new ThemeData(
+          appBarTheme: AppBarTheme(
+              foregroundColor: Colors.white,
+              color: Colors.blue,
+              centerTitle: true),
+          primarySwatch: Colors.blue),
       home: MyPage(context),
       routes: <String, WidgetBuilder>{
         // 这里可以定义静态路由路径名，但是跳转的时候路由名一定要对应一直，不能传递参数，可以从下个页带回参数
@@ -42,9 +47,21 @@ class MyPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("路由页面"),
+        leading: Center(
+          child: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () => {Navigator.of(_rootContext).pop()},
+          ),
+        ),
+        title: new Text(
+          "路由页面",
+          style: TextStyle(fontSize: 20),
+        ),
       ),
       floatingActionButton: new FloatingActionButton(
+        shape: CircleBorder(),
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
         onPressed: () {
           Navigator.of(_rootContext).pop(); //使用路由结束当前页，需要使用跟布局的context
         },
@@ -80,6 +97,7 @@ class MyPage extends StatelessWidget {
 
             //动态路由
             //借助动态路由可以向下一级页面传递参数，同时也可以跟静态路由一样，得到下一级页面带回的返回值,
+            //【静态路由、动态路由都可以得到下一级页面的返回值，但是只有动态路由支持向下一级页面传递参数】
             //在路由回调方法的then中接受返回参数
             Text("动态路由", textAlign: TextAlign.center),
             new ElevatedButton(

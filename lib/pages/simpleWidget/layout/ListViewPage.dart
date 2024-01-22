@@ -25,6 +25,7 @@ class ListViewLayoutPage extends StatelessWidget {
           ),
           new Center(
             child: new Text(
+              // 三个引号——实现换行
               '''
             内容sadf手动阀防守打法 发生富士达发生发生飞都是
             内容sadf手动阀防守打法 发生富士达发生发生飞都是
